@@ -280,11 +280,17 @@ export default async function HomePage({
       {/* A semeadura — a dobra que vira do trabalho para a doutrina       */}
       {/* ---------------------------------------------------------------- */}
       {/*
-        Um campo semeado nas três cores do emblema, sob véu azul da casa.
+        Um campo semeado nas três cores do emblema, sob véu azul da Morada.
         O véu não é enfeite: sem ele a ilustração vira céu luminoso de cartaz
         religioso, que é anti-referência declarada em PRODUCT.md, e o texto
-        branco perderia contraste sobre as pétalas claras. Com `bg-blue/88` o
-        corpo fica bem acima de 4.5:1 em cima de qualquer ponto da imagem.
+        perderia contraste sobre as pétalas claras.
+
+        80% é o mais claro que a faixa aceita. Medido nos pixels realmente
+        pintados, no ponto mais claro sob cada bloco: citação 7,44:1, fonte
+        7,45:1 e o parágrafo em `blue-soft` 5,53:1 — dentro dos pisos que o
+        projeto declara (corpo ≥ 7:1, secundário ≥ 4.5:1). A 72% o parágrafo
+        cai para 4,38:1 e fura o piso do secundário; não desça daqui sem medir
+        de novo.
       */}
       <section className="on-deep relative isolate overflow-hidden py-[clamp(4.5rem,9vw,8rem)] text-bg">
         <Image
@@ -295,7 +301,7 @@ export default async function HomePage({
           sizes="100vw"
           className="absolute inset-0 -z-20 size-full object-cover"
         />
-        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/88" />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/80" />
 
         <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <Reveal>
