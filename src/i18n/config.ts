@@ -25,6 +25,9 @@ export const pageIds = [
   "evangelization",
   "charity",
   "spiritism",
+  "gospelOnline",
+  "chacara",
+  "shop",
   "history",
   "messages",
   "events",
@@ -40,12 +43,27 @@ export const slugs: Record<PageId, Record<Locale, string>> = {
   evangelization: { pt: "evangelizacao", en: "evangelization" },
   charity: { pt: "caridade", en: "charity" },
   spiritism: { pt: "espiritismo", en: "spiritism" },
+  gospelOnline: { pt: "evangelho-online", en: "gospel-online" },
+  chacara: { pt: "chacara", en: "country-property" },
+  shop: { pt: "loja", en: "shop" },
   history: { pt: "nossa-historia", en: "our-history" },
   messages: { pt: "mensagens", en: "messages" },
   events: { pt: "eventos", en: "events" },
   directions: { pt: "como-chegar", en: "how-to-find-us" },
   contact: { pt: "contato", en: "contact" },
 };
+
+/**
+ * Páginas publicadas com placeholder, à espera de texto e fotos da Morada.
+ * Enquanto estiverem aqui: ficam fora do sitemap e saem com `noindex`, para
+ * que ninguém chegue por busca numa página que ainda não responde nada.
+ * Para lançar uma delas, basta tirá-la desta lista.
+ */
+export const draftPages = ["gospelOnline", "chacara", "shop"] as const satisfies readonly PageId[];
+
+export function isDraft(page: PageId): boolean {
+  return (draftPages as readonly string[]).includes(page);
+}
 
 /** Caminho absoluto de uma página em um idioma. Ex.: ("care", "en") → "/en/spiritual-care" */
 export function pathFor(page: PageId, locale: Locale): string {

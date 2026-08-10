@@ -19,6 +19,9 @@ export const pt = {
     evangelization: "Evangelização",
     charity: "Caridade",
     spiritism: "Espiritismo",
+    gospelOnline: "Evangelho online",
+    chacara: "Chácara da Morada",
+    shop: "Loja da Morada",
     history: "Nossa história",
     messages: "Mensagens",
     events: "Eventos",
@@ -59,6 +62,20 @@ export const pt = {
     doorsCloseAt: "a porta se fecha às",
     doorsOpenFrom: "aberta a partir das",
     backHome: "Voltar ao início",
+
+    /*
+     * Texto compartilhado das páginas ainda sem conteúdo. Quando a Morada
+     * enviar textos e fotos de uma delas, escreva a página de verdade e tire
+     * o id de `draftPages` em src/i18n/config.ts — é o que devolve a página
+     * ao sitemap e à indexação.
+     */
+    draft: {
+      notice: "Página em preparação",
+      body: "Esta página ainda não tem conteúdo publicado. Assim que a Morada reunir os textos e as fotografias, ela entra no ar.",
+      askHeading: "Enquanto isso",
+      askBody: "Se você precisa desta informação agora, mande mensagem no Facebook ou ligue. Alguém responde e explica.",
+      backCta: "Ver o que já está no ar",
+    },
   },
 
   home: {
@@ -406,24 +423,52 @@ export const pt = {
       },
       {
         title: "Nunca no lugar do médico",
-        body: "O Espiritismo não faz diagnóstico e não substitui tratamento de saúde. A casa nunca recomenda interromper medicação, e orienta procurar médico sempre.",
+        body: "O Espiritismo não faz diagnóstico e não substitui tratamento de saúde. A Morada nunca recomenda interromper medicação, e orienta procurar médico sempre.",
       },
     ],
 
     limitsHeading: "O que o Espiritismo não é",
     limits: [
-      "Não é cura garantida. A casa não promete resultado e não trata doença no lugar da medicina.",
+      "Não é cura garantida. A Morada não promete resultado e não trata doença no lugar da medicina.",
       "Não é adivinhação. Não se lê o futuro, não se joga carta e não se cobra por revelação.",
       "Não é magia, feitiço nem trabalho contra alguém. Nada aqui se faz para prejudicar.",
       "Não é seita: não há filiação, não há dízimo e ninguém fica devendo presença.",
-      "Não é conversão. Ninguém precisa deixar sua religião para ser atendido nesta casa.",
+      "Não é conversão. Ninguém precisa deixar sua religião para ser atendido na Morada.",
     ],
 
     readHeading: "Por onde começar",
     readBody:
       "As obras de Kardec estão em domínio público em português e são fáceis de encontrar. Quem prefere começar pela conversa pode vir a um dia de atendimento e perguntar: sempre há trabalhador disponível para explicar sem pressa.",
     readCta: "Ver os dias de atendimento",
-    historyCta: "Conhecer a história da casa",
+    historyCta: "Conhecer a história da Morada",
+  },
+
+  /* --- Páginas em preparação (ver `draftPages` em i18n/config.ts) --------- */
+  /* `lead` é o único texto próprio de cada uma por enquanto. Substitua os
+     quatro campos quando o conteúdo chegar. */
+
+  gospelOnline: {
+    title: "Evangelho online",
+    description:
+      "Evangelho online da Morada Espírita Professor Lairi Hans, em Campinas. Página em preparação.",
+    heading: "Evangelho online",
+    lead: "Esta página vai reunir o Evangelho online da Morada.",
+  },
+
+  chacara: {
+    title: "Chácara da Morada",
+    description:
+      "A Chácara da Morada Espírita Professor Lairi Hans. Página em preparação.",
+    heading: "Chácara da Morada",
+    lead: "Esta página vai reunir o que acontece na Chácara da Morada.",
+  },
+
+  shop: {
+    title: "Loja da Morada",
+    description:
+      "A Loja da Morada Espírita Professor Lairi Hans, em Campinas. Página em preparação.",
+    heading: "Loja da Morada",
+    lead: "Esta página vai reunir o que a Loja da Morada oferece.",
   },
 
   history: {

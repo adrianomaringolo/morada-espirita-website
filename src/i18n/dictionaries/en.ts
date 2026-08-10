@@ -20,6 +20,9 @@ export const en: Dictionary = {
     evangelization: "Children's classes",
     charity: "Charity",
     spiritism: "Spiritism",
+    gospelOnline: "Gospel online",
+    chacara: "Country property",
+    shop: "Shop",
     history: "Our history",
     messages: "Messages",
     events: "Events",
@@ -60,6 +63,20 @@ export const en: Dictionary = {
     doorsCloseAt: "doors close at",
     doorsOpenFrom: "open from",
     backHome: "Back to the home page",
+
+    /*
+     * Shared copy for the pages that have no content yet. When the Morada
+     * provides text and photographs for one of them, write the real page and
+     * remove its id from `draftPages` in src/i18n/config.ts, which is what
+     * puts the page back into the sitemap and into indexing.
+     */
+    draft: {
+      notice: "Page in preparation",
+      body: "This page has no published content yet. It goes live as soon as the Morada has gathered the text and the photographs.",
+      askHeading: "In the meantime",
+      askBody: "If you need this information now, send a message on Facebook or call. Someone will answer and explain.",
+      backCta: "See what is already online",
+    },
   },
 
   home: {
@@ -425,6 +442,32 @@ export const en: Dictionary = {
       "Kardec's works are in the public domain and easy to find in English and Portuguese. If you would rather start with a conversation, come on a care day and ask: there is always a volunteer free to explain, unhurried.",
     readCta: "See the care days",
     historyCta: "Read the history of the house",
+  },
+
+  /* --- Pages in preparation (see `draftPages` in i18n/config.ts) --------- */
+
+  gospelOnline: {
+    title: "Gospel online",
+    description:
+      "The online Gospel of Morada Espírita Professor Lairi Hans, in Campinas, Brazil. Page in preparation.",
+    heading: "Gospel online",
+    lead: "This page will gather the Morada's online Gospel.",
+  },
+
+  chacara: {
+    title: "The Morada's country property",
+    description:
+      "The country property of Morada Espírita Professor Lairi Hans. Page in preparation.",
+    heading: "The Morada's country property",
+    lead: "This page will gather what happens at the Morada's country property.",
+  },
+
+  shop: {
+    title: "The Morada's shop",
+    description:
+      "The shop of Morada Espírita Professor Lairi Hans, in Campinas, Brazil. Page in preparation.",
+    heading: "The Morada's shop",
+    lead: "This page will gather what the Morada's shop offers.",
   },
 
   history: {

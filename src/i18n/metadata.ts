@@ -7,6 +7,19 @@ import { site } from "@/content/site";
  * Atalho para as páginas internas: as chaves do dicionário são exatamente os
  * ids de página, então título e descrição vêm sozinhos.
  */
+/**
+ * Metadados das páginas em preparação: iguais aos das outras, mais `noindex`.
+ * Uma página sem conteúdo não pode aparecer numa busca por "Loja da Morada" e
+ * receber alguém que sai de lá sem resposta. Sai do `draftPages` e o `noindex`
+ * sai junto, sem tocar em mais nada.
+ */
+export function draftMetadata(locale: Locale, page: Exclude<PageId, "home">): Metadata {
+  return {
+    ...pageMetadata(locale, page),
+    robots: { index: false, follow: true },
+  };
+}
+
 export function pageMetadata(locale: Locale, page: Exclude<PageId, "home">): Metadata {
   const section = getDictionary(locale)[page];
   return buildMetadata({

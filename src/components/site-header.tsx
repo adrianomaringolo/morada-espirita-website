@@ -24,7 +24,15 @@ const PRIMARY = [
 ] as const;
 
 /** Contexto e leitura: vivem no menu completo e no rodapé. */
-const SECONDARY = ["spiritism", "history", "messages", "events"] as const;
+const SECONDARY = [
+  "spiritism",
+  "gospelOnline",
+  "chacara",
+  "shop",
+  "history",
+  "messages",
+  "events",
+] as const;
 
 /** No menu completo tudo convive numa lista só, na ordem de leitura do site. */
 const ALL = [
@@ -32,6 +40,9 @@ const ALL = [
   "evangelization",
   "charity",
   "spiritism",
+  "gospelOnline",
+  "chacara",
+  "shop",
   "history",
   "messages",
   "events",
