@@ -28,7 +28,7 @@ export const pt = {
     openMenu: "Abrir o menu completo de navegação",
     closeMenu: "Fechar menu",
     menuTitle: "Todas as páginas",
-    menuNote: "Todas as páginas do site, os canais da casa e o idioma.",
+    menuNote: "Todas as páginas do site, os canais da Morada e o idioma.",
     skipToContent: "Ir direto para o conteúdo",
     languageLabel: "Idioma",
     primaryLabel: "Navegação principal",
@@ -39,7 +39,7 @@ export const pt = {
     free: "Gratuito",
     noBooking: "Sem agendamento",
     openToAll: "Aberto a qualquer pessoa",
-    /* Facebook primeiro em todo o site: é onde a casa responde. */
+    /* Facebook primeiro em todo o site: é onde a Morada responde. */
     messageFacebook: "Falar no Facebook",
     seeInstagram: "Ver no Instagram",
     callHouse: `Ligar para ${site.phone.display}`,
@@ -72,7 +72,7 @@ export const pt = {
       primaryCta: "Como funciona o atendimento",
       secondaryCta: "Como chegar até nós",
       imageAlt:
-        "Fachada da Morada na Rua José Paulino: o nome da casa em letras douradas sobre a parede branca, ao lado da entrada de vidro",
+        "Fachada da Morada na Rua José Paulino: o nome em letras douradas sobre a parede branca, ao lado da entrada de vidro",
     },
 
     schedule: {
@@ -83,11 +83,11 @@ export const pt = {
     motto: {
       quote: "Não há nada que o amor não vença.",
       author: "Professor Lairi Hans",
-      role: "Mentor espiritual da casa",
+      role: "Mentor espiritual da Morada",
     },
 
     charity: {
-      heading: "A caridade é o trabalho diário da casa",
+      heading: "A caridade é o trabalho diário da Morada",
       body: "Voluntários saem de porta em porta aos sábados e domingos para recolher alimentos em Campinas. O que é recolhido volta como cesta, agasalho e enxoval para famílias cadastradas — no último domingo de cada mês, há 45 anos.",
       figures: [
         { value: "3,5 t", label: "de alimentos distribuídos por mês" },
@@ -130,13 +130,13 @@ export const pt = {
 
     scheduleHeading: "Quando",
     scheduleNote:
-      "O horário em destaque é o do começo do trabalho. A porta se fecha cinco minutos antes dele, e quem chega depois disso não é atendido naquele dia — por isso venha com folga. O atendimento segue a ordem de chegada: quem chega mais cedo é atendido mais cedo. A casa não estima tempo de espera.",
+      "O horário em destaque é o do começo do trabalho. A porta se fecha cinco minutos antes dele, e quem chega depois disso não é atendido naquele dia — por isso venha com folga. O atendimento segue a ordem de chegada: quem chega mais cedo é atendido mais cedo. A Morada não estima tempo de espera.",
 
     whatHeading: "O que acontece",
     what: [
       {
         title: "Orientação em consulta espiritual",
-        body: "Uma conversa reservada com um médium da casa sobre o que a pessoa está vivendo. Ninguém é obrigado a contar mais do que quer.",
+        body: "Uma conversa reservada com um médium da Morada sobre o que a pessoa está vivendo. Ninguém é obrigado a contar mais do que quer.",
       },
       {
         title: "Aplicação de passes, com cromoterapia",
@@ -172,7 +172,7 @@ export const pt = {
       },
       {
         q: "O atendimento substitui tratamento médico?",
-        a: "Não, em nenhuma hipótese. A casa não recomenda interromper medicação nem tratamento de saúde, e não faz diagnóstico. Procure sempre um médico.",
+        a: "Não, em nenhuma hipótese. A Morada não recomenda interromper medicação nem tratamento de saúde, e não faz diagnóstico. Procure sempre um médico.",
       },
       {
         q: "Posso levar meus filhos?",
@@ -180,7 +180,7 @@ export const pt = {
       },
       {
         q: "E se eu não conseguir ir sozinho?",
-        a: `Mande mensagem para a casa no Facebook, em ${site.social.facebookHandle}, ou ligue para ${site.phone.display}. Sempre há alguém disposto a ajudar a resolver.`,
+        a: `Mande mensagem para a Morada no Facebook, em ${site.social.facebookHandle}, ou ligue para ${site.phone.display}. Sempre há alguém disposto a ajudar a resolver.`,
       },
     ],
   },
@@ -212,7 +212,7 @@ export const pt = {
     ],
 
     joinHeading: "Como participar",
-    joinBody: `Não há matrícula, taxa nem lista de espera. Traga a criança em um domingo, alguns minutos antes das 9h30, e converse com a equipe na entrada. Se preferir avisar antes, mande mensagem no Facebook da casa — ou ligue para ${site.phone.display}.`,
+    joinBody: `Não há matrícula, taxa nem lista de espera. Traga a criança em um domingo, alguns minutos antes das 9h30, e converse com a equipe na entrada. Se preferir avisar antes, mande mensagem no Facebook da Morada — ou ligue para ${site.phone.display}.`,
   },
 
   charity: {
@@ -220,7 +220,7 @@ export const pt = {
     description:
       "Coleta de alimentos porta a porta aos sábados e domingos, 3,5 toneladas distribuídas por mês a cerca de 120 famílias, e campanhas de Inverno, Páscoa e Natal em Campinas.",
     heading: "Caridade",
-    lead: "Todo mês, cerca de 3,5 toneladas de alimentos saem desta casa para famílias de Campinas. Nada disso vem de ajudas externas: vem de porta em porta.",
+    lead: "Todo mês, cerca de 3,5 toneladas de alimentos saem da Morada para famílias de Campinas. Nada disso vem de ajudas externas: vem de porta em porta.",
 
     quote: {
       text: "Fora da caridade não há salvação, porque o Pai coloca em nossas mãos uma semente a ser plantada.",
@@ -230,7 +230,7 @@ export const pt = {
 
     figuresHeading: "O trabalho em números",
     figuresNote:
-      "Números aproximados, informados pela própria casa e revisados periodicamente.",
+      "Números aproximados, informados pela própria Morada e revisados periodicamente.",
 
     howHeading: "Como funciona",
     how: [
@@ -262,7 +262,7 @@ export const pt = {
       {
         name: "Páscoa",
         when: "Nas semanas anteriores",
-        body: "Ovos de chocolate arrecadados e uma confeitaria feita à mão pelos voluntários da casa.",
+        body: "Ovos de chocolate arrecadados e uma confeitaria feita à mão pelos voluntários da Morada.",
       },
       {
         name: "Natal",
@@ -282,8 +282,8 @@ export const pt = {
         body: "A coleta sai aos sábados e domingos, às 9h, da própria sede. Não é preciso experiência nem ser espírita — é preciso chegar no horário.",
       },
       {
-        title: "Falar com a casa antes",
-        body: `Para doações grandes, entregas fora de horário ou dúvidas sobre o que está faltando no mês, mande mensagem no Facebook da casa. Se preferir falar, ligue para ${site.phone.display}.`,
+        title: "Falar com a Morada antes",
+        body: `Para doações grandes, entregas fora de horário ou dúvidas sobre o que está faltando no mês, mande mensagem no Facebook da Morada. Se preferir falar, ligue para ${site.phone.display}.`,
       },
     ],
     helpNote:
@@ -370,7 +370,7 @@ export const pt = {
 
     houseHeading: "Como isso vira trabalho na Morada",
     houseNote:
-      "Doutrina que não sai do papel não interessa a esta casa. Cada princípio acima tem uma prática correspondente aqui dentro.",
+      "Doutrina que não sai do papel não interessa à Morada. Cada princípio acima tem uma prática correspondente aqui dentro.",
     house: [
       {
         title: "Caridade antes de doutrina",
@@ -382,11 +382,11 @@ export const pt = {
       },
       {
         title: "Disciplina como alicerce",
-        body: "O intercâmbio com a espiritualidade depende do ambiente. É o que sustenta as regras de comportamento da casa e a hora em que a porta se fecha: começou o trabalho, ninguém mais entra.",
+        body: "O intercâmbio com a espiritualidade depende do ambiente. É o que sustenta as regras de comportamento da Morada e a hora em que a porta se fecha: começou o trabalho, ninguém mais entra.",
       },
       {
         title: "Estudo que não termina",
-        body: "A escola de médiuns da casa parte das obras de Kardec e segue por níveis. Como dizia o Professor Lairi Hans, o estudo não termina nunca — ninguém se diploma na parte espiritual.",
+        body: "A escola de médiuns da Morada parte das obras de Kardec e segue por níveis. Como dizia o Professor Lairi Hans, o estudo não termina nunca — ninguém se diploma na parte espiritual.",
       },
       {
         title: "Sem exigência de credo",
@@ -426,12 +426,12 @@ export const pt = {
       {
         year: "1980",
         title: "A fundação",
-        body: "Em 29 de outubro, Luzia Pacubi, Heloísa de Oliveira Bueno, Maria Aparecida Nogueira de Sá e Orlando Gache fundam a casa. O atendimento começa numa edícula modesta, com seis médiuns.",
+        body: "Em 29 de outubro, Luzia Pacubi, Heloísa de Oliveira Bueno, Maria Aparecida Nogueira de Sá e Orlando Gache fundam a Morada. O atendimento começa numa edícula modesta, com seis médiuns.",
       },
       {
         year: "1980–2004",
         title: "Vinte e quatro anos de orientação",
-        body: "Toda a orientação da casa vem do Professor Lairi Hans, que se manifesta por quase 24 anos através da médium Luzia Pacubi — sua filha espiritual de várias encarnações.",
+        body: "Toda a orientação da Morada vem do Professor Lairi Hans, que se manifesta por quase 24 anos através da médium Luzia Pacubi — sua filha espiritual de várias encarnações.",
       },
       {
         year: "Anos 80 e 90",
@@ -462,7 +462,7 @@ export const pt = {
 
     housesHeading: "As casas da Morada",
     housesLead:
-      "As fotografias que a casa guarda de cada endereço por onde passou, da edícula de 1980 à sede erguida em mutirão.",
+      "As fotografias que a Morada guarda de cada endereço por onde passou, da edícula de 1980 à sede erguida em mutirão.",
     houses: [
       {
         src: "/images/historia/casa-1-barao-de-jaguara.jpg",
@@ -541,7 +541,7 @@ export const pt = {
 
     mentorHeading: "Professor Lairi Hans",
     mentorBody:
-      "A casa leva o nome de seu mentor espiritual: uma entidade médica desencarnada em 1678, aos 51 anos, na Alemanha. Suas encarnações foram marcadas pela renúncia de si mesmo, pelo amor ao próximo e pela dedicação incansável à cura dos doentes. Foi ele quem conduziu Luzia Pacubi a fundar a Morada, e é dele o ensino que a casa guarda inteiro — humildade como força, disciplina como alicerce, e a frase que está em todas as paredes.",
+      "A Morada leva o nome de seu mentor espiritual: uma entidade médica desencarnada em 1678, aos 51 anos, na Alemanha. Suas encarnações foram marcadas pela renúncia de si mesmo, pelo amor ao próximo e pela dedicação incansável à cura dos doentes. Foi ele quem conduziu Luzia Pacubi a fundá-la, e é dele o ensino que a Morada guarda inteiro — humildade como força, disciplina como alicerce, e a frase que está em todas as paredes.",
     mentorQuote: "Se você der a sua migalha, é um a menos que vai sofrer.",
     mentorImageAlt:
       "Retrato pintado do Professor Lairi Hans, de jaleco e touca brancos, sobre fundo ocre",
@@ -557,7 +557,7 @@ export const pt = {
     disciplineHeading: "Disciplina",
     disciplineQuote: "Onde não há disciplina, não estão presentes os mensageiros de luz.",
     disciplineBody:
-      "Disciplina, trabalho e doação são as marcas da casa. O vínculo principal da Morada é a cura, e para que as vibrações sejam recebidas a purificação do ambiente é condição indispensável. Foi por isso que o Professor Hans fez da disciplina de comportamento e de procedimento o alicerce da casa.",
+      "Disciplina, trabalho e doação são as marcas da Morada. Seu vínculo principal é a cura, e para que as vibrações sejam recebidas a purificação do ambiente é condição indispensável. Foi por isso que o Professor Hans fez da disciplina de comportamento e de procedimento o alicerce de tudo o que se faz aqui.",
 
     symbolHeading: "Nosso símbolo",
     symbolBody:
@@ -574,11 +574,11 @@ export const pt = {
     description:
       "Mensagens e pensamentos guardados pela Morada Espírita Professor Lairi Hans: Chico Xavier, Professor Lairi Hans e Mãe Luzia.",
     heading: "Mensagens",
-    lead: "Trechos que a casa guarda e relê. Estão aqui como foram recebidos, sem comentário.",
+    lead: "Trechos que a Morada guarda e relê. Estão aqui como foram recebidos, sem comentário.",
     sections: [
       {
         author: "Professor Lairi Hans",
-        note: "Mentor espiritual da casa",
+        note: "Mentor espiritual da Morada",
         quotes: [
           "Não há nada que o amor não vença.",
           "Se você der a sua migalha, é um a menos que vai sofrer.",
@@ -615,7 +615,7 @@ export const pt = {
     description:
       "Agenda permanente da Morada Espírita Professor Lairi Hans em Campinas e campanhas de Inverno, Páscoa e Natal.",
     heading: "Eventos",
-    lead: "O que acontece toda semana e o que volta todo ano. Datas de eventos extraordinários são anunciadas nas redes da casa.",
+    lead: "O que acontece toda semana e o que volta todo ano. Datas de eventos extraordinários são anunciadas nas redes da Morada.",
 
     recurringHeading: "Toda semana",
     recurring: [
@@ -645,14 +645,14 @@ export const pt = {
 
     emptyHeading: "Eventos extraordinários",
     emptyBody:
-      "Não há eventos extraordinários marcados no momento. Palestras, festas e mutirões fora da agenda são anunciados nas redes sociais da casa e no mural da sede.",
+      "Não há eventos extraordinários marcados no momento. Palestras, festas e mutirões fora da agenda são anunciados nas redes sociais da Morada e no mural da sede.",
     emptyCta: "Acompanhar no Facebook",
   },
 
   directions: {
     title: "Como chegar",
     description:
-      "A Morada Espírita Professor Lairi Hans fica na Rua José Paulino, 1934, Centro, Campinas/SP. Mapa, rota e telefone da casa.",
+      "A Morada Espírita Professor Lairi Hans fica na Rua José Paulino, 1934, Centro, Campinas/SP. Mapa, rota e telefone.",
     heading: "Como chegar",
     lead: "A Morada fica no Centro de Campinas, na Rua José Paulino, 1934.",
 
@@ -668,11 +668,11 @@ export const pt = {
     tips: [
       "A entrada é pela própria Rua José Paulino.",
       "A porta se fecha cinco minutos antes do começo — depois dela ninguém mais entra. Quem chega mais cedo é atendido mais cedo.",
-      "Se estiver com dificuldade para encontrar a casa, mande mensagem no Facebook ou ligue — alguém orienta na hora.",
+      "Se estiver com dificuldade para encontrar a Morada, mande mensagem no Facebook ou ligue — alguém orienta na hora.",
     ],
 
     helpHeading: "Perdido no caminho?",
-    helpBody: "Mande mensagem no Facebook da casa. Se preferir falar por voz, o telefone está logo abaixo.",
+    helpBody: "Mande mensagem no Facebook da Morada. Se preferir falar por voz, o telefone está logo abaixo.",
   },
 
   contact: {
@@ -680,25 +680,25 @@ export const pt = {
     description:
       "Fale com a Morada Espírita Professor Lairi Hans: telefone (19) 3236-8544, Instagram, Facebook e endereço no Centro de Campinas.",
     heading: "Fale com a Morada",
-    lead: "O caminho mais rápido é mandar mensagem no Facebook — é por lá que a casa acompanha e responde.",
+    lead: "O caminho mais rápido é mandar mensagem no Facebook — é por lá que a Morada acompanha e responde.",
 
     facebookHeading: "No Facebook",
     facebookNote:
-      "O canal principal da casa. Mande mensagem na página e um voluntário responde. É também onde saem os avisos e as datas.",
+      "O canal principal da Morada. Mande mensagem na página e um voluntário responde. É também onde saem os avisos e as datas.",
 
     instagramHeading: "No Instagram",
     instagramNote: "Campanhas, fotos e o dia a dia do trabalho de caridade.",
 
     phoneHeading: "Por telefone",
     phoneNote:
-      "Se você prefere falar por voz, ligue nos dias e horários de funcionamento da casa.",
+      "Se você prefere falar por voz, ligue nos dias e horários de funcionamento da Morada.",
 
     visitHeading: "Pessoalmente",
     visitNote: "Você pode simplesmente aparecer em um dos horários de atendimento.",
 
     formHeading: "Por mensagem",
     formNote:
-      "A resposta pode levar alguns dias — a casa é mantida por voluntários. Se for urgente, fale pelo Facebook.",
+      "A resposta pode levar alguns dias — a Morada é mantida por voluntários. Se for urgente, fale pelo Facebook.",
     form: {
       name: "Seu nome",
       email: "Seu e-mail",
@@ -720,11 +720,11 @@ export const pt = {
         email: "Escreva um e-mail válido para podermos responder.",
         message: "Escreva sua mensagem.",
         summary: "Confira os campos marcados abaixo.",
-        failed: `Não foi possível enviar agora. Tente de novo, fale pelo Facebook da casa ou ligue para ${site.phone.display}.`,
+        failed: `Não foi possível enviar agora. Tente de novo, fale pelo Facebook da Morada ou ligue para ${site.phone.display}.`,
       },
       successHeading: "Mensagem enviada.",
       successBody:
-        "Obrigado por escrever. Vamos responder assim que possível — se for urgente, mande mensagem no Facebook da casa.",
+        "Obrigado por escrever. Vamos responder assim que possível — se for urgente, mande mensagem no Facebook da Morada.",
     },
   },
 
@@ -733,7 +733,7 @@ export const pt = {
     careLine: "Atendimento espiritual gratuito, sem agendamento.",
     navHeading: "Páginas",
     visitHeading: "Visite",
-    followHeading: "Fale com a casa",
+    followHeading: "Fale com a Morada",
     rights: "Todos os direitos reservados.",
     builtBy: "Feito por voluntários.",
   },
@@ -741,7 +741,7 @@ export const pt = {
   notFound: {
     title: "Página não encontrada",
     heading: "Esta página não existe.",
-    body: "O endereço pode ter mudado. Você encontra tudo pelo início — ou fale com a casa pelo Facebook, se preferir falar com alguém.",
+    body: "O endereço pode ter mudado. Você encontra tudo pelo início — ou fale com a Morada pelo Facebook, se preferir falar com alguém.",
   },
 };
 
