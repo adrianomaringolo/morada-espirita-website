@@ -108,7 +108,7 @@ export const pt = {
     seed: {
       quote: "Pois o que o homem semear, isso também colherá.",
       source: "Gálatas 6:7",
-      body: "É a lei que o Espiritismo chama de causa e efeito, e é a razão de esta casa falar em plantar antes de falar em colher.",
+      body: "Trabalho e amor ao próximo, lema da Morada e ensinamento constante do Professor aos trabalhadores.",
       cta: "O que é o Espiritismo",
       imageAlt:
         "Campo de rosas brancas, azuis e cor-de-rosa até o horizonte, sob um céu aberto",
@@ -295,14 +295,13 @@ export const pt = {
     description:
       "O que é o Espiritismo codificado por Allan Kardec: as cinco obras básicas, os princípios de Deus, imortalidade, comunicabilidade dos Espíritos, reencarnação e pluralidade dos mundos, e como a Morada Espírita Professor Lairi Hans os pratica em Campinas.",
     heading: "Espiritismo",
-    lead: "A doutrina que a Morada segue, em linguagem direta: o que ela afirma, o que ela não promete e o que disso vira trabalho dentro desta casa.",
+    lead: "A doutrina que a Morada segue, em linguagem direta: o que ela afirma, o que ela não promete e o que disso vira trabalho aqui dentro.",
 
     seedQuote: {
       text: "Pois o que o homem semear, isso também colherá.",
       source: "Gálatas 6:7",
     },
-    seedBody:
-      "A frase é anterior ao Espiritismo e resume o que ele chama de lei de causa e efeito: cada ato volta ao seu autor. Não é castigo nem sorte, é consequência — e é por isso que a Morada fala em plantar antes de falar em colher.",
+    seedBody: `Trabalho e amor ao próximo: é o que a Morada lê nessa frase, e é o que o Professor Lairi Hans repetia aos trabalhadores. Não como ameaça de má colheita, mas como método. O que se planta em alimento, em visita e em escuta é o que sustenta o trabalho desde ${site.foundedYear}.`,
 
     basicsHeading: "O que é",
     basicsBody: [
@@ -311,9 +310,22 @@ export const pt = {
       "A moral que ele adota é a de Jesus. O que o Espiritismo acrescenta não é uma nova regra de conduta, mas uma explicação para a antiga: por que somos desiguais ao nascer, por que o sofrimento não é arbitrário e por que a caridade não é gentileza opcional.",
     ],
 
+    gospelHeading: "Tudo parte do Evangelho",
+    gospelBody: [
+      "O Espiritismo não trouxe uma moral nova. A que ele adota é a do Evangelho, e Kardec foi explícito nisso: a doutrina vem confirmar os ensinamentos de Jesus, não substituí-los. O que ela acrescenta é explicação — por que a lei de amar o próximo é lei, e não conselho.",
+      "Jesus é tomado como modelo e guia. Não como objeto de culto: aqui não há altar, não há sacramento e não se reza a imagem nenhuma. O quadro está na parede da Morada pelo mesmo motivo que a frase do mentor está em todas as outras — para lembrar quem trabalha ali o que se combinou seguir.",
+      "É desse ensino que sai o resto. “Fora da caridade não há salvação” é conclusão cristã antes de ser máxima espírita, e é ela que põe a cesta de alimentos no mesmo nível da reunião de estudo. Amar o próximo, perdoar, servir sem cobrar e não julgar são as regras práticas desta casa porque são as do Evangelho.",
+    ],
+    gospelQuote: {
+      text: "Amai-vos uns aos outros como eu vos amei.",
+      source: "João 13:34",
+    },
+    gospelImageAlt:
+      "Pintura de Jesus com a mão direita erguida em bênção e dois feixes de luz, um vermelho e um claro, saindo do peito",
+
     worksHeading: "As cinco obras básicas",
     worksNote:
-      "É o conjunto que a casa toma como referência. Todas foram publicadas por Allan Kardec entre 1857 e 1868 e continuam em catálogo em português.",
+      "É o conjunto que a Morada toma como referência. Todas foram publicadas por Allan Kardec entre 1857 e 1868 e continuam em catálogo em português.",
     works: [
       {
         year: "1857",

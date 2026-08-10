@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { Reveal } from "@/components/reveal";
 import { RoseMark } from "@/components/rose-mark";
@@ -11,6 +12,7 @@ import {
 } from "@/components/ui";
 import { getDictionary } from "@/i18n/dictionaries";
 import { pathFor, type Locale } from "@/i18n/config";
+import { images } from "@/content/images";
 
 /**
  * A página de doutrina — e a única em que a casa explica a si mesma por dentro.
@@ -56,6 +58,40 @@ export function SpiritismPage({ locale }: { locale: Locale }) {
               {t.spiritism.basicsBody.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
+            </div>
+          </Reveal>
+        </div>
+      </Section>
+
+      {/* O Evangelho: a base de tudo, antes dos livros da codificação ----- */}
+      {/* Tom `plain` é requisito, não preferência: a imagem tem fundo branco
+          puro, igual ao `--color-bg`, e é isso que faz a figura flutuar sem
+          moldura. Sobre `surface` apareceria um retângulo. */}
+      <Section>
+        <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+          <Reveal>
+            <Image
+              src={images.jesus.src}
+              alt={t.spiritism.gospelImageAlt}
+              width={images.jesus.width}
+              height={images.jesus.height}
+              sizes="(min-width: 1024px) 32vw, (min-width: 640px) 50vw, 80vw"
+              className="mx-auto w-[clamp(13rem,44vw,22rem)] lg:mx-0"
+            />
+          </Reveal>
+
+          <Reveal delay={110}>
+            <SectionHeading>{t.spiritism.gospelHeading}</SectionHeading>
+            <div className="prose-morada mt-6">
+              {t.spiritism.gospelBody.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+            <div className="mt-10">
+              <Quote
+                text={t.spiritism.gospelQuote.text}
+                author={t.spiritism.gospelQuote.source}
+              />
             </div>
           </Reveal>
         </div>

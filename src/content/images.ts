@@ -29,6 +29,16 @@ export const images = {
     height: 1280,
     credit: "Ilustração encomendada pela Morada",
   },
+  /* Fundo branco puro (#ffffff), igual ao `--color-bg`: a figura flutua sem
+     moldura na página. Só funciona em seção de tom `plain` — sobre `surface`
+     o retângulo branco apareceria. Ganhou 150px de folga no topo porque no
+     arquivo original o cabelo encosta na borda. */
+  jesus: {
+    src: "/images/jesus.jpg",
+    width: 1200,
+    height: 1895,
+    credit: "Acervo da Morada",
+  },
   hands: {
     src: "/images/maos-dadas.jpg",
     width: 1400,

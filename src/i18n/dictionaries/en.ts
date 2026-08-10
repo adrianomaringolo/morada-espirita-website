@@ -109,7 +109,7 @@ export const en: Dictionary = {
     seed: {
       quote: "For whatever one sows, that will he also reap.",
       source: "Galatians 6:7",
-      body: "It is the law Spiritism calls cause and effect, and the reason this house speaks of sowing before it speaks of reaping.",
+      body: "Work and love of neighbour: the Morada's motto, and what the Professor taught its volunteers over and over.",
       cta: "What Spiritism is",
       imageAlt:
         "A field of white, blue and pink roses stretching to the horizon under an open sky",
@@ -302,8 +302,7 @@ export const en: Dictionary = {
       text: "For whatever one sows, that will he also reap.",
       source: "Galatians 6:7",
     },
-    seedBody:
-      "The line predates Spiritism and sums up what it calls the law of cause and effect: every act returns to whoever committed it. Not punishment, not luck, but consequence. Which is why this house talks about sowing before it talks about reaping.",
+    seedBody: `Work and love of neighbour: that is what the Morada reads in this line, and what Professor Lairi Hans repeated to its volunteers. Not as a threat of a bad harvest, but as a method. What is sown in food, in visits and in listening is what has sustained the work since ${site.foundedYear}.`,
 
     basicsHeading: "What it is",
     basicsBody: [
@@ -311,6 +310,19 @@ export const en: Dictionary = {
       "It presents itself as science, philosophy and religion at once: science because it studies an observable fact, philosophy because it draws moral consequences from it, religion because those consequences lead back to the Gospel. It has no clergy, no sacraments and no hierarchy. Nobody is baptised a Spiritist and nobody is enrolled.",
       "The morality it adopts is that of Jesus. What Spiritism adds is not a new rule of conduct but an explanation for the old one: why we are unequal at birth, why suffering is not arbitrary, and why charity is not optional kindness.",
     ],
+
+    gospelHeading: "It all starts with the Gospel",
+    gospelBody: [
+      "Spiritism did not bring a new morality. The one it adopts is the Gospel's, and Kardec was explicit about it: the doctrine confirms the teachings of Jesus, it does not replace them. What it adds is explanation — why loving your neighbour is a law and not advice.",
+      "Jesus is taken as model and guide, not as an object of worship: there is no altar here, no sacrament, and no image is prayed to. The painting hangs on the Morada's wall for the same reason the mentor's sentence is written on all the others, to remind whoever works there what they agreed to follow.",
+      "Everything else follows from that teaching. “Outside of charity there is no salvation” is a Christian conclusion before it is a Spiritist maxim, and it is what puts a food basket on the same footing as a study meeting. Loving your neighbour, forgiving, serving without charging and not judging are the working rules of this house because they are the Gospel's.",
+    ],
+    gospelQuote: {
+      text: "Love one another as I have loved you.",
+      source: "John 13:34",
+    },
+    gospelImageAlt:
+      "Painting of Jesus with his right hand raised in blessing and two beams of light, one red and one pale, coming from his chest",
 
     worksHeading: "The five foundational works",
     worksNote:
