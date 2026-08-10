@@ -1,0 +1,749 @@
+import { site } from "@/content/site";
+
+/**
+ * Todo o texto do site em português. Nenhuma frase vive dentro de um componente.
+ * Quem for atualizar um horário ou um número daqui a três anos mexe aqui e em
+ * src/content/site.ts — em mais lugar nenhum.
+ */
+export const pt = {
+  meta: {
+    siteName: site.name,
+    tagline: "Casa espírita e entidade beneficente em Campinas desde 1980",
+    defaultDescription:
+      "Atendimento espiritual gratuito e sem agendamento em Campinas: quartas às 14h, quintas às 20h e sábados às 15h — a porta se fecha cinco minutos antes. Casa espírita kardecista e entidade beneficente desde 1980.",
+  },
+
+  nav: {
+    home: "Início",
+    care: "Atendimento",
+    evangelization: "Evangelização",
+    charity: "Caridade",
+    spiritism: "Espiritismo",
+    history: "Nossa história",
+    messages: "Mensagens",
+    events: "Eventos",
+    directions: "Como chegar",
+    contact: "Contato",
+    menuButton: "Menu",
+    openMenu: "Abrir o menu completo de navegação",
+    closeMenu: "Fechar menu",
+    menuTitle: "Todas as páginas",
+    menuNote: "Todas as páginas do site, os canais da casa e o idioma.",
+    skipToContent: "Ir direto para o conteúdo",
+    languageLabel: "Idioma",
+    primaryLabel: "Navegação principal",
+    footerLabel: "Navegação do rodapé",
+  },
+
+  common: {
+    free: "Gratuito",
+    noBooking: "Sem agendamento",
+    openToAll: "Aberto a qualquer pessoa",
+    /* Facebook primeiro em todo o site: é onde a casa responde. */
+    messageFacebook: "Falar no Facebook",
+    seeInstagram: "Ver no Instagram",
+    callHouse: `Ligar para ${site.phone.display}`,
+    orCall: "Prefere telefone?",
+    schedule: "Horários",
+    weekdays: {
+      Sunday: "Domingo",
+      Monday: "Segunda-feira",
+      Tuesday: "Terça-feira",
+      Wednesday: "Quarta-feira",
+      Thursday: "Quinta-feira",
+      Friday: "Sexta-feira",
+      Saturday: "Sábado",
+    } as Record<string, string>,
+    to: "às",
+    /* Em destaque, o começo do trabalho; logo abaixo, o prazo para entrar. */
+    doorsCloseAt: "a porta se fecha às",
+    doorsOpenFrom: "aberta a partir das",
+    backHome: "Voltar ao início",
+  },
+
+  home: {
+    title: `${site.name} — Atendimento espiritual gratuito em Campinas`,
+    description:
+      "Casa espírita kardecista e entidade beneficente no Centro de Campinas desde 1980. Atendimento espiritual gratuito e sem agendamento, evangelização infantojuvenil e 3,5 toneladas de alimentos distribuídas por mês.",
+
+    hero: {
+      heading: "Fé, amor e caridade",
+      lead: `A ${site.name} atende no Centro de Campinas desde 1980. O atendimento espiritual é aberto a qualquer pessoa, de qualquer religião ou de nenhuma.`,
+      primaryCta: "Como funciona o atendimento",
+      secondaryCta: "Como chegar até nós",
+      imageAlt:
+        "Fachada da Morada na Rua José Paulino: o nome da casa em letras douradas sobre a parede branca, ao lado da entrada de vidro",
+    },
+
+    schedule: {
+      heading: "Atendimento espiritual",
+      note: "O trabalho começa na hora em destaque, mas a porta se fecha cinco minutos antes: depois disso ninguém mais entra. Atende-se por ordem de chegada.",
+    },
+
+    motto: {
+      quote: "Não há nada que o amor não vença.",
+      author: "Professor Lairi Hans",
+      role: "Mentor espiritual da casa",
+    },
+
+    charity: {
+      heading: "A caridade é o trabalho diário da casa",
+      body: "Voluntários saem de porta em porta aos sábados e domingos para recolher alimentos em Campinas. O que é recolhido volta como cesta, agasalho e enxoval para famílias cadastradas — no último domingo de cada mês, há 45 anos.",
+      figures: [
+        { value: "3,5 t", label: "de alimentos distribuídos por mês" },
+        { value: "120", label: "famílias atendidas mensalmente" },
+        { value: "500", label: "crianças na festa de Natal" },
+      ],
+      cta: "Conhecer o trabalho de caridade",
+      imageAlt:
+        "Mãos de duas pessoas idosas dadas, contra um campo iluminado pelo fim da tarde",
+    },
+
+    evangelization: {
+      heading: "Domingo de manhã é das crianças",
+      body: "Cinco turmas por faixa etária, das 9h30 às 11h15. As aulas partem do Evangelho e passam por música, pintura e participação real na coleta de alimentos. Não é preciso ser espírita, e não se cobra nada.",
+      cta: "Ver a evangelização",
+    },
+
+    seed: {
+      quote: "Pois o que o homem semear, isso também colherá.",
+      source: "Gálatas 6:7",
+      body: "É a lei que o Espiritismo chama de causa e efeito, e é a razão de esta casa falar em plantar antes de falar em colher.",
+      cta: "O que é o Espiritismo",
+      imageAlt:
+        "Campo de rosas brancas, azuis e cor-de-rosa até o horizonte, sob um céu aberto",
+    },
+
+    history: {
+      heading: "Cada tijolo obtido através das mãos e do suor dos trabalhadores da Morada",
+      body: `Fundada em 29 de outubro de 1980 por quatro pessoas e seis médiuns, a Morada nunca teve ajudas externas. A sede atual foi levantada entre 2000 e 2002 apenas com trabalho voluntário. Sob o piso há uma cápsula do tempo, lacrada em ${site.timeCapsule.sealed} para ser aberta em ${site.timeCapsule.opens}.`,
+      cta: "Ler nossa história",
+    },
+  },
+
+  care: {
+    title: "Atendimento espiritual",
+    description:
+      "Consulta espiritual, passe com cromoterapia e água fluidificada em Campinas. Quartas às 14h, quintas às 20h e sábados às 15h; a porta se fecha cinco minutos antes. Gratuito e sem agendamento.",
+    heading: "Atendimento espiritual",
+    lead: "Consulta, passe e água fluidificada. Não se marca hora, não se paga nada e não se pergunta a religião de ninguém.",
+
+    scheduleHeading: "Quando",
+    scheduleNote:
+      "O horário em destaque é o do começo do trabalho. A porta se fecha cinco minutos antes dele, e quem chega depois disso não é atendido naquele dia — por isso venha com folga. O atendimento segue a ordem de chegada: quem chega mais cedo é atendido mais cedo. A casa não estima tempo de espera.",
+
+    whatHeading: "O que acontece",
+    what: [
+      {
+        title: "Orientação em consulta espiritual",
+        body: "Uma conversa reservada com um médium da casa sobre o que a pessoa está vivendo. Ninguém é obrigado a contar mais do que quer.",
+      },
+      {
+        title: "Aplicação de passes, com cromoterapia",
+        body: "Alguns minutos em silêncio, sentado, recebendo o passe. É rápido e não há contato além das mãos próximas.",
+      },
+      {
+        title: "Tratamento com água fluidificada",
+        body: "A pessoa leva para casa a água preparada durante a reunião, com orientação de como tomar.",
+      },
+    ],
+
+    beforeHeading: "Antes de vir",
+    before: [
+      "Não beba álcool no dia do atendimento.",
+      "Use roupas adequadas: homens sem shorts e sem camiseta regata; mulheres sem saia curta e sem blusa decotada.",
+      "Traga uma garrafa pequena, se quiser levar água fluidificada.",
+      "Pode trazer crianças e acompanhantes.",
+    ],
+
+    faqHeading: "Perguntas frequentes",
+    faq: [
+      {
+        q: "Preciso marcar?",
+        a: "Não. É só chegar em um dos dias de atendimento, antes da hora em que a porta se fecha. Atende-se por ordem de chegada.",
+      },
+      {
+        q: "Quanto custa?",
+        a: "Nada. A Morada não cobra por nenhum atendimento e não aceita pagamento por ele.",
+      },
+      {
+        q: "Preciso ser espírita?",
+        a: "Não. O atendimento é para qualquer pessoa, de qualquer religião ou de nenhuma. Ninguém será convidado a mudar de crença.",
+      },
+      {
+        q: "O atendimento substitui tratamento médico?",
+        a: "Não, em nenhuma hipótese. A casa não recomenda interromper medicação nem tratamento de saúde, e não faz diagnóstico. Procure sempre um médico.",
+      },
+      {
+        q: "Posso levar meus filhos?",
+        a: "Pode. Aos domingos de manhã há também a evangelização infantojuvenil, das 9h30 às 11h15.",
+      },
+      {
+        q: "E se eu não conseguir ir sozinho?",
+        a: `Mande mensagem para a casa no Facebook, em ${site.social.facebookHandle}, ou ligue para ${site.phone.display}. Sempre há alguém disposto a ajudar a resolver.`,
+      },
+    ],
+  },
+
+  evangelization: {
+    title: "Evangelização infantojuvenil",
+    description:
+      "Evangelização para crianças e jovens aos domingos, das 9h30 às 11h15, em cinco turmas por faixa etária. Gratuita e aberta a todos, no Centro de Campinas.",
+    heading: "Evangelização infantojuvenil",
+    lead: "Todo domingo, das 9h30 às 11h15. Cinco turmas separadas por faixa etária, para crianças e jovens.",
+    groupsLabel: "turmas por faixa etária",
+    imageAlt:
+      "Desenhos infantis a giz de cera espalhados sobre uma mesa, com a caixa de giz aberta ao lado",
+
+    whatHeading: "O que as crianças fazem",
+    what: [
+      {
+        title: "Aulas a partir do Evangelho",
+        body: "Conversas sobre virtudes, fraternidade e fé, na linguagem de cada idade — não em forma de doutrinação.",
+      },
+      {
+        title: "Caridade de verdade",
+        body: "As turmas participam da coleta e da separação de alimentos. Aprender a dar é parte da aula, não um discurso sobre ela.",
+      },
+      {
+        title: "Música e pintura",
+        body: "Toda semana há atividade de arte. Boa parte do que as crianças fazem vai para casa com elas.",
+      },
+    ],
+
+    joinHeading: "Como participar",
+    joinBody: `Não há matrícula, taxa nem lista de espera. Traga a criança em um domingo, alguns minutos antes das 9h30, e converse com a equipe na entrada. Se preferir avisar antes, mande mensagem no Facebook da casa — ou ligue para ${site.phone.display}.`,
+  },
+
+  charity: {
+    title: "Caridade",
+    description:
+      "Coleta de alimentos porta a porta aos sábados e domingos, 3,5 toneladas distribuídas por mês a cerca de 120 famílias, e campanhas de Inverno, Páscoa e Natal em Campinas.",
+    heading: "Caridade",
+    lead: "Todo mês, cerca de 3,5 toneladas de alimentos saem desta casa para famílias de Campinas. Nada disso vem de ajudas externas: vem de porta em porta.",
+
+    quote: {
+      text: "Fora da caridade não há salvação, porque o Pai coloca em nossas mãos uma semente a ser plantada.",
+      author: "Luzia Pacubi (Mãe Luzia)",
+      role: "Fundadora da Morada",
+    },
+
+    figuresHeading: "O trabalho em números",
+    figuresNote:
+      "Números aproximados, informados pela própria casa e revisados periodicamente.",
+
+    howHeading: "Como funciona",
+    how: [
+      {
+        step: "Coleta",
+        body: "Aos sábados e domingos, às 9h, voluntários se reúnem, fazem uma prece e saem de porta em porta pelos bairros de Campinas. Todos usam crachá de identificação.",
+      },
+      {
+        step: "Triagem",
+        body: "O que é recolhido volta para a sede, é conferido por data de validade e montado em cestas.",
+      },
+      {
+        step: "Cadastro e visita",
+        body: "Voluntários identificam famílias em situação vulnerável nos bairros de periferia, por entrevista e visita domiciliar. Têm prioridade famílias com muitas crianças, pessoas doentes e idosos sem apoio.",
+      },
+      {
+        step: "Entrega",
+        body: "No último domingo de cada mês, as famílias cadastradas recebem cestas de alimentos, roupas e enxovais para bebês. O apoio continua até a família conseguir se manter sozinha.",
+      },
+    ],
+
+    campaignsHeading: "Campanhas do ano",
+    campaigns: [
+      {
+        name: "Inverno",
+        when: "De maio a julho",
+        body: "Cobertores, agasalhos, pijamas de flanela e meias de lã para crianças e idosos.",
+      },
+      {
+        name: "Páscoa",
+        when: "Nas semanas anteriores",
+        body: "Ovos de chocolate arrecadados e uma confeitaria feita à mão pelos voluntários da casa.",
+      },
+      {
+        name: "Natal",
+        when: "Em dezembro",
+        body: "Festa para cerca de 500 crianças, com brinquedos, roupas, comida e apresentação — e cesta reforçada para os pais.",
+      },
+    ],
+
+    helpHeading: "Como ajudar",
+    help: [
+      {
+        title: "Doar alimentos e agasalhos",
+        body: "Alimentos não perecíveis dentro da validade, roupas em bom estado, cobertores e enxovais de bebê. A entrega é feita na sede, na Rua José Paulino, 1934.",
+      },
+      {
+        title: "Ser voluntário na coleta",
+        body: "A coleta sai aos sábados e domingos, às 9h, da própria sede. Não é preciso experiência nem ser espírita — é preciso chegar no horário.",
+      },
+      {
+        title: "Falar com a casa antes",
+        body: `Para doações grandes, entregas fora de horário ou dúvidas sobre o que está faltando no mês, mande mensagem no Facebook da casa. Se preferir falar, ligue para ${site.phone.display}.`,
+      },
+    ],
+    helpNote:
+      "A Morada não faz campanha de arrecadação em dinheiro por este site. Doações são de itens, entregues na sede.",
+  },
+
+  spiritism: {
+    title: "Espiritismo",
+    description:
+      "O que é o Espiritismo codificado por Allan Kardec: as cinco obras básicas, os princípios de Deus, imortalidade, comunicabilidade dos Espíritos, reencarnação e pluralidade dos mundos, e como a Morada Espírita Professor Lairi Hans os pratica em Campinas.",
+    heading: "Espiritismo",
+    lead: "A doutrina que a Morada segue, em linguagem direta: o que ela afirma, o que ela não promete e o que disso vira trabalho dentro desta casa.",
+
+    seedQuote: {
+      text: "Pois o que o homem semear, isso também colherá.",
+      source: "Gálatas 6:7",
+    },
+    seedBody:
+      "A frase é anterior ao Espiritismo e resume o que ele chama de lei de causa e efeito: cada ato volta ao seu autor. Não é castigo nem sorte, é consequência — e é por isso que a Morada fala em plantar antes de falar em colher.",
+
+    basicsHeading: "O que é",
+    basicsBody: [
+      "O Espiritismo foi codificado na França por Allan Kardec, pseudônimo do professor Hippolyte Léon Denizard Rivail, a partir de 1857. Não foi inventado: Kardec reuniu e comparou milhares de respostas obtidas por médiuns diferentes, em lugares diferentes, e publicou apenas o que era coerente entre elas.",
+      "Ele se apresenta ao mesmo tempo como ciência, filosofia e religião — ciência porque estuda um fato observável, filosofia porque tira dele consequências morais, e religião porque essas consequências levam ao Evangelho. Não tem clero, não tem sacramento, não tem hierarquia. Ninguém se batiza espírita e ninguém é filiado.",
+      "A moral que ele adota é a de Jesus. O que o Espiritismo acrescenta não é uma nova regra de conduta, mas uma explicação para a antiga: por que somos desiguais ao nascer, por que o sofrimento não é arbitrário e por que a caridade não é gentileza opcional.",
+    ],
+
+    worksHeading: "As cinco obras básicas",
+    worksNote:
+      "É o conjunto que a casa toma como referência. Todas foram publicadas por Allan Kardec entre 1857 e 1868 e continuam em catálogo em português.",
+    works: [
+      {
+        year: "1857",
+        title: "O Livro dos Espíritos",
+        body: "A obra que abre a codificação, em 1.019 perguntas e respostas. Trata de Deus, da criação, da vida espiritual e das leis morais. É por onde se começa.",
+      },
+      {
+        year: "1861",
+        title: "O Livro dos Médiuns",
+        body: "O manual prático da mediunidade: como se dá o intercâmbio com os Espíritos, quais são os tipos de médium e quais os cuidados de quem trabalha numa reunião.",
+      },
+      {
+        year: "1864",
+        title: "O Evangelho segundo o Espiritismo",
+        body: "A parte moral do Evangelho explicada à luz da doutrina. É o livro mais lido nas casas espíritas e o que fundamenta as reuniões de estudo.",
+      },
+      {
+        year: "1865",
+        title: "O Céu e o Inferno",
+        body: "Examina a justiça divina e desmonta a ideia de penas eternas. As consequências dos atos são reparadoras, não vingativas.",
+      },
+      {
+        year: "1868",
+        title: "A Gênese",
+        body: "Trata da origem do mundo, dos milagres e das predições segundo o Espiritismo, procurando acordo entre a doutrina e a ciência de seu tempo.",
+      },
+    ],
+
+    principlesHeading: "Os princípios",
+    principlesNote:
+      "Cinco afirmações sustentam o resto. Nenhuma delas exige que se abandone outra crença para ser examinada.",
+    principles: [
+      {
+        name: "Deus",
+        body: "Inteligência suprema, causa primeira de todas as coisas. Não é figura humana, não faz preferência entre pessoas e não é acessível por barganha.",
+      },
+      {
+        name: "Imortalidade do espírito",
+        body: "A morte encerra o corpo, não o ser. O que segue depois é a mesma pessoa, com a mesma consciência e as mesmas dívidas.",
+      },
+      {
+        name: "Comunicabilidade dos Espíritos",
+        body: "É possível trocar com os desencarnados, e isso acontece por meio da mediunidade. Não é privilégio de ninguém, é faculdade, e exige estudo e disciplina.",
+      },
+      {
+        name: "Reencarnação",
+        body: "O espírito volta a nascer quantas vezes precisar. É o que explica a desigualdade das condições ao nascer sem recorrer a um Deus injusto.",
+      },
+      {
+        name: "Pluralidade dos mundos habitados",
+        body: "A vida não está confinada à Terra, e o progresso do espírito não se encerra aqui.",
+      },
+    ],
+
+    houseHeading: "Como isso vira trabalho na Morada",
+    houseNote:
+      "Doutrina que não sai do papel não interessa a esta casa. Cada princípio acima tem uma prática correspondente aqui dentro.",
+    house: [
+      {
+        title: "Caridade antes de doutrina",
+        body: "Se fora da caridade não há salvação, o alimento vem antes do argumento. Por isso o trabalho de rua e as 3,5 toneladas por mês existem no mesmo pé que as reuniões de estudo — e por isso ninguém é atendido em troca de frequentar.",
+      },
+      {
+        title: "Nada se cobra, nada se vende",
+        body: "A mediunidade é faculdade, não mercadoria. A Morada não cobra por consulta, passe ou água fluidificada, não aceita pagamento por eles e não vende objeto nenhum com promessa de efeito espiritual.",
+      },
+      {
+        title: "Disciplina como alicerce",
+        body: "O intercâmbio com a espiritualidade depende do ambiente. É o que sustenta as regras de comportamento da casa e a hora em que a porta se fecha: começou o trabalho, ninguém mais entra.",
+      },
+      {
+        title: "Estudo que não termina",
+        body: "A escola de médiuns da casa parte das obras de Kardec e segue por níveis. Como dizia o Professor Lairi Hans, o estudo não termina nunca — ninguém se diploma na parte espiritual.",
+      },
+      {
+        title: "Sem exigência de credo",
+        body: "O atendimento é aberto a qualquer pessoa, de qualquer religião ou de nenhuma, e ninguém será convidado a mudar de crença. Quem chega por sofrimento não precisa aceitar doutrina para ser recebido.",
+      },
+      {
+        title: "Nunca no lugar do médico",
+        body: "O Espiritismo não faz diagnóstico e não substitui tratamento de saúde. A casa nunca recomenda interromper medicação, e orienta procurar médico sempre.",
+      },
+    ],
+
+    limitsHeading: "O que o Espiritismo não é",
+    limits: [
+      "Não é cura garantida. A casa não promete resultado e não trata doença no lugar da medicina.",
+      "Não é adivinhação. Não se lê o futuro, não se joga carta e não se cobra por revelação.",
+      "Não é magia, feitiço nem trabalho contra alguém. Nada aqui se faz para prejudicar.",
+      "Não é seita: não há filiação, não há dízimo e ninguém fica devendo presença.",
+      "Não é conversão. Ninguém precisa deixar sua religião para ser atendido nesta casa.",
+    ],
+
+    readHeading: "Por onde começar",
+    readBody:
+      "As obras de Kardec estão em domínio público em português e são fáceis de encontrar. Quem prefere começar pela conversa pode vir a um dia de atendimento e perguntar: sempre há trabalhador disponível para explicar sem pressa.",
+    readCta: "Ver os dias de atendimento",
+    historyCta: "Conhecer a história da casa",
+  },
+
+  history: {
+    title: "Nossa história",
+    description:
+      "A Morada Espírita Professor Lairi Hans foi fundada em 29 de outubro de 1980 em Campinas. Seis casas em 45 anos, a sede erguida em mutirão, a cápsula do tempo lacrada até 2082 e a história de Mãe Luzia.",
+    heading: "Nossa história",
+    lead: "Começou com seis médiuns numa edícula emprestada. Passou por seis endereços, teve a primeira sede própria desapropriada e ergueu a atual em mutirão. Nunca recebeu ajudas externas.",
+
+    timelineHeading: "Linha do tempo",
+    timeline: [
+      {
+        year: "1980",
+        title: "A fundação",
+        body: "Em 29 de outubro, Luzia Pacubi, Heloísa de Oliveira Bueno, Maria Aparecida Nogueira de Sá e Orlando Gache fundam a casa. O atendimento começa numa edícula modesta, com seis médiuns.",
+      },
+      {
+        year: "1980–2004",
+        title: "Vinte e quatro anos de orientação",
+        body: "Toda a orientação da casa vem do Professor Lairi Hans, que se manifesta por quase 24 anos através da médium Luzia Pacubi — sua filha espiritual de várias encarnações.",
+      },
+      {
+        year: "Anos 80 e 90",
+        title: "Seis casas",
+        body: "Barão de Jaguara, Antônio Cesarino, Luzitana, Álvares Machado. A primeira sede própria, comprada e reformada em trabalho voluntário, é desapropriada por uma obra da prefeitura. Com a indenização insuficiente e os recursos que tinha, a Morada compra a casa da Rua José Paulino, 1936.",
+      },
+      {
+        year: "Anos 90",
+        title: "Os canteiros espirituais",
+        body: "Para germinar em vários pontos da cidade, a Morada abre outras casas de atendimento — o Professor Lairi Hans as chamava de canteiros espirituais. Cada canteiro que se abria era mais um jardim de cura, de amor, de fé e de doação.",
+      },
+      {
+        year: "2000–2002",
+        title: "A sede, em mutirão",
+        body: "A casa vizinha é comprada e demolida, e no número 1.934 da mesma rua sobe a sede atual. A obra é dividida em duas etapas e leva dois anos de mutirões feitos pelos próprios trabalhadores da Morada. Nenhuma etapa teve ajudas externas.",
+      },
+      {
+        year: "2002",
+        title: "A cápsula e a corrente única",
+        body: "Em 27 de abril, uma cápsula do tempo é lacrada no subsolo do prédio, para ser aberta em 2082. Terminada a sede, os canteiros são desativados para que todos os trabalhadores ficassem numa corrente só.",
+      },
+      {
+        year: "Hoje",
+        title: "O trabalho continuado",
+        body: "Cerca de 3,5 toneladas de alimentos por mês para idosos, doentes e crianças dos bairros de periferia. O projeto seguinte é um lar para idosos e crianças.",
+      },
+    ],
+
+    housesHeading: "As casas da Morada",
+    housesLead:
+      "As fotografias que a casa guarda de cada endereço por onde passou, da edícula de 1980 à sede erguida em mutirão.",
+    houses: [
+      {
+        src: "/images/historia/casa-1-barao-de-jaguara.jpg",
+        width: 494,
+        height: 406,
+        title: "1ª Morada",
+        caption: "Rua Barão de Jaguara, 108 — Campinas",
+        alt: "Edícula de parede caiada com a placa da Morada Espírita ao lado da porta",
+      },
+      {
+        src: "/images/historia/casa-2-antonio-cesarino.jpg",
+        width: 252,
+        height: 350,
+        title: "2ª Morada",
+        caption: "Rua Antônio Cesarino — Campinas",
+        alt: "Casa térrea com sacada de balaústres e a placa da Morada na fachada",
+      },
+      {
+        src: "/images/historia/casa-3-luzitana.jpg",
+        width: 492,
+        height: 406,
+        title: "3ª Morada",
+        caption: "Rua Luzitana, 1652 — Campinas",
+        alt: "Fachada clara em esquina, com a placa da Morada entre duas janelas",
+      },
+      {
+        src: "/images/historia/casa-4-alvares-machado.jpg",
+        width: 350,
+        height: 247,
+        title: "4ª Morada",
+        caption: "Rua Álvares Machado — Campinas. A primeira sede própria, depois desapropriada",
+        alt: "Casa de esquina caiada de branco, vista da calçada de paralelepípedo",
+      },
+      {
+        src: "/images/historia/casa-5-jose-paulino-1936.jpg",
+        width: 405,
+        height: 497,
+        title: "5ª Morada",
+        caption: "Rua José Paulino, 1936 — Campinas. A segunda sede própria",
+        alt: "Fachada de sobrado com portas de grade e a placa da Morada acima da janela",
+      },
+      {
+        src: "/images/historia/casa-5-casa-ao-lado.jpg",
+        width: 615,
+        height: 403,
+        title: "A casa ao lado",
+        caption: "Rua José Paulino, 1936. Com muito esforço, a Morada compra o imóvel vizinho",
+        alt: "Duas casas geminadas com a faixa “sede própria — em ampliação” na fachada",
+      },
+      {
+        src: "/images/historia/casa-6-jose-paulino-1934.jpg",
+        width: 427,
+        height: 280,
+        title: "6ª Morada",
+        caption: "Rua José Paulino, 1934 — a sede atual, construída pelos próprios trabalhadores",
+        alt: "Prédio branco de dois pavimentos com o nome da Morada na fachada e grade na frente",
+      },
+      {
+        src: "/images/historia/capsula-do-tempo.jpg",
+        width: 472,
+        height: 708,
+        title: "A cápsula do tempo",
+        caption: "27 de abril de 2002. O cofre no subsolo, antes de ser coberto com concreto",
+        alt: "Cofre aberto no piso de concreto do subsolo, com a caixa de cerâmica dentro",
+      },
+    ],
+
+    capsuleHeading: "A cápsula do tempo",
+    capsuleBanner:
+      "A cápsula lacrada no subsolo da sede em 27 de abril de 2002 só pode ser aberta 80 anos depois.",
+    capsuleBody: [
+      "É um procedimento sem precedente entre casas espíritas: guardar a memória da Morada para que as gerações seguintes conheçam o começo desta caminhada. A cápsula foi idealizada pela própria espiritualidade, e o que entrou nela foi escolhido item por item.",
+      "As fotografias foram impressas em papel selecionado e o relato da história foi escrito à mão, a grafite, em papel especial. Tudo foi fechado em saco plástico de alta resistência, tratado por uma semana em atmosfera de nitrogênio, selado em nitrogênio seco e lacrado com cera de abelha dentro de uma caixa de cerâmica.",
+      "A caixa foi posta no cofre do subsolo, o espaço foi saturado de nitrogênio e o recipiente, coberto de concreto. Sobre o cofre há uma placa com a data: 27 de abril de 2002. A cápsula só pode ser aberta 80 anos depois.",
+    ],
+
+    mentorHeading: "Professor Lairi Hans",
+    mentorBody:
+      "A casa leva o nome de seu mentor espiritual: uma entidade médica desencarnada em 1678, aos 51 anos, na Alemanha. Suas encarnações foram marcadas pela renúncia de si mesmo, pelo amor ao próximo e pela dedicação incansável à cura dos doentes. Foi ele quem conduziu Luzia Pacubi a fundar a Morada, e é dele o ensino que a casa guarda inteiro — humildade como força, disciplina como alicerce, e a frase que está em todas as paredes.",
+    mentorQuote: "Se você der a sua migalha, é um a menos que vai sofrer.",
+    mentorImageAlt:
+      "Retrato pintado do Professor Lairi Hans, de jaleco e touca brancos, sobre fundo ocre",
+
+    founderHeading: "Mãe Luzia",
+    founderBody:
+      "Luzia Pacubi tornou-se espírita aos 18 anos e dedicou mais de seis décadas ao trabalho mediúnico e às causas cristãs. Foi por ela que o Professor Lairi Hans se manifestou durante quase 24 anos. Em 2002, aos 77 anos, definia o Espiritismo como “uma purificação do ser humano para uma nova reencarnação”. Na placa que os trabalhadores lhe dedicaram em fevereiro de 1986, ela é a pedra angular desta Morada.",
+    founderQuote:
+      "Fora da caridade não há salvação, porque o Pai coloca em nossas mãos uma semente a ser plantada.",
+    founderImageAlt:
+      "Retrato pintado de Mãe Luzia, sorrindo, de blusa branca, sobre fundo ocre",
+
+    disciplineHeading: "Disciplina",
+    disciplineQuote: "Onde não há disciplina, não estão presentes os mensageiros de luz.",
+    disciplineBody:
+      "Disciplina, trabalho e doação são as marcas da casa. O vínculo principal da Morada é a cura, e para que as vibrações sejam recebidas a purificação do ambiente é condição indispensável. Foi por isso que o Professor Hans fez da disciplina de comportamento e de procedimento o alicerce da casa.",
+
+    symbolHeading: "Nosso símbolo",
+    symbolBody:
+      "A flor é o símbolo da parte espiritual. As rosas brancas, azuis e cor-de-rosa são o símbolo da Morada na espiritualidade.",
+    symbolColors: [
+      { name: "Cor-de-rosa", meaning: "o Amor" },
+      { name: "Azul", meaning: "a Cura e a Fé" },
+      { name: "Branco", meaning: "a Paz" },
+    ],
+  },
+
+  messages: {
+    title: "Mensagens",
+    description:
+      "Mensagens e pensamentos guardados pela Morada Espírita Professor Lairi Hans: Chico Xavier, Professor Lairi Hans e Mãe Luzia.",
+    heading: "Mensagens",
+    lead: "Trechos que a casa guarda e relê. Estão aqui como foram recebidos, sem comentário.",
+    sections: [
+      {
+        author: "Professor Lairi Hans",
+        note: "Mentor espiritual da casa",
+        quotes: [
+          "Não há nada que o amor não vença.",
+          "Se você der a sua migalha, é um a menos que vai sofrer.",
+          "A humildade não é fraqueza. É a força de que se precisa para começar a sarar.",
+          "Em casa, converse com amor em vez de mandar.",
+          "Doe alegria aos idosos, ensine amor às crianças, cuide de quem está doente.",
+        ],
+      },
+      {
+        author: "Chico Xavier",
+        note: "Médium e escritor brasileiro (1910–2002)",
+        quotes: [
+          "O Cristo não pediu muita coisa, não exigiu que as pessoas escalassem o Everest ou fizessem grandes sacrifícios.",
+          "Nenhuma atividade no bem é insignificante. As mais altas árvores são oriundas de minúsculas sementes.",
+          "Nunca quis mudar a religião de ninguém, porque não acredito que a religião a seja melhor que b.",
+          "Devemos orar pelos políticos, pelos administradores da vida pública. A tentação do poder é muito grande.",
+          "A questão mais aflitiva para o espírito no Além é a consciência do tempo perdido.",
+          "Uma das mais belas lições que tenho aprendido com o sofrimento: não julgar. Definitivamente, não julgar.",
+        ],
+      },
+      {
+        author: "Mãe Luzia",
+        note: "Luzia Pacubi, fundadora da Morada",
+        quotes: [
+          "Fora da caridade não há salvação, porque o Pai coloca em nossas mãos uma semente a ser plantada.",
+          "O Espiritismo é uma purificação do ser humano para uma nova reencarnação.",
+        ],
+      },
+    ],
+  },
+
+  events: {
+    title: "Eventos",
+    description:
+      "Agenda permanente da Morada Espírita Professor Lairi Hans em Campinas e campanhas de Inverno, Páscoa e Natal.",
+    heading: "Eventos",
+    lead: "O que acontece toda semana e o que volta todo ano. Datas de eventos extraordinários são anunciadas nas redes da casa.",
+
+    recurringHeading: "Toda semana",
+    recurring: [
+      {
+        name: "Atendimento espiritual",
+        when: "Quartas às 14h · quintas às 20h · sábados às 15h",
+        href: "care" as const,
+      },
+      {
+        name: "Coleta de alimentos",
+        when: "Sábados e domingos, a partir das 9h",
+        href: "charity" as const,
+      },
+      {
+        name: "Evangelização infantojuvenil",
+        when: "Domingos, das 9h30 às 11h15",
+        href: "evangelization" as const,
+      },
+      {
+        name: "Entrega de cestas",
+        when: "Último domingo de cada mês",
+        href: "charity" as const,
+      },
+    ],
+
+    seasonalHeading: "Todo ano",
+
+    emptyHeading: "Eventos extraordinários",
+    emptyBody:
+      "Não há eventos extraordinários marcados no momento. Palestras, festas e mutirões fora da agenda são anunciados nas redes sociais da casa e no mural da sede.",
+    emptyCta: "Acompanhar no Facebook",
+  },
+
+  directions: {
+    title: "Como chegar",
+    description:
+      "A Morada Espírita Professor Lairi Hans fica na Rua José Paulino, 1934, Centro, Campinas/SP. Mapa, rota e telefone da casa.",
+    heading: "Como chegar",
+    lead: "A Morada fica no Centro de Campinas, na Rua José Paulino, 1934.",
+
+    addressHeading: "Endereço",
+    mapHeading: "No mapa",
+    mapTitle: "Mapa com a localização da Morada Espírita, Rua José Paulino, 1934, Campinas",
+    mapFallback:
+      "O mapa não pôde ser carregado. Use o botão de rota abaixo ou copie o endereço.",
+    routeCta: "Abrir rota no Google Maps",
+    openMapCta: "Ver no mapa",
+
+    tipsHeading: "Na chegada",
+    tips: [
+      "A entrada é pela própria Rua José Paulino.",
+      "A porta se fecha cinco minutos antes do começo — depois dela ninguém mais entra. Quem chega mais cedo é atendido mais cedo.",
+      "Se estiver com dificuldade para encontrar a casa, mande mensagem no Facebook ou ligue — alguém orienta na hora.",
+    ],
+
+    helpHeading: "Perdido no caminho?",
+    helpBody: "Mande mensagem no Facebook da casa. Se preferir falar por voz, o telefone está logo abaixo.",
+  },
+
+  contact: {
+    title: "Contato",
+    description:
+      "Fale com a Morada Espírita Professor Lairi Hans: telefone (19) 3236-8544, Instagram, Facebook e endereço no Centro de Campinas.",
+    heading: "Fale com a Morada",
+    lead: "O caminho mais rápido é mandar mensagem no Facebook — é por lá que a casa acompanha e responde.",
+
+    facebookHeading: "No Facebook",
+    facebookNote:
+      "O canal principal da casa. Mande mensagem na página e um voluntário responde. É também onde saem os avisos e as datas.",
+
+    instagramHeading: "No Instagram",
+    instagramNote: "Campanhas, fotos e o dia a dia do trabalho de caridade.",
+
+    phoneHeading: "Por telefone",
+    phoneNote:
+      "Se você prefere falar por voz, ligue nos dias e horários de funcionamento da casa.",
+
+    visitHeading: "Pessoalmente",
+    visitNote: "Você pode simplesmente aparecer em um dos horários de atendimento.",
+
+    formHeading: "Por mensagem",
+    formNote:
+      "A resposta pode levar alguns dias — a casa é mantida por voluntários. Se for urgente, fale pelo Facebook.",
+    form: {
+      name: "Seu nome",
+      email: "Seu e-mail",
+      emailHint: "Para podermos responder.",
+      subject: "Assunto",
+      subjectOptions: [
+        "Atendimento espiritual",
+        "Evangelização",
+        "Doação",
+        "Voluntariado",
+        "Outro assunto",
+      ],
+      message: "Mensagem",
+      submit: "Enviar mensagem",
+      sending: "Enviando…",
+      required: "obrigatório",
+      errors: {
+        name: "Escreva seu nome.",
+        email: "Escreva um e-mail válido para podermos responder.",
+        message: "Escreva sua mensagem.",
+        summary: "Confira os campos marcados abaixo.",
+        failed: `Não foi possível enviar agora. Tente de novo, fale pelo Facebook da casa ou ligue para ${site.phone.display}.`,
+      },
+      successHeading: "Mensagem enviada.",
+      successBody:
+        "Obrigado por escrever. Vamos responder assim que possível — se for urgente, mande mensagem no Facebook da casa.",
+    },
+  },
+
+  footer: {
+    houseLine: `${site.name} — casa espírita kardecista e entidade beneficente, fundada em 1980.`,
+    careLine: "Atendimento espiritual gratuito, sem agendamento.",
+    navHeading: "Páginas",
+    visitHeading: "Visite",
+    followHeading: "Fale com a casa",
+    rights: "Todos os direitos reservados.",
+    builtBy: "Feito por voluntários.",
+  },
+
+  notFound: {
+    title: "Página não encontrada",
+    heading: "Esta página não existe.",
+    body: "O endereço pode ter mudado. Você encontra tudo pelo início — ou fale com a casa pelo Facebook, se preferir falar com alguém.",
+  },
+};
+
+/** A estrutura do português é o contrato: qualquer outro idioma precisa preenchê-la inteira. */
+export type Dictionary = typeof pt;
