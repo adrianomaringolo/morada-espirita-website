@@ -27,9 +27,11 @@ import {
  * Uma imagem por oferta, na mesma ordem de `t.shop.offerings` — ver o
  * comentário sobre essa dependência de ordem em i18n/dictionaries/pt.ts.
  *
- * `photo: true` marca as que já são fotografia real da Loja (entram
- * dessaturadas, como toda foto do site — ver DESIGN.md). As demais ainda são
- * ilustrações de traço provisórias e não levam o filtro `.photo`.
+ * `photo: true` marca as que já são fotografia real da Loja: levam
+ * `.photo-lifted`, a variante mais clara e menos dessaturada do filtro de
+ * foto (ver DESIGN.md) — aqui a cor do produto importa mais do que nas fotos
+ * editoriais do resto do site. As demais ainda são ilustrações de traço
+ * provisórias e não levam filtro nenhum.
  */
 const offeringImages = [
   { ...images.shop.gotaDeCura, photo: true },
@@ -60,7 +62,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
               width={images.shop.fachada.width}
               height={images.shop.fachada.height}
               sizes="(min-width: 1024px) 46vw, 100vw"
-              className="photo h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+              className="photo-lifted h-[clamp(16rem,38vw,26rem)] w-full object-cover"
             />
           </Reveal>
           <Reveal delay={110}>
@@ -93,7 +95,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
                       width={image.width}
                       height={image.height}
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
-                      className={`h-48 w-full object-cover ${image.photo ? "photo" : ""}`}
+                      className={`h-48 w-full object-cover ${image.photo ? "photo-lifted" : ""}`}
                     />
                     <div className="flex flex-1 flex-col p-7">
                       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
@@ -147,7 +149,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
                 width={images.shop.festaJunina.width}
                 height={images.shop.festaJunina.height}
                 sizes="(min-width: 1024px) 46vw, 100vw"
-                className="photo h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+                className="photo-lifted h-[clamp(16rem,38vw,26rem)] w-full object-cover"
               />
             </Reveal>
             <Reveal delay={110}>
