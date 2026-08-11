@@ -76,10 +76,19 @@ export const site = {
    * Loja da Morada. Segunda a sexta é um horário só; aos sábados a loja abre
    * mais cedo e é o único dia em que a Feira da Chácara, a Padaria e os
    * pastéis fritos na hora funcionam.
+   *
+   * Endereço próprio, ao lado da sede (que fica no 1934): a Loja tem porta
+   * e número diferentes, por isso não usa `site.address`.
    */
   shop: {
     weekdays: { opens: "09:00", closes: "17:00" },
     saturday: { opens: "08:00", closes: "17:00" },
+    address: {
+      street: "Rua José Paulino, 1916",
+      note: "Ao lado da Morada",
+    },
+    instagram: "https://www.instagram.com/lojadamorada/",
+    instagramHandle: "@lojadamorada",
   },
 
   /**
@@ -106,6 +115,12 @@ export const mapsQuery = encodeURIComponent(
 
 export const mapsDirectionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`;
 export const mapsPlaceUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+
+/** Mesma lógica de `mapsPlaceUrl`, para o endereço próprio da Loja. */
+const shopMapsQuery = encodeURIComponent(
+  `${site.shop.address.street}, ${site.address.district}, ${site.address.city} - ${site.address.state}`,
+);
+export const shopMapsPlaceUrl = `https://www.google.com/maps/search/?api=1&query=${shopMapsQuery}`;
 
 /** OpenStreetMap embed — sem cookies de terceiros, sem chave de API. */
 const bboxPad = 0.004;

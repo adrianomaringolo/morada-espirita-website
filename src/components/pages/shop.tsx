@@ -14,8 +14,14 @@ import {
 import { getDictionary } from "@/i18n/dictionaries";
 import { pathFor, type Locale } from "@/i18n/config";
 import { images } from "@/content/images";
-import { site } from "@/content/site";
-import { FacebookGlyph, PhoneGlyph, facebookLink, phoneLink } from "@/components/channels";
+import { site, shopMapsPlaceUrl } from "@/content/site";
+import {
+  FacebookGlyph,
+  InstagramGlyph,
+  PhoneGlyph,
+  facebookLink,
+  phoneLink,
+} from "@/components/channels";
 
 /**
  * Uma imagem por oferta, na mesma ordem de `t.shop.offerings` — ver o
@@ -192,6 +198,26 @@ export function ShopPage({ locale }: { locale: Locale }) {
           <p className="mt-2 max-w-[58ch] text-[length:var(--text-small)] text-muted">
             {t.shop.scheduleEventsNote}
           </p>
+
+          <div className="mt-8 flex flex-col gap-4 border-t border-line pt-6 sm:flex-row sm:items-baseline sm:justify-between">
+            <a
+              href={shopMapsPlaceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-[length:var(--text-small)] font-semibold text-primary underline decoration-1 underline-offset-4 hover:text-primary-hover hover:decoration-2"
+            >
+              {site.shop.address.street} — {site.shop.address.note}
+            </a>
+            <a
+              href={site.shop.instagram}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-[length:var(--text-small)] font-semibold text-primary no-underline hover:text-primary-hover hover:underline hover:underline-offset-4"
+            >
+              <InstagramGlyph size={17} />
+              {site.shop.instagramHandle}
+            </a>
+          </div>
         </div>
       </Section>
 
