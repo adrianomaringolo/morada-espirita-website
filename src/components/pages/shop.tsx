@@ -33,7 +33,7 @@ import {
  */
 const offeringImages = [
   { ...images.shop.gotaDeCura, photo: true },
-  { ...images.shop.bazar, photo: false },
+  { ...images.shop.bazar, photo: true },
   { ...images.shop.feiraChacara, photo: true },
   { ...images.shop.padaria, photo: true },
   { ...images.shop.pasteis, photo: false },
@@ -110,6 +110,30 @@ export function ShopPage({ locale }: { locale: Locale }) {
         </div>
       </Section>
 
+      {/* Instagram — colagem do feed como fundo, texto sobre um véu escuro */}
+      <section className="on-deep relative isolate overflow-hidden py-[clamp(3.5rem,8vw,6.5rem)] text-bg">
+        <Image
+          src={images.shop.instagramBg.src}
+          alt=""
+          width={images.shop.instagramBg.width}
+          height={images.shop.instagramBg.height}
+          sizes="100vw"
+          className="absolute inset-0 -z-20 h-full w-full object-cover"
+        />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-ink/78" />
+        <div className="container-page relative flex flex-col items-start gap-5">
+          <InstagramGlyph size={30} />
+          <h2 className="max-w-[24ch] text-[length:var(--text-h2)] text-bg">
+            {t.shop.instagramHeading}
+          </h2>
+          <p className="max-w-[46ch] text-blue-soft">{t.shop.instagramBody}</p>
+          <ActionAnchor href={site.shop.instagram} target="_blank" rel="noreferrer" variant="onDeep">
+            <InstagramGlyph size={17} />
+            {t.shop.instagramCta}
+          </ActionAnchor>
+        </div>
+      </section>
+
       {/* Eventos e confraternizações, com a Festa Junina em destaque ------- */}
       <Section>
         <div className="container-page">
@@ -119,11 +143,11 @@ export function ShopPage({ locale }: { locale: Locale }) {
             <Reveal>
               <Image
                 src={images.shop.festaJunina.src}
-                alt=""
+                alt={t.shop.juneImageAlt}
                 width={images.shop.festaJunina.width}
                 height={images.shop.festaJunina.height}
                 sizes="(min-width: 1024px) 46vw, 100vw"
-                className="h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+                className="photo h-[clamp(16rem,38vw,26rem)] w-full object-cover"
               />
             </Reveal>
             <Reveal delay={110}>
@@ -211,7 +235,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
             {t.shop.scheduleEventsNote}
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 border-t border-line pt-6 sm:flex-row sm:items-baseline sm:justify-between">
+          <div className="mt-8 border-t border-line pt-6">
             <a
               href={shopMapsPlaceUrl}
               target="_blank"
@@ -219,15 +243,6 @@ export function ShopPage({ locale }: { locale: Locale }) {
               className="text-[length:var(--text-small)] font-semibold text-primary underline decoration-1 underline-offset-4 hover:text-primary-hover hover:decoration-2"
             >
               {site.shop.address.street} — {site.shop.address.note}
-            </a>
-            <a
-              href={site.shop.instagram}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-[length:var(--text-small)] font-semibold text-primary no-underline hover:text-primary-hover hover:underline hover:underline-offset-4"
-            >
-              <InstagramGlyph size={17} />
-              {site.shop.instagramHandle}
             </a>
           </div>
         </div>

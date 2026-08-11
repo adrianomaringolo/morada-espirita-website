@@ -501,7 +501,8 @@ export const pt = {
         name: "Bazar",
         saturdayOnly: false,
         body: "O Bazar da Morada valoriza o trabalho manual, a criatividade e os talentos das nossas trabalhadoras: peças de crochê, bordados, costuras, trabalhos em tecido e outras criações feitas à mão. Ao escolher um produto do Bazar, você também ajuda a sustentar os projetos assistenciais da Morada.",
-        imageAlt: "",
+        imageAlt:
+          "Sala do Bazar com almofadas, toalhas bordadas e imagens em cerâmica expostas em prateleiras e sobre a mesa",
       },
       {
         name: "Feira da Chácara da Mãe Luzia",
@@ -541,6 +542,12 @@ export const pt = {
       "Confraternização",
       "Surpresas e novidades",
     ],
+    juneImageAlt: "Árvore do quintal da Morada decorada com bandeirinhas, flores e enfeites da Festa Junina",
+
+    instagramHeading: "Acompanhe a Loja no Instagram",
+    instagramBody:
+      "Novidades da Feira, do Bazar, da Gota de Cura e dos eventos da Loja, sempre em @lojadamorada.",
+    instagramCta: "Seguir no Instagram",
 
     helpHeading: "Seu consumo também ajuda",
     helpBody:

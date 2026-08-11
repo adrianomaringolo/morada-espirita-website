@@ -65,10 +65,10 @@ export const images = {
   },
 
   /**
-   * Loja da Morada. `bazar`, `pasteis` e `festaJunina` ainda são provisórias
-   * (ilustrações de traço na paleta da casa, não fotografias) — substituir
-   * pelos arquivos reais em public/images/loja/ mantendo os nomes assim que
-   * a Morada enviar essas fotos.
+   * Loja da Morada. `pasteis` ainda é provisória (ilustração de traço na
+   * paleta da casa, não fotografia) — substituir pelo arquivo real em
+   * public/images/loja/pasteis.jpg mantendo o nome assim que a Morada
+   * enviar essa foto.
    */
   shop: {
     fachada: {
@@ -85,9 +85,9 @@ export const images = {
     },
     bazar: {
       src: "/images/loja/bazar.jpg",
-      width: 1400,
-      height: 1050,
-      credit: "Imagem provisória da Morada",
+      width: 793,
+      height: 1058,
+      credit: "Acervo da Loja da Morada",
     },
     feiraChacara: {
       src: "/images/loja/feira-chacara.jpg",
@@ -109,9 +109,16 @@ export const images = {
     },
     festaJunina: {
       src: "/images/loja/festa-junina.jpg",
+      width: 790,
+      height: 1053,
+      credit: "Acervo da Loja da Morada",
+    },
+    /** Colagem de fotos do feed do Instagram da Loja, usada como fundo do destaque. */
+    instagramBg: {
+      src: "/images/loja/instagram-bg.jpg",
       width: 1400,
-      height: 1050,
-      credit: "Imagem provisória da Morada",
+      height: 742,
+      credit: "Acervo da Loja da Morada",
     },
   },
 } as const;

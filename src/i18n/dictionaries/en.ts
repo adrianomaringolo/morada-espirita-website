@@ -501,7 +501,8 @@ export const en: Dictionary = {
         name: "Bazaar",
         saturdayOnly: false,
         body: "The Morada's bazaar values the manual work, creativity and talent of our women workers: crochet, embroidery, sewing, fabric work and other handmade creations. Choosing something from the bazaar also helps sustain the Morada's charity projects.",
-        imageAlt: "",
+        imageAlt:
+          "The bazaar room with cushions, embroidered towels and ceramic figures displayed on shelves and on the table",
       },
       {
         name: "Chácara da Mãe Luzia farmers' market",
@@ -541,6 +542,12 @@ export const en: Dictionary = {
       "Gathering and fellowship",
       "Surprises",
     ],
+    juneImageAlt: "A tree in the Morada's yard decorated with bunting, flowers and Festa Junina decorations",
+
+    instagramHeading: "Follow the shop on Instagram",
+    instagramBody:
+      "News from the market, the bazaar, Gota de Cura and the shop's events, always at @lojadamorada.",
+    instagramCta: "Follow on Instagram",
 
     helpHeading: "Your purchase helps too",
     helpBody:
