@@ -73,6 +73,16 @@ export const site = {
   },
 
   /**
+   * Loja da Morada. Segunda a sexta é um horário só; aos sábados a loja abre
+   * mais cedo e é o único dia em que a Feira da Chácara, a Padaria e os
+   * pastéis fritos na hora funcionam.
+   */
+  shop: {
+    weekdays: { opens: "09:00", closes: "17:00" },
+    saturday: { opens: "08:00", closes: "17:00" },
+  },
+
+  /**
    * Números da caridade. Aproximados e informados pela própria casa.
    * Confirmar antes de cada atualização do site.
    */

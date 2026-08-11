@@ -463,12 +463,92 @@ export const pt = {
     lead: "Esta página vai reunir o que acontece na Chácara da Morada.",
   },
 
+  /* --- Loja da Morada ------------------------------------------------- */
+
   shop: {
     title: "Loja da Morada",
     description:
-      "A Loja da Morada Espírita Professor Lairi Hans, em Campinas. Página em preparação.",
+      "Loja da Morada: produtos artesanais, óleos e cuidados da Gota de Cura, feira da Chácara da Mãe Luzia, padaria e pastéis fritos na hora aos sábados, em Campinas. Toda a renda é revertida para a caridade.",
     heading: "Loja da Morada",
-    lead: "Esta página vai reunir o que a Loja da Morada oferece.",
+    lead: "Produtos artesanais, alimentos cultivados na própria Chácara e cuidado para o corpo — tudo em um só lugar, com toda a renda revertida para os trabalhos assistenciais da Morada.",
+    missionPill: "Toda a renda ajuda famílias de Campinas",
+
+    introBody: [
+      "A Loja da Morada reúne, em um só lugar, diferentes iniciativas que valorizam o trabalho artesanal, a produção local, a alimentação saudável, o cuidado e, principalmente, as pessoas.",
+      "Toda a renda obtida pela Loja é revertida para os trabalhos de manutenção da Morada e para as ações assistenciais junto a famílias carentes da região de Campinas.",
+      "Cada produto adquirido, cada pastel compartilhado e cada visita contribuem para que esse trabalho continue e para que mais famílias possam ser acolhidas.",
+    ],
+    introNote: "Comprar na Morada é também uma forma de contribuir.",
+
+    /*
+     * A ordem importa: o componente casa cada item com uma imagem em
+     * `images.shop` pela posição no array, não pelo nome. Adicionar, remover
+     * ou reordenar um item aqui exige o mesmo ajuste em src/components/pages/shop.tsx.
+     */
+    offeringsHeading: "O que você encontra",
+    saturdayOnlyBadge: "Só aos sábados",
+    offerings: [
+      {
+        name: "Gota de Cura",
+        saturdayOnly: false,
+        body: "Produtos artesanais voltados ao cuidado e ao bem-estar, inspirados na aromaterapia e no poder das plantas: óleos essenciais, hidrolatos, águas de colônia, sais de banho, sabonetes e outras preparações artesanais, desenvolvidas com atenção aos ingredientes e aos processos de produção.",
+      },
+      {
+        name: "Bazar",
+        saturdayOnly: false,
+        body: "O Bazar da Morada valoriza o trabalho manual, a criatividade e os talentos das nossas trabalhadoras: peças de crochê, bordados, costuras, trabalhos em tecido e outras criações feitas à mão. Ao escolher um produto do Bazar, você também ajuda a sustentar os projetos assistenciais da Morada.",
+      },
+      {
+        name: "Feira da Chácara da Mãe Luzia",
+        saturdayOnly: true,
+        body: "Produtos cultivados diretamente na Chácara da Mãe Luzia, com cuidado e sem o uso de agrotóxicos — frescos, próximos da natureza e respeitando os ciclos do plantio e da colheita.",
+      },
+      {
+        name: "Padaria Mãe Luzia",
+        saturdayOnly: true,
+        body: "Pão e outros produtos preparados com carinho, com sabores que remetem à comida feita para compartilhar e reunir pessoas ao redor da mesa.",
+      },
+      {
+        name: "Pastéis fritos na hora",
+        saturdayOnly: true,
+        body: "Pastéis preparados e fritos na hora, para aproveitar aquele sabor de pastel quentinho enquanto você visita a Feira ou a programação da Morada.",
+      },
+    ],
+
+    eventsHeading: "Eventos e confraternizações",
+    eventsBody:
+      "Ao longo do ano, a Morada também promove eventos de confraternização temáticos, com música, comidas especiais e atividades para reunir famílias, amigos e toda a comunidade — e que ajudam a fortalecer o trabalho que a Morada desenvolve o ano inteiro.",
+
+    juneHeading: "Festa Junina da Morada",
+    juneWhen: "Todos os sábados de junho",
+    juneBody:
+      "Durante todos os sábados de junho, a Morada ganha um clima ainda mais especial com a tradicional Festa Junina: uma programação cheia de atrações, comidas típicas e muitas surpresas.",
+    juneAttractions: [
+      "Música ao vivo",
+      "Bingo",
+      "Comidas típicas",
+      "Pastéis fritos na hora",
+      "Confraternização",
+      "Surpresas e novidades",
+    ],
+
+    helpHeading: "Seu consumo também ajuda",
+    helpBody:
+      "Toda a renda obtida na Loja da Morada é destinada à manutenção dos trabalhos e às ações assistenciais voltadas a famílias carentes da região de Campinas. Sua compra ajuda a manter esse trabalho e a levar auxílio a quem mais precisa.",
+    helpNote: "Você escolhe o que levar. A sua compra ajuda a cuidar de alguém.",
+    helpCta: "Conhecer o trabalho de caridade",
+
+    scheduleHeading: "Horários de funcionamento",
+    scheduleWeekdaysLabel: "Segunda a sexta-feira",
+    scheduleSaturdayLabel: "Sábados",
+    scheduleSaturdayNote:
+      "A Feira da Chácara da Mãe Luzia, a Padaria Mãe Luzia e os pastéis fritos na hora funcionam exclusivamente aos sábados.",
+    scheduleEventsNote:
+      "Eventos e confraternizações podem ter programação e horários próprios, divulgados nas redes da Morada.",
+
+    closingHeading: "Venha fazer parte da Morada",
+    closingBody:
+      "Seja para escolher produtos artesanais, levar alimentos frescos da Chácara, aproveitar a padaria, comer um pastel quentinho ou participar de um dos eventos, a Loja da Morada está de portas abertas para receber você.",
   },
 
   history: {

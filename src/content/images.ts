@@ -63,4 +63,48 @@ export const images = {
     height: 1600,
     credit: "Acervo da Morada",
   },
+
+  /**
+   * Loja da Morada. Provisórias: ilustrações de traço na paleta da casa, não
+   * fotografias. Substituir pelos arquivos reais em public/images/loja/
+   * mantendo os nomes e a proporção 4:3 assim que a Morada enviar as fotos.
+   */
+  shop: {
+    gotaDeCura: {
+      src: "/images/loja/gota-de-cura.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+    bazar: {
+      src: "/images/loja/bazar.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+    feiraChacara: {
+      src: "/images/loja/feira-chacara.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+    padaria: {
+      src: "/images/loja/padaria.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+    pasteis: {
+      src: "/images/loja/pasteis.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+    festaJunina: {
+      src: "/images/loja/festa-junina.jpg",
+      width: 1400,
+      height: 1050,
+      credit: "Imagem provisória da Morada",
+    },
+  },
 } as const;

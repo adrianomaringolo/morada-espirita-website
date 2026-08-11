@@ -462,12 +462,93 @@ export const en: Dictionary = {
     lead: "This page will gather what happens at the Morada's country property.",
   },
 
+  /* --- The Morada's shop ------------------------------------------------ */
+
   shop: {
     title: "The Morada's shop",
     description:
-      "The shop of Morada Espírita Professor Lairi Hans, in Campinas, Brazil. Page in preparation.",
+      "The Morada's shop: handmade goods, oils and care products from Gota de Cura, the Chácara da Mãe Luzia farmers' market, bakery and fried pastéis on Saturdays, in Campinas, Brazil. All proceeds go to charity.",
     heading: "The Morada's shop",
-    lead: "This page will gather what the Morada's shop offers.",
+    lead: "Handmade goods, food grown on our own country property, and body-care products — all in one place, with every real of proceeds going to the Morada's charity work.",
+    missionPill: "All proceeds help families in Campinas",
+
+    introBody: [
+      "The Morada's shop brings together, in one place, different initiatives that value handmade work, local production, healthy food, care, and above all, people.",
+      "All proceeds from the shop go towards maintaining the Morada and towards its charity work with families in need across the Campinas region.",
+      "Every product bought, every pastel shared and every visit helps this work continue, and helps more families be welcomed and supported.",
+    ],
+    introNote: "Shopping at the Morada is also a way of helping.",
+
+    /*
+     * Order matters: the component pairs each item with an image in
+     * `images.shop` by position in the array, not by name. Adding, removing
+     * or reordering an item here needs the same change in
+     * src/components/pages/shop.tsx.
+     */
+    offeringsHeading: "What you'll find",
+    saturdayOnlyBadge: "Saturdays only",
+    offerings: [
+      {
+        name: "Gota de Cura",
+        saturdayOnly: false,
+        body: "Handmade products for care and well-being, inspired by aromatherapy and the power of plants: essential oils, hydrosols, colognes, bath salts, soaps and other handmade preparations, made with care for ingredients and process.",
+      },
+      {
+        name: "Bazaar",
+        saturdayOnly: false,
+        body: "The Morada's bazaar values the manual work, creativity and talent of our women workers: crochet, embroidery, sewing, fabric work and other handmade creations. Choosing something from the bazaar also helps sustain the Morada's charity projects.",
+      },
+      {
+        name: "Chácara da Mãe Luzia farmers' market",
+        saturdayOnly: true,
+        body: "Produce grown at the Chácara da Mãe Luzia, our country property, with care and without pesticides — fresh, close to nature, and respecting the cycles of planting and harvest.",
+      },
+      {
+        name: "Padaria Mãe Luzia bakery",
+        saturdayOnly: true,
+        body: "Bread and other goods prepared with care, with flavours that call to mind food made to be shared around a table.",
+      },
+      {
+        name: "Pastéis fried to order",
+        saturdayOnly: true,
+        body: "Pastéis prepared and fried to order, for that irresistible hot-from-the-fryer taste while you visit the market or the rest of what's happening at the Morada.",
+      },
+    ],
+
+    eventsHeading: "Events and gatherings",
+    eventsBody:
+      "Throughout the year, the Morada also holds themed gatherings, with music, special food and activities that bring together families, friends and the whole community — and that also help sustain the Morada's work all year round.",
+
+    juneHeading: "The Morada's Festa Junina",
+    juneWhen: "Every Saturday in June",
+    juneBody:
+      "Every Saturday in June, the Morada takes on an even more festive air with its traditional Festa Junina — Brazil's June harvest festival — with a programme full of live music, food and surprises.",
+    juneAttractions: [
+      "Live music",
+      "Bingo",
+      "Traditional food",
+      "Pastéis fried to order",
+      "Gathering and fellowship",
+      "Surprises",
+    ],
+
+    helpHeading: "Your purchase helps too",
+    helpBody:
+      "All proceeds from the Morada's shop go towards maintaining its work and towards charity for families in need across the Campinas region. Your purchase helps keep this work going and brings support to those who need it most.",
+    helpNote: "You choose what to take home. Your purchase helps care for someone.",
+    helpCta: "See our charity work",
+
+    scheduleHeading: "Opening hours",
+    scheduleWeekdaysLabel: "Monday to Friday",
+    scheduleSaturdayLabel: "Saturdays",
+    scheduleSaturdayNote:
+      "The Chácara da Mãe Luzia farmers' market, the Padaria Mãe Luzia bakery and the fried pastéis run exclusively on Saturdays.",
+    scheduleEventsNote:
+      "Events and gatherings may have their own schedule, announced on the Morada's social media.",
+
+    closingHeading: "Come and be part of the Morada",
+    closingBody:
+      "Whether to choose handmade goods, take home fresh produce from the Chácara, enjoy the bakery, eat a hot pastel or join one of the events, the Morada's shop is open to welcome you.",
   },
 
   history: {
