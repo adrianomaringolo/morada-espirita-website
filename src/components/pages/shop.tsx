@@ -26,14 +26,17 @@ import {
 /**
  * Uma imagem por oferta, na mesma ordem de `t.shop.offerings` — ver o
  * comentário sobre essa dependência de ordem em i18n/dictionaries/pt.ts.
- * Todas provisórias: ilustrações de traço, não fotografias da Loja.
+ *
+ * `photo: true` marca as que já são fotografia real da Loja (entram
+ * dessaturadas, como toda foto do site — ver DESIGN.md). As demais ainda são
+ * ilustrações de traço provisórias e não levam o filtro `.photo`.
  */
 const offeringImages = [
-  images.shop.gotaDeCura,
-  images.shop.bazar,
-  images.shop.feiraChacara,
-  images.shop.padaria,
-  images.shop.pasteis,
+  { ...images.shop.gotaDeCura, photo: true },
+  { ...images.shop.bazar, photo: false },
+  { ...images.shop.feiraChacara, photo: true },
+  { ...images.shop.padaria, photo: true },
+  { ...images.shop.pasteis, photo: false },
 ];
 
 export function ShopPage({ locale }: { locale: Locale }) {
@@ -49,9 +52,18 @@ export function ShopPage({ locale }: { locale: Locale }) {
 
       {/* O que é a Loja --------------------------------------------------- */}
       <Section className="!pt-[var(--spacing-section-tight)]">
-        <div className="container-page grid gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,auto)_minmax(0,1fr)]">
-          <RoseMark size={56} className="text-rose" />
-          <div>
+        <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-2">
+          <Reveal>
+            <Image
+              src={images.shop.fachada.src}
+              alt={t.shop.introImageAlt}
+              width={images.shop.fachada.width}
+              height={images.shop.fachada.height}
+              sizes="(min-width: 1024px) 46vw, 100vw"
+              className="photo h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+            />
+          </Reveal>
+          <Reveal delay={110}>
             <div className="prose-morada max-w-[62ch]">
               {t.shop.introBody.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
@@ -60,7 +72,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
             <p className="mt-6 max-w-[52ch] text-[length:var(--text-lead)] font-semibold leading-[1.4] text-primary">
               {t.shop.introNote}
             </p>
-          </div>
+          </Reveal>
         </div>
       </Section>
 
@@ -77,11 +89,11 @@ export function ShopPage({ locale }: { locale: Locale }) {
                   <article className="flex h-full flex-col border border-line bg-bg">
                     <Image
                       src={image.src}
-                      alt=""
+                      alt={item.imageAlt}
                       width={image.width}
                       height={image.height}
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
-                      className="h-48 w-full object-cover"
+                      className={`h-48 w-full object-cover ${image.photo ? "photo" : ""}`}
                     />
                     <div className="flex flex-1 flex-col p-7">
                       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">

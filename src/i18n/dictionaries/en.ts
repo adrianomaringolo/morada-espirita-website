@@ -478,6 +478,8 @@ export const en: Dictionary = {
       "Every product bought, every pastel shared and every visit helps this work continue, and helps more families be welcomed and supported.",
     ],
     introNote: "Shopping at the Morada is also a way of helping.",
+    introImageAlt:
+      "The entrance to the Morada's shop, with the market, crafts and Gota de Cura banners",
 
     /*
      * Order matters: the component pairs each item with an image in
@@ -492,26 +494,34 @@ export const en: Dictionary = {
         name: "Gota de Cura",
         saturdayOnly: false,
         body: "Handmade products for care and well-being, inspired by aromatherapy and the power of plants: essential oils, hydrosols, colognes, bath salts, soaps and other handmade preparations, made with care for ingredients and process.",
+        imageAlt:
+          "Shelves at Gota de Cura with essential oils, soaps and other aromatherapy products",
       },
       {
         name: "Bazaar",
         saturdayOnly: false,
         body: "The Morada's bazaar values the manual work, creativity and talent of our women workers: crochet, embroidery, sewing, fabric work and other handmade creations. Choosing something from the bazaar also helps sustain the Morada's charity projects.",
+        imageAlt: "",
       },
       {
         name: "Chácara da Mãe Luzia farmers' market",
         saturdayOnly: true,
         body: "Produce grown at the Chácara da Mãe Luzia, our country property, with care and without pesticides — fresh, close to nature, and respecting the cycles of planting and harvest.",
+        imageAlt:
+          "The Chácara Mãe Luzia market stall with fresh greens, eggs and herbs, and the price board behind it",
       },
       {
         name: "Padaria Mãe Luzia bakery",
         saturdayOnly: true,
         body: "Bread and other goods prepared with care, with flavours that call to mind food made to be shared around a table.",
+        imageAlt:
+          "Cake, cookies and homemade jam from the Padaria Mãe Luzia on the table, next to a mug with the bakery's name",
       },
       {
         name: "Pastéis fried to order",
         saturdayOnly: true,
         body: "Pastéis prepared and fried to order, for that irresistible hot-from-the-fryer taste while you visit the market or the rest of what's happening at the Morada.",
+        imageAlt: "",
       },
     ],
 
