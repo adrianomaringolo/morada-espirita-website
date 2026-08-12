@@ -444,15 +444,55 @@ export const en: Dictionary = {
     historyCta: "Read the history of the house",
   },
 
-  /* --- Pages in preparation (see `draftPages` in i18n/config.ts) --------- */
+  /* --- Gospel online ------------------------------------------------------ */
 
   gospelOnline: {
     title: "Gospel online",
     description:
-      "The online Gospel of Morada Espírita Professor Lairi Hans, in Campinas, Brazil. Page in preparation.",
+      "Online Gospel of Morada Espírita Professor Lairi Hans, streamed live at the same time as the house's prayers in Campinas. Video available for 30 minutes.",
     heading: "Gospel online",
-    lead: "This page will gather the Morada's online Gospel.",
+    lead: "The Morada's Gospel, streamed live at the same time as the prayers held at the house. The video stays available for 30 minutes from the start.",
+
+    scheduleHeading: "When",
+    scheduleNote:
+      "The online Gospel happens at the same time as the prayers held at the Morada, during the regular care hours.",
+
+    accessHeading: "How to watch",
+    accessBody:
+      "The Gospel is streamed at evangelho.morada.org.br, at the same time as the prayers held at the Morada. The video stays available for 30 minutes from the start — no login and no cost.",
+    accessCta: "Open evangelho.morada.org.br",
+    accessNote: "Same link every time. Worth bookmarking.",
+
+    guidanceHeading: "Guidance for the online Gospel",
+    guidanceLead:
+      "A few pointers to help you make the most of the blessed resources spirituality offers in this moment of prayer.",
+    guidance: [
+      {
+        title: "Spiritual stretcher: relief and healing",
+        body: "The Morada is a house of healing, home to elevated medical entities. The stretcher brings relief, strengthening and, if our Father allows it, healing to those held in thought. Picture the people you know who need that vibration, ill in body or in spirit — and picture yourself too, lying on the stretcher, healthy, serene, wrapped in light. Do this with faith, feeling the vibration reach your spirit, your thoughts raised to our Father.",
+      },
+      {
+        title: "Basket of vibration: light and strengthening",
+        body: "In this moment, the people held in thought receive vibrations of strength, peace, love, faith, balance and relief from their afflictions. It is a great source of strength for daily life, renewing what is positive and courageous in our spirit.",
+      },
+      {
+        title: "Flower, symbol of the spiritual part",
+        body: "The flower is the symbol of the spiritual part and, during the Gospel, receives the vibrations of our Father. Picture one petal of that flower, set apart and placed in your heart: it is love, peace, strength and light for your spirit. In difficult moments, remember that this petal lives in your spirit, carrying the vibrations of spirituality and the blessings of our Father to support you.",
+      },
+      {
+        title: "Fluidified water: strengthening for body and spirit",
+        body: "Before the Gospel, place a glass or a jug of water where you will pray, so that it receives the fluidification of the Morada's spiritual currents. These vibrations are a balm of strengthening, balance and purification.",
+      },
+    ],
+
+    closingHeading: "Join the next online Gospel",
+    closingBody: "The access is the same on every day the Morada works. Any questions, reach out.",
+    closingCta: "Open evangelho.morada.org.br",
   },
+
+  /* --- Page in preparation (see `draftPages` in i18n/config.ts) --------- */
+  /* `lead` is the only text of its own for now. Replace the four fields
+     when the content arrives. */
 
   chacara: {
     title: "The Morada's country property",

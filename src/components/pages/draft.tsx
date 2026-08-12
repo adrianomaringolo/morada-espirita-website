@@ -14,8 +14,8 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { pathFor, type Locale } from "@/i18n/config";
 import { site } from "@/content/site";
 
-/** As páginas que ainda não têm conteúdo. Uma só forma para as três. */
-type DraftPageId = "gospelOnline" | "chacara" | "shop";
+/** As páginas que ainda não têm conteúdo. Uma só forma para todas elas. */
+type DraftPageId = "chacara" | "shop";
 
 /**
  * Página em preparação.

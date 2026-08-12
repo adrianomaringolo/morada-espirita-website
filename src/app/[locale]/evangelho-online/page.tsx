@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { DraftPage } from "@/components/pages/draft";
-import { draftMetadata } from "@/i18n/metadata";
+import { GospelOnlinePage } from "@/components/pages/gospel-online";
+import { pageMetadata } from "@/i18n/metadata";
 
-/** Rota em português: /pt/evangelho-online — página em preparação. */
+/**
+ * Rota em português: /pt/evangelho-online
+ * O slug é traduzido, então cada idioma tem seu próprio arquivo de rota e
+ * `dynamicParams: false` garante que /en/evangelho-online responda 404 em vez
+ * de servir conteúdo duplicado.
+ */
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -10,9 +15,9 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata(): Metadata {
-  return draftMetadata("pt", "gospelOnline");
+  return pageMetadata("pt", "gospelOnline");
 }
 
 export default function Page() {
-  return <DraftPage locale="pt" page="gospelOnline" />;
+  return <GospelOnlinePage locale="pt" />;
 }
