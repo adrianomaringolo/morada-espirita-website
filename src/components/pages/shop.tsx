@@ -27,18 +27,16 @@ import {
  * Uma imagem por oferta, na mesma ordem de `t.shop.offerings` — ver o
  * comentário sobre essa dependência de ordem em i18n/dictionaries/pt.ts.
  *
- * `photo: true` marca as que já são fotografia real da Loja: levam
- * `.photo-lifted`, a variante mais clara e menos dessaturada do filtro de
- * foto (ver DESIGN.md) — aqui a cor do produto importa mais do que nas fotos
- * editoriais do resto do site. As demais ainda são ilustrações de traço
- * provisórias e não levam filtro nenhum.
+ * Todas fotografia real da Loja agora: levam `.photo-lifted`, a variante
+ * mais clara e menos dessaturada do filtro de foto (ver DESIGN.md) — aqui a
+ * cor do produto importa mais do que nas fotos editoriais do resto do site.
  */
 const offeringImages = [
-  { ...images.shop.gotaDeCura, photo: true },
-  { ...images.shop.bazar, photo: true },
-  { ...images.shop.feiraChacara, photo: true },
-  { ...images.shop.padaria, photo: true },
-  { ...images.shop.pasteis, photo: false },
+  images.shop.gotaDeCura,
+  images.shop.bazar,
+  images.shop.feiraChacara,
+  images.shop.padaria,
+  images.shop.pasteis,
 ];
 
 export function ShopPage({ locale }: { locale: Locale }) {
@@ -95,7 +93,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
                       width={image.width}
                       height={image.height}
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
-                      className={`h-48 w-full object-cover ${image.photo ? "photo-lifted" : ""}`}
+                      className="photo-lifted h-48 w-full object-cover"
                     />
                     <div className="flex flex-1 flex-col p-7">
                       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">

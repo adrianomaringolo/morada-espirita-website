@@ -522,7 +522,7 @@ export const en: Dictionary = {
         name: "Pastéis fried to order",
         saturdayOnly: true,
         body: "Pastéis prepared and fried to order, for that irresistible hot-from-the-fryer taste while you visit the market or the rest of what's happening at the Morada.",
-        imageAlt: "",
+        imageAlt: "Rows of golden, freshly-fried pastéis stacked in a tray",
       },
     ],
 

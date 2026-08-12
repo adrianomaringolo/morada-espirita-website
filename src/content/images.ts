@@ -64,12 +64,7 @@ export const images = {
     credit: "Acervo da Morada",
   },
 
-  /**
-   * Loja da Morada. `pasteis` ainda é provisória (ilustração de traço na
-   * paleta da casa, não fotografia) — substituir pelo arquivo real em
-   * public/images/loja/pasteis.jpg mantendo o nome assim que a Morada
-   * enviar essa foto.
-   */
+  /** Loja da Morada. */
   shop: {
     fachada: {
       src: "/images/loja/fachada.jpg",
@@ -103,9 +98,9 @@ export const images = {
     },
     pasteis: {
       src: "/images/loja/pasteis.jpg",
-      width: 1400,
-      height: 1050,
-      credit: "Imagem provisória da Morada",
+      width: 900,
+      height: 675,
+      credit: "Acervo da Loja da Morada",
     },
     festaJunina: {
       src: "/images/loja/festa-junina.jpg",

@@ -522,7 +522,7 @@ export const pt = {
         name: "Pastéis fritos na hora",
         saturdayOnly: true,
         body: "Pastéis preparados e fritos na hora, para aproveitar aquele sabor de pastel quentinho enquanto você visita a Feira ou a programação da Morada.",
-        imageAlt: "",
+        imageAlt: "Fileiras de pastéis dourados, recém-fritos, empilhados numa forma",
       },
     ],
 
@@ -563,7 +563,7 @@ export const pt = {
     scheduleEventsNote:
       "Eventos e confraternizações podem ter programação e horários próprios, divulgados nas redes da Morada.",
 
-    closingHeading: "Venha fazer parte da Morada",
+    closingHeading: "Venha conhecer a nossa loja",
     closingBody:
       "Seja para escolher produtos artesanais, levar alimentos frescos da Chácara, aproveitar a padaria, comer um pastel quentinho ou participar de um dos eventos, a Loja da Morada está de portas abertas para receber você.",
   },
