@@ -85,15 +85,16 @@
 
   html {
     -webkit-text-size-adjust: 100%;
-    scroll-behavior: smooth;
+    /*
+     * Sem scroll-behavior: smooth aqui: ele se aplica também ao
+     * window.scrollTo(0, 0) que o App Router dispara a cada navegação,
+     * e a rolagem animada perdia a corrida contra o layout entrando
+     * (fontes, imagens), deixando a página no meio da leitura em vez
+     * do topo. O único link âncora do site (pular para o conteúdo)
+     * funciona igual sem isso.
+     */
     /* Compensa o cabeçalho fixo (uma linha, ~69px) ao rolar por âncora. */
     scroll-padding-top: 5.5rem;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
   }
 
   body {
@@ -278,6 +279,18 @@
       opacity 420ms var(--ease-out-quart),
       transform 420ms var(--ease-out-quart);
     transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  /* Fotografias: em vez do deslize, um zoom suave — a foto assenta no
+     tamanho final em vez de escorregar de baixo. Só o zoom muda; opacidade
+     e atraso seguem a regra geral acima. */
+  [data-reveal][data-reveal-zoom="true"][data-reveal-armed="true"] {
+    transform: scale(1.06);
+  }
+
+  [data-reveal][data-reveal-zoom="true"][data-reveal-armed="true"][data-reveal-shown="true"] {
+    transform: none;
+    transition-duration: 700ms;
   }
 }
 

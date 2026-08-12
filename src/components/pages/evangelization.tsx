@@ -60,7 +60,7 @@ export function EvangelizationPage({ locale }: { locale: Locale }) {
             </ul>
           </Reveal>
 
-          <Reveal delay={120} className="lg:sticky lg:top-24">
+          <Reveal delay={120} zoom className="lg:sticky lg:top-24">
             <Image
               src={images.drawings.src}
               alt={t.evangelization.imageAlt}

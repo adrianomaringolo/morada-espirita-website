@@ -63,4 +63,64 @@ export const images = {
     height: 1600,
     credit: "Acervo da Morada",
   },
+
+  /** Loja da Morada. */
+  shop: {
+    /** O logo próprio da Loja — as três rosas do símbolo da Morada, com o nome. */
+    logo: {
+      src: "/images/loja/logo.png",
+      width: 600,
+      height: 600,
+      credit: "Acervo da Loja da Morada",
+    },
+    fachada: {
+      src: "/images/loja/fachada.jpg",
+      width: 1600,
+      height: 1200,
+      credit: "Acervo da Loja da Morada",
+    },
+    gotaDeCura: {
+      src: "/images/loja/gota-de-cura.jpg",
+      width: 1200,
+      height: 1600,
+      credit: "Acervo da Loja da Morada",
+    },
+    bazar: {
+      src: "/images/loja/bazar.jpg",
+      width: 793,
+      height: 1058,
+      credit: "Acervo da Loja da Morada",
+    },
+    feiraChacara: {
+      src: "/images/loja/feira-chacara.jpg",
+      width: 1600,
+      height: 900,
+      credit: "Acervo da Loja da Morada",
+    },
+    padaria: {
+      src: "/images/loja/padaria.jpg",
+      width: 1200,
+      height: 1600,
+      credit: "Acervo da Loja da Morada",
+    },
+    pasteis: {
+      src: "/images/loja/pasteis.jpg",
+      width: 900,
+      height: 675,
+      credit: "Acervo da Loja da Morada",
+    },
+    festaJunina: {
+      src: "/images/loja/festa-junina.jpg",
+      width: 790,
+      height: 1053,
+      credit: "Acervo da Loja da Morada",
+    },
+    /** Colagem de fotos do feed do Instagram da Loja, usada como fundo do destaque. */
+    instagramBg: {
+      src: "/images/loja/instagram-bg.jpg",
+      width: 1400,
+      height: 742,
+      credit: "Acervo da Loja da Morada",
+    },
+  },
 } as const;

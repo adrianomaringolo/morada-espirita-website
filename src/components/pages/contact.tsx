@@ -1,6 +1,7 @@
 import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { ContactForm } from "@/components/contact-form";
 import { CareSchedule } from "@/components/schedule";
+import { Reveal } from "@/components/reveal";
 import {
   FacebookGlyph,
   InstagramGlyph,
@@ -54,7 +55,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
       {/* Os outros caminhos --------------------------------------------- */}
       <Section className="!pt-[var(--spacing-section-tight)]">
         <div className="container-page grid gap-x-14 gap-y-14 lg:grid-cols-3">
-          <div>
+          <Reveal>
             <h2 className="flex items-center gap-2.5 text-[length:var(--text-h3)]">
               <span className="text-rose">
                 <InstagramGlyph size={22} />
@@ -70,9 +71,9 @@ export function ContactPage({ locale }: { locale: Locale }) {
             <p className="mt-3 max-w-[32ch] text-[length:var(--text-small)] text-muted">
               {t.contact.instagramNote}
             </p>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal delay={70}>
             <h2 className="flex items-center gap-2.5 text-[length:var(--text-h3)]">
               <span className="text-rose">
                 <PhoneGlyph size={21} />
@@ -88,9 +89,9 @@ export function ContactPage({ locale }: { locale: Locale }) {
             <p className="mt-3 max-w-[32ch] text-[length:var(--text-small)] text-muted">
               {t.contact.phoneNote}
             </p>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal delay={140}>
             <h2 className="text-[length:var(--text-h3)]">{t.contact.visitHeading}</h2>
             <address className="mt-4 not-italic">
               <a
@@ -107,26 +108,32 @@ export function ContactPage({ locale }: { locale: Locale }) {
             <p className="mt-3 max-w-[32ch] text-[length:var(--text-small)] text-muted">
               {t.contact.visitNote}
             </p>
-          </div>
+          </Reveal>
         </div>
       </Section>
 
       <Section tone="surface" className="border-t border-line">
         <div className="container-page">
-          <SectionHeading>{t.common.schedule}</SectionHeading>
-          <div className="mt-8 border border-line">
-            <CareSchedule locale={locale} />
-          </div>
+          <Reveal>
+            <SectionHeading>{t.common.schedule}</SectionHeading>
+            <div className="mt-8 border border-line">
+              <CareSchedule locale={locale} />
+            </div>
+          </Reveal>
         </div>
       </Section>
 
       {endpoint ? (
         <Section className="border-t border-line">
           <div className="container-page grid gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.25fr)]">
-            <SectionHeading lead={t.contact.formNote}>
-              {t.contact.formHeading}
-            </SectionHeading>
-            <ContactForm copy={t.contact.form} endpoint={endpoint} />
+            <Reveal>
+              <SectionHeading lead={t.contact.formNote}>
+                {t.contact.formHeading}
+              </SectionHeading>
+            </Reveal>
+            <Reveal delay={110}>
+              <ContactForm copy={t.contact.form} endpoint={endpoint} />
+            </Reveal>
           </div>
         </Section>
       ) : null}

@@ -233,7 +233,7 @@ export default async function HomePage({
             </p>
           </Reveal>
 
-          <Reveal delay={120}>
+          <Reveal delay={120} zoom>
             <Image
               src={images.hands.src}
               alt={t.home.charity.imageAlt}
@@ -263,7 +263,7 @@ export default async function HomePage({
             </p>
           </Reveal>
 
-          <Reveal delay={120} className="lg:order-1">
+          <Reveal delay={120} zoom className="lg:order-1">
             <Image
               src={images.drawings.src}
               alt={t.evangelization.imageAlt}

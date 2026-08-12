@@ -19,11 +19,14 @@ export function Reveal({
   delay = 0,
   className = "",
   as: Tag = "div",
+  zoom = false,
 }: {
   children: ReactNode;
   delay?: number;
   className?: string;
   as?: "div" | "li" | "section";
+  /** Em vez do leve deslize de baixo, entra de um zoom suave — para fotografias. */
+  zoom?: boolean;
 }) {
   const ref = useRef<HTMLElement>(null);
 
@@ -69,6 +72,7 @@ export function Reveal({
       // @ts-expect-error — o ref é compatível com as três tags permitidas
       ref={ref}
       data-reveal=""
+      data-reveal-zoom={zoom ? "true" : undefined}
       style={{ "--reveal-delay": `${delay}ms` } as React.CSSProperties}
       className={className}
     >

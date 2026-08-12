@@ -69,7 +69,7 @@ export function SpiritismPage({ locale }: { locale: Locale }) {
           moldura. Sobre `surface` apareceria um retângulo. */}
       <Section>
         <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-          <Reveal>
+          <Reveal zoom>
             <Image
               src={images.jesus.src}
               alt={t.spiritism.gospelImageAlt}

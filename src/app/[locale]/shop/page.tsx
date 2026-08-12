@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { DraftPage } from "@/components/pages/draft";
-import { draftMetadata } from "@/i18n/metadata";
+import { ShopPage } from "@/components/pages/shop";
+import { pageMetadata } from "@/i18n/metadata";
 
-/** Rota em inglês: /en/shop — página em preparação. */
+/**
+ * Rota em inglês: /en/shop
+ * O slug é traduzido, então cada idioma tem seu próprio arquivo de rota e
+ * `dynamicParams: false` garante que /pt/shop responda 404 em vez de
+ * servir conteúdo duplicado.
+ */
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -10,9 +15,9 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata(): Metadata {
-  return draftMetadata("en", "shop");
+  return pageMetadata("en", "shop");
 }
 
 export default function Page() {
-  return <DraftPage locale="en" page="shop" />;
+  return <ShopPage locale="en" />;
 }

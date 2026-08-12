@@ -67,14 +67,16 @@ export function HistoryPage({ locale }: { locale: Locale }) {
             {t.history.houses.map((house, i) => (
               <Reveal as="li" key={house.src} delay={(i % 3) * 70}>
                 <figure>
-                  <Image
-                    src={house.src}
-                    alt={house.alt}
-                    width={house.width}
-                    height={house.height}
-                    sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
-                    className="photo aspect-[4/3] w-full bg-bg object-contain"
-                  />
+                  <Reveal zoom delay={(i % 3) * 70}>
+                    <Image
+                      src={house.src}
+                      alt={house.alt}
+                      width={house.width}
+                      height={house.height}
+                      sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
+                      className="photo aspect-[4/3] w-full bg-bg object-contain"
+                    />
+                  </Reveal>
                   <figcaption className="mt-4">
                     <span className="block text-[length:var(--text-label)] font-semibold text-blue">
                       {house.title}
@@ -129,14 +131,16 @@ export function HistoryPage({ locale }: { locale: Locale }) {
       <Section tone="surface" className="border-y border-line">
         <div className="container-page grid gap-x-14 gap-y-16 lg:grid-cols-2">
           <Reveal>
-            <Image
-              src={images.mentor.src}
-              alt={t.history.mentorImageAlt}
-              width={images.mentor.width}
-              height={images.mentor.height}
-              sizes="(min-width: 640px) 15rem, 60vw"
-              className="photo-lifted mb-8 w-[clamp(9rem,32vw,15rem)] object-cover"
-            />
+            <Reveal zoom>
+              <Image
+                src={images.mentor.src}
+                alt={t.history.mentorImageAlt}
+                width={images.mentor.width}
+                height={images.mentor.height}
+                sizes="(min-width: 640px) 15rem, 60vw"
+                className="photo-lifted mb-8 w-[clamp(9rem,32vw,15rem)] object-cover"
+              />
+            </Reveal>
             <SectionHeading>{t.history.mentorHeading}</SectionHeading>
             <div className="prose-morada mt-6">
               <p>{t.history.mentorBody}</p>
@@ -147,14 +151,16 @@ export function HistoryPage({ locale }: { locale: Locale }) {
           </Reveal>
 
           <Reveal delay={110}>
-            <Image
-              src={images.founder.src}
-              alt={t.history.founderImageAlt}
-              width={images.founder.width}
-              height={images.founder.height}
-              sizes="(min-width: 640px) 15rem, 60vw"
-              className="photo-lifted mb-8 w-[clamp(9rem,32vw,15rem)] object-cover"
-            />
+            <Reveal zoom>
+              <Image
+                src={images.founder.src}
+                alt={t.history.founderImageAlt}
+                width={images.founder.width}
+                height={images.founder.height}
+                sizes="(min-width: 640px) 15rem, 60vw"
+                className="photo-lifted mb-8 w-[clamp(9rem,32vw,15rem)] object-cover"
+              />
+            </Reveal>
             <SectionHeading>{t.history.founderHeading}</SectionHeading>
             <div className="prose-morada mt-6">
               <p>{t.history.founderBody}</p>
