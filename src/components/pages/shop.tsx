@@ -76,7 +76,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
         </div>
       </Section>
 
-      {/* As iniciativas — cada uma com sua imagem provisória --------------- */}
+      {/* As iniciativas, cada uma com fotografia real da Loja -------------- */}
       <Section tone="surface" className="border-y border-line">
         <div className="container-page">
           <SectionHeading>{t.shop.offeringsHeading}</SectionHeading>
@@ -101,6 +101,29 @@ export function ShopPage({ locale }: { locale: Locale }) {
                         {item.saturdayOnly ? <Pill>{t.shop.saturdayOnlyBadge}</Pill> : null}
                       </div>
                       <p className="mt-4 text-muted">{item.body}</p>
+
+                      {/* Só a Gota de Cura tem site e Instagram próprios, além do espaço na Loja. */}
+                      {item.id === "gotaDeCura" ? (
+                        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-4">
+                          <a
+                            href={site.shop.gotaDeCura.website}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-[length:var(--text-small)] font-semibold text-primary underline decoration-1 underline-offset-4 hover:text-primary-hover hover:decoration-2"
+                          >
+                            {t.shop.offeringWebsiteCta}
+                          </a>
+                          <a
+                            href={site.shop.gotaDeCura.instagram}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-1.5 text-[length:var(--text-small)] font-semibold text-primary no-underline hover:text-primary-hover hover:underline hover:underline-offset-4"
+                          >
+                            <InstagramGlyph size={15} />
+                            {site.shop.gotaDeCura.instagramHandle}
+                          </a>
+                        </div>
+                      ) : null}
                     </div>
                   </article>
                 </Reveal>

@@ -489,8 +489,10 @@ export const en: Dictionary = {
      */
     offeringsHeading: "What you'll find",
     saturdayOnlyBadge: "Saturdays only",
+    offeringWebsiteCta: "Catalogue and orders",
     offerings: [
       {
+        id: "gotaDeCura",
         name: "Gota de Cura",
         saturdayOnly: false,
         body: "Handmade products for care and well-being, inspired by aromatherapy and the power of plants: essential oils, hydrosols, colognes, bath salts, soaps and other handmade preparations, made with care for ingredients and process.",
@@ -498,6 +500,7 @@ export const en: Dictionary = {
           "Shelves at Gota de Cura with essential oils, soaps and other aromatherapy products",
       },
       {
+        id: "bazar",
         name: "Bazaar",
         saturdayOnly: false,
         body: "The Morada's bazaar values the manual work, creativity and talent of our women workers: crochet, embroidery, sewing, fabric work and other handmade creations. Choosing something from the bazaar also helps sustain the Morada's charity projects.",
@@ -505,6 +508,7 @@ export const en: Dictionary = {
           "The bazaar room with cushions, embroidered towels and ceramic figures displayed on shelves and on the table",
       },
       {
+        id: "feiraChacara",
         name: "Chácara da Mãe Luzia farmers' market",
         saturdayOnly: true,
         body: "Produce grown at the Chácara da Mãe Luzia, our country property, with care and without pesticides — fresh, close to nature, and respecting the cycles of planting and harvest.",
@@ -512,6 +516,7 @@ export const en: Dictionary = {
           "The Chácara Mãe Luzia market stall with fresh greens, eggs and herbs, and the price board behind it",
       },
       {
+        id: "padaria",
         name: "Padaria Mãe Luzia bakery",
         saturdayOnly: true,
         body: "Bread and other goods prepared with care, with flavours that call to mind food made to be shared around a table.",
@@ -519,6 +524,7 @@ export const en: Dictionary = {
           "Cake, cookies and homemade jam from the Padaria Mãe Luzia on the table, next to a mug with the bakery's name",
       },
       {
+        id: "pasteis",
         name: "Pastéis fried to order",
         saturdayOnly: true,
         body: "Pastéis prepared and fried to order, for that irresistible hot-from-the-fryer taste while you visit the market or the rest of what's happening at the Morada.",

@@ -89,6 +89,14 @@ export const site = {
     },
     instagram: "https://www.instagram.com/lojadamorada/",
     instagramHandle: "@lojadamorada",
+
+    /** A Gota de Cura tem site e Instagram próprios, além do espaço na Loja. */
+    gotaDeCura: {
+      website: "https://gotadecura.com.br",
+      websiteDisplay: "gotadecura.com.br",
+      instagram: "https://www.instagram.com/gotadecura_artesanais/",
+      instagramHandle: "@gotadecura_artesanais",
+    },
   },
 
   /**

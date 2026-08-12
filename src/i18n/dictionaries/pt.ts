@@ -489,8 +489,10 @@ export const pt = {
      */
     offeringsHeading: "O que você encontra",
     saturdayOnlyBadge: "Só aos sábados",
+    offeringWebsiteCta: "Catálogo e pedidos",
     offerings: [
       {
+        id: "gotaDeCura",
         name: "Gota de Cura",
         saturdayOnly: false,
         body: "Produtos artesanais voltados ao cuidado e ao bem-estar, inspirados na aromaterapia e no poder das plantas: óleos essenciais, hidrolatos, águas de colônia, sais de banho, sabonetes e outras preparações artesanais, desenvolvidas com atenção aos ingredientes e aos processos de produção.",
@@ -498,6 +500,7 @@ export const pt = {
           "Prateleiras da Gota de Cura com óleos essenciais, sabonetes e outros produtos de aromaterapia",
       },
       {
+        id: "bazar",
         name: "Bazar",
         saturdayOnly: false,
         body: "O Bazar da Morada valoriza o trabalho manual, a criatividade e os talentos das nossas trabalhadoras: peças de crochê, bordados, costuras, trabalhos em tecido e outras criações feitas à mão. Ao escolher um produto do Bazar, você também ajuda a sustentar os projetos assistenciais da Morada.",
@@ -505,6 +508,7 @@ export const pt = {
           "Sala do Bazar com almofadas, toalhas bordadas e imagens em cerâmica expostas em prateleiras e sobre a mesa",
       },
       {
+        id: "feiraChacara",
         name: "Feira da Chácara da Mãe Luzia",
         saturdayOnly: true,
         body: "Produtos cultivados diretamente na Chácara da Mãe Luzia, com cuidado e sem o uso de agrotóxicos — frescos, próximos da natureza e respeitando os ciclos do plantio e da colheita.",
@@ -512,6 +516,7 @@ export const pt = {
           "Banca da Feira da Chácara Mãe Luzia com verduras, ovos e temperos frescos, e o quadro de preços ao fundo",
       },
       {
+        id: "padaria",
         name: "Padaria Mãe Luzia",
         saturdayOnly: true,
         body: "Pão e outros produtos preparados com carinho, com sabores que remetem à comida feita para compartilhar e reunir pessoas ao redor da mesa.",
@@ -519,6 +524,7 @@ export const pt = {
           "Bolo, biscoitos e geleia caseira da Padaria Mãe Luzia sobre a mesa, ao lado de uma caneca com o nome da padaria",
       },
       {
+        id: "pasteis",
         name: "Pastéis fritos na hora",
         saturdayOnly: true,
         body: "Pastéis preparados e fritos na hora, para aproveitar aquele sabor de pastel quentinho enquanto você visita a Feira ou a programação da Morada.",
