@@ -123,6 +123,12 @@ export const en: Dictionary = {
       cta: "See the children's classes",
     },
 
+    gospelOnline: {
+      heading: "Can't come in person? Watch the Gospel online",
+      body: "Streamed at the same time as in-person spiritual care, available for 30 minutes, from any device with an internet connection.",
+      cta: "Watch the Gospel online",
+    },
+
     seed: {
       quote: "For whatever one sows, that will he also reap.",
       source: "Galatians 6:7",
@@ -489,6 +495,8 @@ export const en: Dictionary = {
     closingHeading: "Join the next online Gospel",
     closingBody: "The access is the same on every day the Morada works. Any questions, reach out.",
     closingCta: "Open evangelho.morada.org.br",
+    closingImageAlt:
+      "A field of white, blue and pink roses stretching to the horizon under an open sky",
   },
 
   /* --- Page in preparation (see `draftPages` in i18n/config.ts) --------- */

@@ -277,6 +277,29 @@ export default async function HomePage({
       </Section>
 
       {/* ---------------------------------------------------------------- */}
+      {/* Evangelho online — convite curto, sem fotografia própria: quem quer
+          saber mais entra na página dela                                  */}
+      {/* ---------------------------------------------------------------- */}
+      <section className="on-deep relative overflow-hidden bg-blue py-[clamp(3rem,6vw,5rem)] text-bg">
+        <RoseMark
+          size={340}
+          className="pointer-events-none absolute -right-20 -bottom-24 text-rose-light/[0.13]"
+        />
+        <div className="container-page relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="max-w-[24ch] text-[length:var(--text-h2)] text-bg">
+              {t.home.gospelOnline.heading}
+            </h2>
+            <p className="mt-3 max-w-[46ch] text-blue-soft">{t.home.gospelOnline.body}</p>
+          </div>
+          <ActionLink href={pathFor("gospelOnline", l)} variant="onDeep">
+            {t.home.gospelOnline.cta}
+            <ArrowRight />
+          </ActionLink>
+        </div>
+      </section>
+
+      {/* ---------------------------------------------------------------- */}
       {/* A semeadura — a dobra que vira do trabalho para a doutrina       */}
       {/* ---------------------------------------------------------------- */}
       {/*

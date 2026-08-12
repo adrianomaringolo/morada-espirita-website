@@ -122,6 +122,12 @@ export const pt = {
       cta: "Ver a evangelização",
     },
 
+    gospelOnline: {
+      heading: "Não pode vir? Acompanhe o Evangelho online",
+      body: "Transmitido no mesmo horário do atendimento presencial, disponível por 30 minutos, de qualquer dispositivo com internet.",
+      cta: "Assistir ao Evangelho online",
+    },
+
     seed: {
       quote: "Pois o que o homem semear, isso também colherá.",
       source: "Gálatas 6:7",
@@ -488,6 +494,8 @@ export const pt = {
     closingHeading: "Participe do próximo evangelho online",
     closingBody: "O acesso é o mesmo em todos os dias de trabalho da Morada. Qualquer dúvida, fale com a gente.",
     closingCta: "Acessar evangelho.morada.org.br",
+    closingImageAlt:
+      "Campo de rosas brancas, azuis e cor-de-rosa até o horizonte, sob um céu aberto",
   },
 
   /* --- Página em preparação (ver `draftPages` em i18n/config.ts) --------- */

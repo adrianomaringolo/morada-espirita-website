@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CareSchedule } from "@/components/schedule";
 import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { Reveal } from "@/components/reveal";
@@ -12,6 +13,7 @@ import {
 import { getDictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
 import { site, mapsPlaceUrl } from "@/content/site";
+import { images } from "@/content/images";
 import { FacebookGlyph, PhoneGlyph, facebookLink, phoneLink } from "@/components/channels";
 
 export function GospelOnlinePage({ locale }: { locale: Locale }) {
@@ -100,12 +102,19 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
         </div>
       </Section>
 
-      {/* Chamada final ------------------------------------------------------ */}
-      <section className="on-deep relative overflow-hidden bg-blue py-[clamp(3.5rem,7vw,6rem)] text-bg">
-        <RoseMark
-          size={420}
-          className="pointer-events-none absolute -right-24 -bottom-32 text-rose-light/[0.13]"
+      {/* Chamada final — mesma foto e véu da faixa da home com a frase de
+          Gálatas: o convite para "semear" o trabalho e o do evangelho online
+          são a mesma ideia, tratadas com a mesma imagem. */}
+      <section className="on-deep relative isolate overflow-hidden py-[clamp(3.5rem,7vw,6rem)] text-bg">
+        <Image
+          src={images.sownField.src}
+          alt={t.gospelOnline.closingImageAlt}
+          width={images.sownField.width}
+          height={images.sownField.height}
+          sizes="100vw"
+          className="absolute inset-0 -z-20 size-full object-cover"
         />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/80" />
         <div className="container-page relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <h2 className="max-w-[22ch] text-[length:var(--text-h2)] text-bg">
