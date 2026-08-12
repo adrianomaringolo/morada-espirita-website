@@ -471,7 +471,7 @@ export const pt = {
       "Loja da Morada: produtos artesanais, óleos e cuidados da Gota de Cura, feira da Chácara da Mãe Luzia, padaria e pastéis fritos na hora aos sábados, em Campinas. Toda a renda é revertida para a caridade.",
     heading: "Loja da Morada",
     lead: "Produtos artesanais, alimentos cultivados na própria Chácara e cuidado para o corpo — tudo em um só lugar, com toda a renda revertida para os trabalhos assistenciais da Morada.",
-    missionPill: "Toda a renda ajuda famílias de Campinas",
+    missionNote: "Toda a renda ajuda famílias de Campinas",
 
     introBody: [
       "A Loja da Morada reúne, em um só lugar, diferentes iniciativas que valorizam o trabalho artesanal, a produção local, a alimentação saudável, o cuidado e, principalmente, as pessoas.",

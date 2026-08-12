@@ -470,7 +470,7 @@ export const en: Dictionary = {
       "The Morada's shop: handmade goods, oils and care products from Gota de Cura, the Chácara da Mãe Luzia farmers' market, bakery and fried pastéis on Saturdays, in Campinas, Brazil. All proceeds go to charity.",
     heading: "The Morada's shop",
     lead: "Handmade goods, food grown on our own country property, and body-care products — all in one place, with every real of proceeds going to the Morada's charity work.",
-    missionPill: "All proceeds help families in Campinas",
+    missionNote: "All proceeds help families in Campinas",
 
     introBody: [
       "The Morada's shop brings together, in one place, different initiatives that value handmade work, local production, healthy food, care, and above all, people.",

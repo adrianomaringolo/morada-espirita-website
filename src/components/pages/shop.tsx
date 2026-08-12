@@ -55,7 +55,10 @@ export function ShopPage({ locale }: { locale: Locale }) {
             height={images.shop.logo.height}
             className="h-20 w-20 sm:h-24 sm:w-24"
           />
-          <Pill tone="rose">{t.shop.missionPill}</Pill>
+          <p className="inline-flex items-center gap-2.5 text-[length:var(--text-lead)] font-semibold text-primary">
+            <span aria-hidden="true" className="block h-0.5 w-6 shrink-0 bg-rose" />
+            {t.shop.missionNote}
+          </p>
         </div>
       </PageHeader>
 
