@@ -452,6 +452,7 @@ export const en: Dictionary = {
       "Online Gospel of Morada Espírita Professor Lairi Hans, streamed at the same time as the house's prayers in Campinas. Video available for 30 minutes.",
     heading: "Gospel online",
     lead: "The Morada's Gospel, streamed at the same time as the prayers held at the house. The video stays available for 30 minutes from the start.",
+    anyDevicePill: "From any device with internet",
 
     scheduleHeading: "When",
     scheduleNote:

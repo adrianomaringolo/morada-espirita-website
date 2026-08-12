@@ -33,6 +33,9 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
           <li>
             <Pill>{t.common.openToAll}</Pill>
           </li>
+          <li>
+            <Pill>{t.gospelOnline.anyDevicePill}</Pill>
+          </li>
         </ul>
       </PageHeader>
 

@@ -451,6 +451,7 @@ export const pt = {
       "Evangelho online da Morada Espírita Professor Lairi Hans, transmitido no mesmo horário das preces em Campinas. Vídeo disponível por 30 minutos.",
     heading: "Evangelho online",
     lead: "O Evangelho da Morada, no mesmo horário das preces feitas na casa. O vídeo fica disponível por 30 minutos a partir do início.",
+    anyDevicePill: "De qualquer dispositivo com internet",
 
     scheduleHeading: "Quando",
     scheduleNote:
