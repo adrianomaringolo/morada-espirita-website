@@ -43,10 +43,20 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
 
       {/* Como assistir ---------------------------------------------------- */}
       <Section className="!pt-[var(--spacing-section-tight)]">
-        <div className="container-page grid gap-x-14 gap-y-8 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
-          <SectionHeading>{t.gospelOnline.accessHeading}</SectionHeading>
-          <div>
-            <p className="max-w-[58ch] text-[length:var(--text-lead)] leading-[1.55] text-muted">
+        <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-2">
+          <Reveal zoom>
+            <Image
+              src={images.gospelJesus.src}
+              alt={t.gospelOnline.accessImageAlt}
+              width={images.gospelJesus.width}
+              height={images.gospelJesus.height}
+              sizes="(min-width: 1024px) 46vw, 100vw"
+              className="photo-lifted h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+            />
+          </Reveal>
+          <Reveal delay={110}>
+            <SectionHeading>{t.gospelOnline.accessHeading}</SectionHeading>
+            <p className="mt-6 max-w-[58ch] text-[length:var(--text-lead)] leading-[1.55] text-muted">
               {t.gospelOnline.accessBody}
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
@@ -57,7 +67,7 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
                 {t.gospelOnline.accessNote}
               </p>
             </div>
-          </div>
+          </Reveal>
         </div>
       </Section>
 

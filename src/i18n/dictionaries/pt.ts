@@ -126,6 +126,8 @@ export const pt = {
       heading: "Não pode vir? Acompanhe o Evangelho online",
       body: "Transmitido no mesmo horário do atendimento presencial, disponível por 30 minutos, de qualquer dispositivo com internet.",
       cta: "Assistir ao Evangelho online",
+      imageAlt:
+        "Rosas cor-de-rosa em primeiro plano, desfocadas, com os retratos de Mãe Luzia e do Professor Lairi Hans ao fundo, na parede da Morada",
     },
 
     seed: {
@@ -468,6 +470,8 @@ export const pt = {
       "O evangelho é transmitido em evangelho.morada.org.br, no mesmo horário das preces realizadas na Morada. O vídeo fica disponível por 30 minutos a partir do início — sem login e sem custo.",
     accessCta: "Acessar evangelho.morada.org.br",
     accessNote: "O link é sempre o mesmo. Vale guardar nos favoritos.",
+    accessImageAlt:
+      "Rosas cor-de-rosa em primeiro plano, desfocadas, com o quadro de Jesus Misericordioso ao fundo, na parede da Morada",
 
     guidanceHeading: "Orientações para o evangelho online",
     guidanceLead:

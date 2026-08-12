@@ -277,14 +277,19 @@ export default async function HomePage({
       </Section>
 
       {/* ---------------------------------------------------------------- */}
-      {/* Evangelho online — convite curto, sem fotografia própria: quem quer
-          saber mais entra na página dela                                  */}
+      {/* Evangelho online — convite curto, com a mesma foto usada na       */}
+      {/* própria página do Evangelho online                               */}
       {/* ---------------------------------------------------------------- */}
-      <section className="on-deep relative overflow-hidden bg-blue py-[clamp(3rem,6vw,5rem)] text-bg">
-        <RoseMark
-          size={340}
-          className="pointer-events-none absolute -right-20 -bottom-24 text-rose-light/[0.13]"
+      <section className="on-deep relative isolate overflow-hidden py-[clamp(3rem,6vw,5rem)] text-bg">
+        <Image
+          src={images.gospelRoses.src}
+          alt={t.home.gospelOnline.imageAlt}
+          width={images.gospelRoses.width}
+          height={images.gospelRoses.height}
+          sizes="100vw"
+          className="absolute inset-0 -z-20 size-full object-cover"
         />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/80" />
         <div className="container-page relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h2 className="max-w-[24ch] text-[length:var(--text-h2)] text-bg">

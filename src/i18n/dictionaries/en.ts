@@ -127,6 +127,8 @@ export const en: Dictionary = {
       heading: "Can't come in person? Watch the Gospel online",
       body: "Streamed at the same time as in-person spiritual care, available for 30 minutes, from any device with an internet connection.",
       cta: "Watch the Gospel online",
+      imageAlt:
+        "Pink roses in the foreground, out of focus, with the portraits of Mãe Luzia and Professor Lairi Hans on the Morada's wall behind them",
     },
 
     seed: {
@@ -469,6 +471,8 @@ export const en: Dictionary = {
       "The Gospel is streamed at evangelho.morada.org.br, at the same time as the prayers held at the Morada. The video stays available for 30 minutes from the start — no login and no cost.",
     accessCta: "Open evangelho.morada.org.br",
     accessNote: "Same link every time. Worth bookmarking.",
+    accessImageAlt:
+      "Pink roses in the foreground, out of focus, with the painting of the Divine Mercy Jesus on the Morada's wall behind them",
 
     guidanceHeading: "Guidance for the online Gospel",
     guidanceLead:

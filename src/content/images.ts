@@ -64,6 +64,21 @@ export const images = {
     credit: "Acervo da Morada",
   },
 
+  /* Rosas da casa em primeiro plano, desfocadas, com os quadros da sede ao
+     fundo — usadas na página do Evangelho online e no convite a ele na home. */
+  gospelJesus: {
+    src: "/images/evangelho-jesus.jpg",
+    width: 1920,
+    height: 1276,
+    credit: "Acervo da Morada",
+  },
+  gospelRoses: {
+    src: "/images/evangelho-rosas.jpg",
+    width: 1920,
+    height: 1277,
+    credit: "Acervo da Morada",
+  },
+
   /** Loja da Morada. */
   shop: {
     /** O logo próprio da Loja — as três rosas do símbolo da Morada, com o nome. */
