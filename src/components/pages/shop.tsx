@@ -62,7 +62,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
       {/* O que é a Loja --------------------------------------------------- */}
       <Section className="!pt-[var(--spacing-section-tight)]">
         <div className="container-page grid items-center gap-x-14 gap-y-10 lg:grid-cols-2">
-          <Reveal>
+          <Reveal zoom>
             <Image
               src={images.shop.fachada.src}
               alt={t.shop.introImageAlt}
@@ -96,14 +96,16 @@ export function ShopPage({ locale }: { locale: Locale }) {
               return (
                 <Reveal as="li" key={item.name} delay={i * 70} className="h-full">
                   <article className="flex h-full flex-col border border-line bg-bg">
-                    <Image
-                      src={image.src}
-                      alt={item.imageAlt}
-                      width={image.width}
-                      height={image.height}
-                      sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
-                      className="h-48 w-full object-cover"
-                    />
+                    <Reveal zoom delay={i * 70}>
+                      <Image
+                        src={image.src}
+                        alt={item.imageAlt}
+                        width={image.width}
+                        height={image.height}
+                        sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
+                        className="h-48 w-full object-cover"
+                      />
+                    </Reveal>
                     <div className="flex flex-1 flex-col p-7">
                       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2">
                         <h3 className="text-[length:var(--text-h3)]">{item.name}</h3>
@@ -172,7 +174,7 @@ export function ShopPage({ locale }: { locale: Locale }) {
           <SectionHeading lead={t.shop.eventsBody}>{t.shop.eventsHeading}</SectionHeading>
 
           <div className="mt-12 grid items-center gap-x-14 gap-y-10 lg:grid-cols-2">
-            <Reveal>
+            <Reveal zoom>
               <Image
                 src={images.shop.festaJunina.src}
                 alt={t.shop.juneImageAlt}

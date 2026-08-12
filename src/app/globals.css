@@ -280,6 +280,18 @@
       transform 420ms var(--ease-out-quart);
     transition-delay: var(--reveal-delay, 0ms);
   }
+
+  /* Fotografias: em vez do deslize, um zoom suave — a foto assenta no
+     tamanho final em vez de escorregar de baixo. Só o zoom muda; opacidade
+     e atraso seguem a regra geral acima. */
+  [data-reveal][data-reveal-zoom="true"][data-reveal-armed="true"] {
+    transform: scale(1.06);
+  }
+
+  [data-reveal][data-reveal-zoom="true"][data-reveal-armed="true"][data-reveal-shown="true"] {
+    transform: none;
+    transition-duration: 700ms;
+  }
 }
 
 /* A rosa desabrocha uma vez, na entrada do hero. Nada além dela se move ali. */

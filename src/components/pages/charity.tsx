@@ -84,7 +84,7 @@ export function CharityPage({ locale }: { locale: Locale }) {
               role={t.charity.quote.role}
             />
           </Reveal>
-          <Reveal delay={120}>
+          <Reveal delay={120} zoom>
             <Image
               src={images.hands.src}
               alt={t.home.charity.imageAlt}

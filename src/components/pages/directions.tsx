@@ -1,5 +1,6 @@
 import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { CareSchedule } from "@/components/schedule";
+import { Reveal } from "@/components/reveal";
 import { RoseMark } from "@/components/rose-mark";
 import {
   ActionAnchor,
@@ -24,7 +25,7 @@ export function DirectionsPage({ locale }: { locale: Locale }) {
 
       <Section className="!pt-[var(--spacing-section-tight)]">
         <div className="container-page grid gap-x-14 gap-y-12 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-          <div>
+          <Reveal>
             <h2 className="text-[length:var(--text-h3)]">{t.directions.addressHeading}</h2>
             <address className="mt-5 not-italic">
               <p className="font-[family-name:var(--font-display)] text-[clamp(1.5rem,1.3rem+0.9vw,2rem)] font-semibold leading-[1.2]">
@@ -69,9 +70,9 @@ export function DirectionsPage({ locale }: { locale: Locale }) {
                 ))}
               </ul>
             </div>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal delay={110}>
             <h2 className="text-[length:var(--text-h3)]">{t.directions.mapHeading}</h2>
             <div className="mt-5 border border-line bg-surface-sunk">
               {/*
@@ -99,17 +100,19 @@ export function DirectionsPage({ locale }: { locale: Locale }) {
                 {t.directions.routeCta}
               </a>
             </p>
-          </div>
+          </Reveal>
         </div>
       </Section>
 
       {/* Repete os horários aqui: quem está a caminho quer conferir ------ */}
       <Section tone="surface" className="border-t border-line">
         <div className="container-page">
-          <SectionHeading>{t.common.schedule}</SectionHeading>
-          <div className="mt-8 border border-line">
-            <CareSchedule locale={locale} />
-          </div>
+          <Reveal>
+            <SectionHeading>{t.common.schedule}</SectionHeading>
+            <div className="mt-8 border border-line">
+              <CareSchedule locale={locale} />
+            </div>
+          </Reveal>
         </div>
       </Section>
 
