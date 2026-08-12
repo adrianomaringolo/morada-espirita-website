@@ -47,7 +47,16 @@ export function ShopPage({ locale }: { locale: Locale }) {
       <BreadcrumbJsonLd locale={locale} page="shop" title={t.shop.heading} />
 
       <PageHeader title={t.shop.heading} lead={t.shop.lead}>
-        <Pill tone="rose">{t.shop.missionPill}</Pill>
+        <div className="flex flex-wrap items-center gap-5">
+          <Image
+            src={images.shop.logo.src}
+            alt=""
+            width={images.shop.logo.width}
+            height={images.shop.logo.height}
+            className="h-20 w-20 sm:h-24 sm:w-24"
+          />
+          <Pill tone="rose">{t.shop.missionPill}</Pill>
+        </div>
       </PageHeader>
 
       {/* O que é a Loja --------------------------------------------------- */}

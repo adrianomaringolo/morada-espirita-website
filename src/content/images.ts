@@ -66,6 +66,13 @@ export const images = {
 
   /** Loja da Morada. */
   shop: {
+    /** O logo próprio da Loja — as três rosas do símbolo da Morada, com o nome. */
+    logo: {
+      src: "/images/loja/logo.png",
+      width: 600,
+      height: 600,
+      credit: "Acervo da Loja da Morada",
+    },
     fachada: {
       src: "/images/loja/fachada.jpg",
       width: 1600,

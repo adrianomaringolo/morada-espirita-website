@@ -478,7 +478,7 @@ export const pt = {
       "Toda a renda obtida pela Loja é revertida para os trabalhos de manutenção da Morada e para as ações assistenciais junto a famílias carentes da região de Campinas.",
       "Cada produto adquirido, cada pastel compartilhado e cada visita contribuem para que esse trabalho continue e para que mais famílias possam ser acolhidas.",
     ],
-    introNote: "Comprar na Morada é também uma forma de contribuir.",
+    introNote: "Comprar na Loja da Morada é também uma forma de contribuir.",
     introImageAlt:
       "Entrada da Loja da Morada, com as bandeiras da Feirinha, do Artesanato e da Gota de Cura",
 
