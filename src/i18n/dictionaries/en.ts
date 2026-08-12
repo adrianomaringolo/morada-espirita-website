@@ -477,6 +477,8 @@ export const en: Dictionary = {
     guidanceHeading: "Guidance for the online Gospel",
     guidanceLead:
       "A few pointers to help you make the most of the blessed resources spirituality offers in this moment of prayer.",
+    guidanceImageAlt:
+      "Pink roses in the foreground, out of focus, with the portraits of Mãe Luzia and Professor Lairi Hans on the Morada's wall behind them",
     guidance: [
       {
         title: "Spiritual stretcher: relief and healing",

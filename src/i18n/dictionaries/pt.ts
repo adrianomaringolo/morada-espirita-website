@@ -476,6 +476,8 @@ export const pt = {
     guidanceHeading: "Orientações para o evangelho online",
     guidanceLead:
       "Algumas orientações para que você aproveite da melhor forma os abençoados recursos que a espiritualidade concede nesse momento de prece.",
+    guidanceImageAlt:
+      "Rosas cor-de-rosa em primeiro plano, desfocadas, com os retratos de Mãe Luzia e do Professor Lairi Hans ao fundo, na parede da Morada",
     guidance: [
       {
         title: "Maca espiritual: alívio e cura",

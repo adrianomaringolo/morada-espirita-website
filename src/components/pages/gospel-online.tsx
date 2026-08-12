@@ -94,13 +94,29 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
       </Section>
 
       {/* Orientações --------------------------------------------------------- */}
+      {/* A foto entra à direita aqui, invertendo "Como assistir": o par de
+          fotos da Morada emoldura a página, uma de cada lado da leitura. */}
       <Section>
         <div className="container-page">
-          <SectionHeading lead={t.gospelOnline.guidanceLead}>
-            {t.gospelOnline.guidanceHeading}
-          </SectionHeading>
+          <div className="grid items-center gap-x-14 gap-y-10 lg:grid-cols-2">
+            <Reveal>
+              <SectionHeading lead={t.gospelOnline.guidanceLead}>
+                {t.gospelOnline.guidanceHeading}
+              </SectionHeading>
+            </Reveal>
+            <Reveal delay={110} zoom className="lg:order-2">
+              <Image
+                src={images.gospelRoses.src}
+                alt={t.gospelOnline.guidanceImageAlt}
+                width={images.gospelRoses.width}
+                height={images.gospelRoses.height}
+                sizes="(min-width: 1024px) 46vw, 100vw"
+                className="photo-lifted h-[clamp(16rem,38vw,26rem)] w-full object-cover"
+              />
+            </Reveal>
+          </div>
 
-          <ul className="mt-12 grid gap-x-10 gap-y-12 md:grid-cols-2">
+          <ul className="mt-14 grid gap-x-10 gap-y-12 md:grid-cols-2">
             {t.gospelOnline.guidance.map((item, i) => (
               <Reveal as="li" key={item.title} delay={i * 80}>
                 <RoseMark size={28} className="text-rose" />
