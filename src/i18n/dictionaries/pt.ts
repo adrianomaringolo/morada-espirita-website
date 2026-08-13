@@ -122,6 +122,14 @@ export const pt = {
       cta: "Ver a evangelização",
     },
 
+    gospelOnline: {
+      heading: "Não pode vir? Acompanhe o Evangelho online",
+      body: "Transmitido no mesmo horário do atendimento presencial, disponível por 30 minutos, de qualquer dispositivo com internet.",
+      cta: "Assistir ao Evangelho online",
+      imageAlt:
+        "Rosas cor-de-rosa em primeiro plano, desfocadas, com os retratos de Mãe Luzia e do Professor Lairi Hans ao fundo, na parede da Morada",
+    },
+
     seed: {
       quote: "Pois o que o homem semear, isso também colherá.",
       source: "Gálatas 6:7",
@@ -443,17 +451,62 @@ export const pt = {
     historyCta: "Conhecer a história da Morada",
   },
 
-  /* --- Páginas em preparação (ver `draftPages` em i18n/config.ts) --------- */
-  /* `lead` é o único texto próprio de cada uma por enquanto. Substitua os
-     quatro campos quando o conteúdo chegar. */
+  /* --- Evangelho online --------------------------------------------------- */
 
   gospelOnline: {
     title: "Evangelho online",
     description:
-      "Evangelho online da Morada Espírita Professor Lairi Hans, em Campinas. Página em preparação.",
+      "Evangelho online da Morada Espírita Professor Lairi Hans, transmitido no mesmo horário das preces em Campinas. Vídeo disponível por 30 minutos.",
     heading: "Evangelho online",
-    lead: "Esta página vai reunir o Evangelho online da Morada.",
+    lead: "O Evangelho da Morada, no mesmo horário das preces feitas na casa. O vídeo fica disponível por 30 minutos a partir do início.",
+    anyDevicePill: "De qualquer dispositivo com internet",
+
+    scheduleHeading: "Quando",
+    scheduleNote:
+      "O evangelho online acontece ao mesmo tempo que as preces realizadas na Morada, nos horários de atendimento.",
+
+    accessHeading: "Como assistir",
+    accessBody:
+      "O evangelho é transmitido em evangelho.morada.org.br, no mesmo horário das preces realizadas na Morada. O vídeo fica disponível por 30 minutos a partir do início — sem login e sem custo.",
+    accessCta: "Acessar evangelho.morada.org.br",
+    accessNote: "O link é sempre o mesmo. Vale guardar nos favoritos.",
+    accessImageAlt:
+      "Rosas cor-de-rosa em primeiro plano, desfocadas, com o quadro de Jesus Misericordioso ao fundo, na parede da Morada",
+
+    guidanceHeading: "Orientações para o evangelho online",
+    guidanceLead:
+      "Algumas orientações para que você aproveite da melhor forma os abençoados recursos que a espiritualidade concede nesse momento de prece.",
+    guidanceImageAlt:
+      "Rosas cor-de-rosa em primeiro plano, desfocadas, com os retratos de Mãe Luzia e do Professor Lairi Hans ao fundo, na parede da Morada",
+    guidance: [
+      {
+        title: "Maca espiritual: alívio e cura",
+        body: "A Morada é uma casa de cura, que tem elevadas entidades médicas. A maca traz aos irmãos mentalizados o alívio, o fortalecimento e, se for permitido pelo nosso Pai, a cura. Mentalize as pessoas conhecidas que estão necessitadas dessa vibração, doentes da matéria ou do espírito — e mentalize-se também, deitado na maca, saudável, sereno, envolvido em luz. Faça isso com fé, sentindo a vibração que penetra no espírito, com o pensamento elevado ao nosso Pai.",
+      },
+      {
+        title: "Cesta de vibração: luz e fortalecimento",
+        body: "Nesse momento, as pessoas que têm o nome mentalizado recebem vibrações de força, paz, amor, fé, equilíbrio e alívio de suas aflições. Representa um grande fortalecimento para o cotidiano, renovando em nosso espírito o positivo e a coragem.",
+      },
+      {
+        title: "Flor, símbolo da parte espiritual",
+        body: "A flor é o símbolo da parte espiritual e, durante o evangelho, recebe as vibrações do nosso Pai. Mentalize uma pétala dessa flor, destacada e colocada em seu coração: ela é amor, paz, força e luz para o seu espírito. Nos momentos de dificuldade, lembre-se de que há essa pétala no seu espírito, trazendo as vibrações da espiritualidade e as bênçãos do nosso Pai em seu amparo.",
+      },
+      {
+        title: "Água fluidificada: fortalecimento para a matéria e o espírito",
+        body: "Antes do evangelho, coloque um copo ou uma jarra de água no local onde fará a prece, para que essa água receba a fluidificação das correntes espirituais da Morada. Essas vibrações são bálsamo de fortalecimento, equilíbrio e purificação.",
+      },
+    ],
+
+    closingHeading: "Participe do próximo evangelho online",
+    closingBody: "O acesso é o mesmo em todos os dias de trabalho da Morada. Qualquer dúvida, fale com a gente.",
+    closingCta: "Acessar evangelho.morada.org.br",
+    closingImageAlt:
+      "Campo de rosas brancas, azuis e cor-de-rosa até o horizonte, sob um céu aberto",
   },
+
+  /* --- Página em preparação (ver `draftPages` em i18n/config.ts) --------- */
+  /* `lead` é o único texto próprio dela por enquanto. Substitua os quatro
+     campos quando o conteúdo chegar. */
 
   chacara: {
     title: "Chácara da Morada",

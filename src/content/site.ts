@@ -66,6 +66,17 @@ export const site = {
     ageGroups: 5,
   },
 
+  /**
+   * Evangelho online. Acontece junto com as preces da casa, nos mesmos dias e
+   * horários de `care` — por isso a página reaproveita `CareSchedule` em vez
+   * de duplicar os horários aqui.
+   */
+  gospelOnline: {
+    url: "https://evangelho.morada.org.br",
+    urlDisplay: "evangelho.morada.org.br",
+    videoAvailableMinutes: 30,
+  },
+
   /** Coleta de alimentos porta a porta. */
   collection: {
     days: ["Saturday", "Sunday"] as const,

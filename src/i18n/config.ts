@@ -59,7 +59,7 @@ export const slugs: Record<PageId, Record<Locale, string>> = {
  * que ninguém chegue por busca numa página que ainda não responde nada.
  * Para lançar uma delas, basta tirá-la desta lista.
  */
-export const draftPages = ["gospelOnline", "chacara"] as const satisfies readonly PageId[];
+export const draftPages = ["chacara"] as const satisfies readonly PageId[];
 
 export function isDraft(page: PageId): boolean {
   return (draftPages as readonly string[]).includes(page);
