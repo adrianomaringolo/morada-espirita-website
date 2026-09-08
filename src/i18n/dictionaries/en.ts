@@ -80,9 +80,9 @@ export const en: Dictionary = {
   },
 
   home: {
-    title: `${site.name} — Free spiritual care in Campinas, Brazil`,
+    title: `${site.name} — Spiritual care in Campinas, Brazil`,
     description:
-      "A Kardecist Spiritist centre and registered charity in central Campinas, Brazil, since 1980. Free spiritual care with no appointment, Sunday classes for children, and 3.5 tonnes of food distributed every month.",
+      "A Kardecist Spiritist centre and registered charity in central Campinas, Brazil, since 1980. Spiritual care with no appointment, Sunday classes for children, and 3.5 tonnes of food distributed every month.",
 
     hero: {
       heading: "Faith, love and charity",
@@ -119,7 +119,7 @@ export const en: Dictionary = {
 
     evangelization: {
       heading: "Sunday mornings belong to the children",
-      body: "Five age groups, from 9.30 to 11.15 in the morning. Classes start from the Gospel and move through music, painting and real participation in the food collection. No need to be a Spiritist, and nothing is charged.",
+      body: "Five age groups, from 9.30 to 11.15 in the morning. Classes start from the Gospel and move through music, painting and real participation in the food collection. No need to be a Spiritist to take part.",
       cta: "See the children's classes",
     },
 

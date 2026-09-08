@@ -79,9 +79,9 @@ export const pt = {
   },
 
   home: {
-    title: `${site.name} — Atendimento espiritual gratuito em Campinas`,
+    title: `${site.name} — Atendimento espiritual em Campinas`,
     description:
-      "Casa espírita kardecista e entidade beneficente no Centro de Campinas desde 1980. Atendimento espiritual gratuito e sem agendamento, evangelização infantojuvenil e 3,5 toneladas de alimentos distribuídas por mês.",
+      "Casa espírita kardecista e entidade beneficente no Centro de Campinas desde 1980. Atendimento espiritual sem agendamento, evangelização infantojuvenil e 3,5 toneladas de alimentos distribuídas por mês.",
 
     hero: {
       heading: "Fé, amor e caridade",
@@ -118,7 +118,7 @@ export const pt = {
 
     evangelization: {
       heading: "Domingo de manhã é das crianças",
-      body: "Cinco turmas por faixa etária, das 9h30 às 11h15. As aulas partem do Evangelho e passam por música, pintura e participação real na coleta de alimentos. Não é preciso ser espírita, e não se cobra nada.",
+      body: "Cinco turmas por faixa etária, das 9h30 às 11h15. As aulas partem do Evangelho e passam por música, pintura e participação real na coleta de alimentos. Não é preciso ser espírita para participar.",
       cta: "Ver a evangelização",
     },
 
