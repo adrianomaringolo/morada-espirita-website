@@ -27,9 +27,6 @@ export function CarePage({ locale }: { locale: Locale }) {
       <PageHeader title={t.care.heading} lead={t.care.lead}>
         <ul className="flex flex-wrap gap-2">
           <li>
-            <Pill>{t.common.free}</Pill>
-          </li>
-          <li>
             <Pill>{t.common.noBooking}</Pill>
           </li>
           <li>

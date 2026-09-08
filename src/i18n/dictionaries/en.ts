@@ -11,7 +11,7 @@ export const en: Dictionary = {
     siteName: site.name,
     tagline: "A Spiritist centre and charity in Campinas, Brazil, since 1980",
     defaultDescription:
-      "Free spiritual care with no appointment in Campinas, Brazil: Wednesdays at 2pm, Thursdays at 8pm and Saturdays at 3pm — the doors close five minutes earlier. A Kardecist Spiritist centre and registered charity since 1980.",
+      "Spiritual care with no appointment in Campinas, Brazil: Wednesdays at 2pm, Thursdays at 8pm and Saturdays at 3pm — the doors close five minutes earlier. A Kardecist Spiritist centre and registered charity since 1980.",
   },
 
   nav: {
@@ -40,7 +40,6 @@ export const en: Dictionary = {
   },
 
   common: {
-    free: "Free of charge",
     noBooking: "No appointment",
     openToAll: "Open to everyone",
     /* Facebook first everywhere: it is where the house answers. */
@@ -150,7 +149,7 @@ export const en: Dictionary = {
   care: {
     title: "Spiritual care",
     description:
-      "Spiritual consultation, passe with chromotherapy and fluidified water in Campinas, Brazil. Wednesdays at 2pm, Thursdays at 8pm and Saturdays at 3pm; the doors close five minutes earlier. Free, no appointment needed.",
+      "Spiritual consultation, passe with chromotherapy and fluidified water in Campinas, Brazil. Wednesdays at 2pm, Thursdays at 8pm and Saturdays at 3pm; the doors close five minutes earlier. No appointment needed.",
     heading: "Spiritual care",
     lead: "A consultation, a passe, and fluidified water. Nothing is booked, nothing is charged, and nobody is asked about their religion.",
 
@@ -214,7 +213,7 @@ export const en: Dictionary = {
   evangelization: {
     title: "Classes for children and young people",
     description:
-      "Sunday classes for children and young people, 9.30 to 11.15am, in five age groups. Free and open to all, in central Campinas, Brazil.",
+      "Sunday classes for children and young people, 9.30 to 11.15am, in five age groups. Open to all, in central Campinas, Brazil.",
     heading: "Classes for children and young people",
     lead: "Every Sunday, from 9.30 to 11.15 in the morning. Five groups divided by age, for children and teenagers.",
     groupsLabel: "groups, divided by age",
@@ -946,7 +945,7 @@ export const en: Dictionary = {
 
   footer: {
     houseLine: `${site.name} — a Kardecist Spiritist centre and registered charity, founded in 1980.`,
-    careLine: "Free spiritual care, no appointment needed.",
+    careLine: "Spiritual care, no appointment needed.",
     navHeading: "Pages",
     visitHeading: "Visit",
     followHeading: "Talk to the house",

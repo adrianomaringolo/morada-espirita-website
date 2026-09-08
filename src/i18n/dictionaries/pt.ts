@@ -10,7 +10,7 @@ export const pt = {
     siteName: site.name,
     tagline: "Casa espírita e entidade beneficente em Campinas desde 1980",
     defaultDescription:
-      "Atendimento espiritual gratuito e sem agendamento em Campinas: quartas às 14h, quintas às 20h e sábados às 15h — a porta se fecha cinco minutos antes. Casa espírita kardecista e entidade beneficente desde 1980.",
+      "Atendimento espiritual sem agendamento em Campinas: quartas às 14h, quintas às 20h e sábados às 15h — a porta se fecha cinco minutos antes. Casa espírita kardecista e entidade beneficente desde 1980.",
   },
 
   nav: {
@@ -39,7 +39,6 @@ export const pt = {
   },
 
   common: {
-    free: "Gratuito",
     noBooking: "Sem agendamento",
     openToAll: "Aberto a qualquer pessoa",
     /* Facebook primeiro em todo o site: é onde a Morada responde. */
@@ -149,7 +148,7 @@ export const pt = {
   care: {
     title: "Atendimento espiritual",
     description:
-      "Consulta espiritual, passe com cromoterapia e água fluidificada em Campinas. Quartas às 14h, quintas às 20h e sábados às 15h; a porta se fecha cinco minutos antes. Gratuito e sem agendamento.",
+      "Consulta espiritual, passe com cromoterapia e água fluidificada em Campinas. Quartas às 14h, quintas às 20h e sábados às 15h; a porta se fecha cinco minutos antes. Sem agendamento.",
     heading: "Atendimento espiritual",
     lead: "Consulta, passe e água fluidificada. Não se marca hora, não se paga nada e não se pergunta a religião de ninguém.",
 
@@ -213,7 +212,7 @@ export const pt = {
   evangelization: {
     title: "Evangelização infantojuvenil",
     description:
-      "Evangelização para crianças e jovens aos domingos, das 9h30 às 11h15, em cinco turmas por faixa etária. Gratuita e aberta a todos, no Centro de Campinas.",
+      "Evangelização para crianças e jovens aos domingos, das 9h30 às 11h15, em cinco turmas por faixa etária. Aberta a todos, no Centro de Campinas.",
     heading: "Evangelização infantojuvenil",
     lead: "Todo domingo, das 9h30 às 11h15. Cinco turmas separadas por faixa etária, para crianças e jovens.",
     groupsLabel: "turmas por faixa etária",
@@ -943,7 +942,7 @@ export const pt = {
 
   footer: {
     houseLine: `${site.name} — casa espírita kardecista e entidade beneficente, fundada em 1980.`,
-    careLine: "Atendimento espiritual gratuito, sem agendamento.",
+    careLine: "Atendimento espiritual sem agendamento.",
     navHeading: "Páginas",
     visitHeading: "Visite",
     followHeading: "Fale com a Morada",
