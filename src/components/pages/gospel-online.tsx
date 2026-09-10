@@ -30,9 +30,6 @@ export function GospelOnlinePage({ locale }: { locale: Locale }) {
       <PageHeader title={t.gospelOnline.heading} lead={t.gospelOnline.lead}>
         <ul className="flex flex-wrap gap-2">
           <li>
-            <Pill>{t.common.free}</Pill>
-          </li>
-          <li>
             <Pill>{t.common.openToAll}</Pill>
           </li>
           <li>

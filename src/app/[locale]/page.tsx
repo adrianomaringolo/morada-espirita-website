@@ -8,7 +8,6 @@ import { CareSchedule } from "@/components/schedule";
 import {
   ActionLink,
   ArrowRight,
-  Pill,
   Quote,
   Section,
   SectionHeading,
@@ -87,20 +86,10 @@ export default async function HomePage({
               {t.home.hero.heading}
             </h1>
 
-            {/* Agrupamento apertado: as três condições são legenda do nome. */}
-            <ul className="mt-5 flex flex-wrap gap-2">
-              <li>
-                <Pill>{t.common.free}</Pill>
-              </li>
-              <li>
-                <Pill>{t.common.noBooking}</Pill>
-              </li>
-              <li>
-                <Pill>{t.common.openToAll}</Pill>
-              </li>
-            </ul>
-
-            <p className="mt-9 max-w-[44ch] text-[length:var(--text-lead)] leading-[1.5] text-muted">
+            {/* Sem pills no hero: gratuidade e demais condições não são gancho —
+                ver PRODUCT.md. A resposta concreta vem na faixa de horários
+                logo abaixo; quem quer detalhes encontra no FAQ do Atendimento. */}
+            <p className="mt-5 max-w-[44ch] text-[length:var(--text-lead)] leading-[1.5] text-muted">
               {t.home.hero.lead}
             </p>
           </div>
@@ -247,6 +236,34 @@ export default async function HomePage({
       </Section>
 
       {/* ---------------------------------------------------------------- */}
+      {/* Evangelho online — convite curto, com a mesma foto usada na       */}
+      {/* própria página do Evangelho online                               */}
+      {/* ---------------------------------------------------------------- */}
+      <section className="on-deep relative isolate overflow-hidden py-[clamp(3rem,6vw,5rem)] text-bg">
+        <Image
+          src={images.gospelRoses.src}
+          alt={t.home.gospelOnline.imageAlt}
+          width={images.gospelRoses.width}
+          height={images.gospelRoses.height}
+          sizes="100vw"
+          className="absolute inset-0 -z-20 size-full object-cover"
+        />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/80" />
+        <div className="container-page relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="max-w-[24ch] text-[length:var(--text-h2)] text-bg">
+              {t.home.gospelOnline.heading}
+            </h2>
+            <p className="mt-3 max-w-[46ch] text-blue-soft">{t.home.gospelOnline.body}</p>
+          </div>
+          <ActionLink href={pathFor("gospelOnline", l)} variant="onDeep">
+            {t.home.gospelOnline.cta}
+            <ArrowRight />
+          </ActionLink>
+        </div>
+      </section>
+
+      {/* ---------------------------------------------------------------- */}
       {/* Evangelização                                                    */}
       {/* ---------------------------------------------------------------- */}
       <Section>
@@ -275,34 +292,6 @@ export default async function HomePage({
           </Reveal>
         </div>
       </Section>
-
-      {/* ---------------------------------------------------------------- */}
-      {/* Evangelho online — convite curto, com a mesma foto usada na       */}
-      {/* própria página do Evangelho online                               */}
-      {/* ---------------------------------------------------------------- */}
-      <section className="on-deep relative isolate overflow-hidden py-[clamp(3rem,6vw,5rem)] text-bg">
-        <Image
-          src={images.gospelRoses.src}
-          alt={t.home.gospelOnline.imageAlt}
-          width={images.gospelRoses.width}
-          height={images.gospelRoses.height}
-          sizes="100vw"
-          className="absolute inset-0 -z-20 size-full object-cover"
-        />
-        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-blue/80" />
-        <div className="container-page relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <h2 className="max-w-[24ch] text-[length:var(--text-h2)] text-bg">
-              {t.home.gospelOnline.heading}
-            </h2>
-            <p className="mt-3 max-w-[46ch] text-blue-soft">{t.home.gospelOnline.body}</p>
-          </div>
-          <ActionLink href={pathFor("gospelOnline", l)} variant="onDeep">
-            {t.home.gospelOnline.cta}
-            <ArrowRight />
-          </ActionLink>
-        </div>
-      </section>
 
       {/* ---------------------------------------------------------------- */}
       {/* A semeadura — a dobra que vira do trabalho para a doutrina       */}

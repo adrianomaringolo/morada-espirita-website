@@ -24,7 +24,7 @@ Site institucional da **Morada Espírita Professor Lairi Hans** — casa espíri
 
 O site existe para responder, sem atrito, às três perguntas que trazem alguém até a Morada:
 
-1. **Preciso de ajuda.** Atendimento espiritual — consultas, passes (com cromoterapia) e água fluidificada — às quartas 13h, quintas 19h e sábados 14h. Sem agendamento, sem custo, sem exigência de credo.
+1. **Preciso de ajuda.** Atendimento espiritual — consultas, passes (com cromoterapia) e água fluidificada — às quartas 13h, quintas 19h e sábados 14h. Sem agendamento, sem exigência de credo.
 2. **Quero ajudar.** Caridade — 3,5 toneladas de alimentos por mês, coleta de porta em porta aos sábados e domingos, entrega às famílias cadastradas no último domingo do mês, campanhas de Inverno, Páscoa e Natal.
 3. **Quem são vocês?** História desde 1980, Mãe Luzia (Luzia Pacubi), o mentor Professor Lairi Hans, a sede erguida por mutirão entre 2000 e 2002, a cápsula do tempo lacrada para 2082.
 
@@ -51,11 +51,12 @@ Emoção que a interface deve provocar: **alívio**. A sensação de encontrar u
 
 ## Design Principles
 
-1. **A resposta antes do discurso.** Horário, endereço e "pode vir, é gratuito, não precisa marcar" vêm antes de qualquer explicação sobre a doutrina. Quem está sofrendo não lê introdução.
-2. **Legibilidade é acolhimento.** Corpo de texto grande por padrão, contraste alto, alvos de toque generosos. Boa parte de quem lê tem mais de 60 anos e está no celular, à noite. Elegância que custa leitura é falta de caridade.
-3. **A rosa é da casa.** A rosa é o símbolo real da Morada, presente na Loja e no Portal. O site usa o próprio emblema, vetorizado da arte original — não um desenho novo — e ele substitui qualquer ícone genérico de espiritualidade. As cores da casa vêm do mesmo lugar: rosa, branco e azul.
-4. **Números em vez de adjetivos.** 3,5 toneladas por mês. 120 famílias. 500 crianças no Natal. 1980. 2082. A credibilidade da casa está nos fatos que ela pode comprovar; o site nunca precisa dizer que é sério.
-5. **Feito para ser mantido por voluntários.** Todo conteúdo editável vive em dicionários de tradução e arquivos de dados, não espalhado em JSX. Quem for atualizar um horário daqui a três anos deve achar o horário em um lugar só.
+1. **A resposta antes do discurso.** Horário, endereço e "pode vir, sem hora marcada" vêm antes de qualquer explicação sobre a doutrina. Quem está sofrendo não lê introdução.
+2. **Gratuidade não é gancho.** A Morada não cobra por nenhum atendimento, mas esse não é o fato que abre a conversa. Nenhum título de página, meta description, selo de destaque ou chamada da home lidera com "gratuito" — isso soaria a campanha ou a clínica popular, o oposto do que a casa é. O fato existe e continua verdadeiro; ele aparece onde alguém pergunta por ele (o FAQ do Atendimento, por exemplo), nunca como isca. O que convida é o acolhimento, não a ausência de preço.
+3. **Legibilidade é acolhimento.** Corpo de texto grande por padrão, contraste alto, alvos de toque generosos. Boa parte de quem lê tem mais de 60 anos e está no celular, à noite. Elegância que custa leitura é falta de caridade.
+4. **A rosa é da casa.** A rosa é o símbolo real da Morada, presente na Loja e no Portal. O site usa o próprio emblema, vetorizado da arte original — não um desenho novo — e ele substitui qualquer ícone genérico de espiritualidade. As cores da casa vêm do mesmo lugar: rosa, branco e azul.
+5. **Números em vez de adjetivos.** 3,5 toneladas por mês. 120 famílias. 500 crianças no Natal. 1980. 2082. A credibilidade da casa está nos fatos que ela pode comprovar; o site nunca precisa dizer que é sério.
+6. **Feito para ser mantido por voluntários.** Todo conteúdo editável vive em dicionários de tradução e arquivos de dados, não espalhado em JSX. Quem for atualizar um horário daqui a três anos deve achar o horário em um lugar só.
 
 ## Accessibility & Inclusion
 

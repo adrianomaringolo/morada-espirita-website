@@ -20,7 +20,7 @@ const ROSE_PATH =
 /**
  * Cartão de compartilhamento. Este site é passado adiante por WhatsApp e
  * Facebook, então o cartão precisa entregar sozinho o essencial: quem, onde,
- * e que o atendimento é gratuito e sem hora marcada.
+ * e que não é preciso hora marcada para vir.
  */
 export default async function OpengraphImage({
   params,
@@ -73,8 +73,6 @@ export default async function OpengraphImage({
             fontSize: 27,
           }}
         >
-          <span>{t.common.free}</span>
-          <span style={{ color: "rgba(255,255,255,0.45)" }}>·</span>
           <span>{t.common.noBooking}</span>
           <span style={{ color: "rgba(255,255,255,0.45)" }}>·</span>
           <span>
