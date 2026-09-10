@@ -303,6 +303,10 @@ export const en: Dictionary = {
         body: "Non-perishable food within its expiry date, clothing in good condition, blankets and baby supplies. Donations are delivered to the house, at Rua José Paulino, 1934.",
       },
       {
+        title: "Drop off at the Morada's shop",
+        body: "There is also a donation point at the Morada's shop, at Rua José Paulino, 1916, next door to the house — during opening hours: Monday to Friday 9am to 5pm, Saturday 8am to 5pm.",
+      },
+      {
         title: "Volunteer on the collection",
         body: "The collection leaves the house at 9am on Saturdays and Sundays. No experience is needed, and you do not have to be a Spiritist — you do have to arrive on time.",
       },

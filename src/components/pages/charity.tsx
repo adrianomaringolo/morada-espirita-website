@@ -129,7 +129,7 @@ export function CharityPage({ locale }: { locale: Locale }) {
             {t.charity.helpHeading}
           </h2>
 
-          <ul className="mt-12 grid gap-x-10 gap-y-10 md:grid-cols-3">
+          <ul className="mt-12 grid gap-x-10 gap-y-10 md:grid-cols-2 xl:grid-cols-4">
             {t.charity.help.map((item) => (
               <li key={item.title}>
                 <span aria-hidden="true" className="block h-0.5 w-14 bg-rose" />

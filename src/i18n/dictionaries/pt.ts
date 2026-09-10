@@ -302,6 +302,10 @@ export const pt = {
         body: "Alimentos não perecíveis dentro da validade, roupas em bom estado, cobertores e enxovais de bebê. A entrega é feita na sede, na Rua José Paulino, 1934.",
       },
       {
+        title: "Deixar na Loja da Morada",
+        body: "Também há um ponto de doação na Loja da Morada, na Rua José Paulino, 1916, ao lado da sede — no horário de funcionamento: segunda a sexta das 9h às 17h, sábado das 8h às 17h.",
+      },
+      {
         title: "Ser voluntário na coleta",
         body: "A coleta sai aos sábados e domingos, às 9h, da própria sede. Não é preciso experiência nem ser espírita — é preciso chegar no horário.",
       },
