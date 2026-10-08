@@ -1,0 +1,31 @@
+{
+  "title": "Sorrir de dentro para fora",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "horizonte",
+  "tags": [
+    "frases Professor",
+    "terça"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Frase",
+      "description": "Frase 7 do documento do Professor Lairi Hans, com rosas cor-de-rosa claras ao centro (Pexels 31720604, DI LAI)"
+    }
+  ],
+  "caption": "\"É tão bonito viver na alegria. Como é bom uma pessoa ser alegre. Como é bom sorrir. Mas não sorrir artificialmente, sorrir de dentro para fora. Como é bom a pessoa ver a Terra, ver o mundo tão bonito, em meio a tanta coisa ruim.\"\n\nProfessor Lairi Hans, mentor espiritual da Morada.",
+  "hashtags": [],
+  "revisions": [
+    {
+      "note": "Inclua a mensagem inteira no post.",
+      "requestedAt": "2026-10-08T09:19",
+      "requestedBy": "admin",
+      "resolvedAt": "2026-10-08T09:41",
+      "resolvedTo": "pendente"
+    }
+  ],
+  "revisionCount": 1,
+  "revisedAt": "2026-10-08T09:41"
+}

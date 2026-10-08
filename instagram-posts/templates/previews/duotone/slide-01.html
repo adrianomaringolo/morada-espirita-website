@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="slide-size" content="1080x1350">
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'Halimun'; src: url('../../../assets/fonts/halimun.ttf') format('truetype'); font-display: block; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; background: #002e5a; }
+  .slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #002e5a; isolation: isolate; }
+
+  /* Duotone azul: a foto em cinza multiplicada pelo azul da casa. Qualquer foto vira da casa. */
+  .foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; filter: grayscale(1) contrast(1.05) brightness(1.05); }
+  .tinta { position: absolute; inset: 0; background: #2a5d94; mix-blend-mode: multiply; }
+  .veu { position: absolute; inset: 0; background: rgba(0,46,90,.38); }
+
+  .moldura { position: absolute; inset: 44px; border: 2px solid #f9a4cf; }
+
+  .texto { position: absolute; left: 140px; right: 140px; top: 50%; transform: translateY(-54%); text-align: center; color: #fff; }
+  blockquote { font-family: 'Aleo', serif; font-weight: 500; font-size: 70px; line-height: 1.16; letter-spacing: -0.02em; text-wrap: balance; }
+  cite { display: block; margin-top: 40px; font-family: 'Archivo', sans-serif; font-style: normal; font-weight: 500; font-size: 24px; letter-spacing: .14em; text-transform: uppercase; color: #f9a4cf; }
+
+  .assinatura { position: absolute; left: 0; right: 0; bottom: 92px; text-align: center; font-family: 'Archivo', sans-serif; font-weight: 500; font-size: 17px; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.74); }
+
+  /* Assinatura em Halimun (BRAND.md): duas linhas, entrelinha compacta, sem quebra dentro da linha. */
+  .assinatura { font-family: 'Halimun', cursive; font-weight: 400; font-size: 38px; line-height: 1.55; letter-spacing: 0; text-transform: none; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <img class="foto" src="../../../../public/images/campo-de-rosas.jpg" alt="">
+  <div class="tinta"></div>
+  <div class="veu"></div>
+  <div class="moldura"></div>
+  <div class="texto">
+    <blockquote>Nascer, morrer, renascer ainda e progredir sem cessar, tal é a lei.</blockquote>
+    <cite>Allan Kardec</cite>
+  </div>
+  <div class="assinatura">Morada Espírita<br>Professor Lairi Hans</div>
+</div>
+</body>
+</html>

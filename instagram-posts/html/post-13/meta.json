@@ -1,0 +1,20 @@
+{
+  "title": "Venham a mim, todos os que estão cansados",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 11.28 (NVI), com o painel de Jesus ensinando no monte (assets/images/jesus/jesus.png, painel 4)"
+    }
+  ],
+  "caption": "Naquela ocasião Jesus disse: “Eu te louvo, Pai, Senhor dos céus e da terra, porque escondeste estas coisas dos sábios e cultos, e as revelaste aos pequeninos. Sim, Pai, pois assim foi do teu agrado.\n\n“Todas as coisas me foram entregues por meu Pai. Ninguém conhece o Filho a não ser o Pai, e ninguém conhece o Pai a não ser o Filho e aqueles a quem o Filho o quiser revelar.\n\n“Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve”.\n\nMateus 11.25-30. Nova Versão Internacional.",
+  "hashtags": []
+}

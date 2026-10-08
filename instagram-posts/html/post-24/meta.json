@@ -1,0 +1,20 @@
+{
+  "title": "Jesus ficou orando",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Marcos 1.35 (NVI), painel 3 de assets/images/jesus/Colagem Devocional da Vida de Jesus.png (Jesus orando sob o céu estrelado)"
+    }
+  ],
+  "caption": "De madrugada, quando ainda estava escuro, Jesus levantou-se, saiu de casa e foi para um lugar deserto, onde ficou orando. Simão e seus companheiros foram procurá-lo e, ao encontrá-lo, disseram: “Todos estão te procurando!”\n\nJesus respondeu: “Vamos para outro lugar, para os povoados vizinhos, para que também lá eu pregue. Foi para isso que eu vim”. Então ele percorreu toda a Galiléia, pregando nas sinagogas e expulsando os demônios.\n\nMarcos 1.35-39. Nova Versão Internacional.",
+  "hashtags": []
+}

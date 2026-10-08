@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="slide-size" content="1080x1350">
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'Halimun'; src: url('../../assets/fonts/halimun.ttf') format('truetype'); font-display: block; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; background: #fcf8f7; }
+  /* Fundo de papel suave (asset compartilhado): base branco-rosado com grão e fibras. */
+  .slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; text-align: center;
+    background: #fcf8f7 url('../../assets/images/papel.svg') center / cover no-repeat; }
+
+  /* Bloco central na vertical: acomoda palavras de 2 a 11 letras e trechos de tamanhos diferentes. */
+  .bloco { position: absolute; left: 0; right: 0; top: 60px; bottom: 230px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  .eyebrow { font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 22px; letter-spacing: .2em; text-transform: uppercase; color: #a01560; }
+
+  /* A palavra é a janela: a foto só aparece por dentro das letras. */
+  .palavra {
+    margin-top: calc(48px - 0.32em); margin-bottom: -0.32em; width: 100%;
+    font-family: 'Aleo', serif; font-weight: 700; font-size: 188px; line-height: .8; padding: 0.32em 0; letter-spacing: -0.035em;
+    background: linear-gradient(rgba(39,25,34,.5), rgba(39,25,34,.5)), url('bg.jpg') 50% 50% / cover;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  blockquote { margin-top: 80px; max-width: 820px; font-family: 'Aleo', serif; font-style: italic; font-weight: 400; font-size: 50px; line-height: 1.24; color: #271922; text-wrap: balance; }
+  cite { margin-top: 34px; font-family: 'Archivo', sans-serif; font-style: normal; font-size: 23px; letter-spacing: .03em; color: #6d5d67; }
+
+  .assinatura { position: absolute; left: 0; right: 0; bottom: 80px; color: #6d5d67; }
+  /* Assinatura em Halimun (BRAND.md): duas linhas, entrelinha compacta, sem quebra dentro da linha. */
+  .assinatura { font-family: 'Halimun', cursive; font-weight: 400; font-size: 38px; line-height: 1.55; letter-spacing: 0; text-transform: none; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="bloco">
+    <div class="eyebrow">Uma palavra para iniciar a semana</div>
+    <div class="palavra">Humildade</div>
+    <blockquote>A humildade é virtude muito esquecida entre vós.</blockquote>
+    <cite>Lacordaire · O Evangelho segundo o Espiritismo, cap. VII</cite>
+  </div>
+  <div class="assinatura">Morada Espírita<br>Professor Lairi Hans</div>
+</div>
+</body>
+</html>

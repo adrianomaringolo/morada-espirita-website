@@ -1,0 +1,20 @@
+{
+  "title": "Façam aos outros",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 7.12 (NVI), painel 6 de assets/images/jesus/Jesus em Dez Momentos Sagrados.png (Jesus ensinando a multidão sob a árvore)"
+    }
+  ],
+  "caption": "“Peçam, e lhes será dado; busquem, e encontrarão; batam, e a porta lhes será aberta. Pois todo o que pede, recebe; o que busca, encontra; e àquele que bate, a porta será aberta.\n\n“Qual de vocês, se seu filho pedir pão, lhe dará uma pedra? Ou se pedir peixe, lhe dará uma cobra? Se vocês, apesar de serem maus, sabem dar boas coisas aos seus filhos, quanto mais o Pai de vocês, que está nos céus, dará coisas boas aos que lhe pedirem! Assim, em tudo, façam aos outros o que vocês querem que eles lhes façam; pois esta é a Lei e os Profetas. (…)”\n\nMateus 7.7-12. Nova Versão Internacional.",
+  "hashtags": []
+}

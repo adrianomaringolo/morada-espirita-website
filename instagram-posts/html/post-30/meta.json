@@ -1,0 +1,20 @@
+{
+  "title": "Tome a sua cruz",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Lucas 9.23 (NVI), painel 9 de assets/images/jesus/Colagem Devocional da Vida de Jesus.png (Jesus carregando a cruz)"
+    }
+  ],
+  "caption": "Jesus dizia a todos: “Se alguém quiser acompanhar-me, negue-se a si mesmo, tome diariamente a sua cruz e siga-me. Pois quem quiser salvar a sua vida, a perderá; mas quem perder a sua vida por minha causa, este a salvará. Pois que adianta ao homem ganhar o mundo inteiro, e perder-se ou destruir a si mesmo? (…)”\n\nLucas 9.23-25. Nova Versão Internacional.",
+  "hashtags": []
+}

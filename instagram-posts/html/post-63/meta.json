@@ -1,0 +1,20 @@
+{
+  "title": "A mim o fizeram",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 25.40 (NVI), painel 7 de assets/images/jesus/Jesus em Dez Momentos Sagrados.png (Jesus ajudando um homem caído a se levantar)"
+    }
+  ],
+  "caption": "“Então o Rei dirá aos que estiverem à sua direita: ‘Venham, benditos de meu Pai! Recebam como herança o Reino que lhes foi preparado desde a criação do mundo. Pois eu tive fome, e vocês me deram de comer; tive sede, e vocês me deram de beber; fui estrangeiro, e vocês me acolheram; necessitei de roupas, e vocês me vestiram; estive enfermo, e vocês cuidaram de mim; estive preso, e vocês me visitaram’.\n\n“Então os justos lhe responderão: ‘Senhor, quando te vimos com fome e te demos de comer, ou com sede e te demos de beber? Quando te vimos como estrangeiro e te acolhemos, ou necessitado de roupas e te vestimos? Quando te vimos enfermo ou preso e fomos te visitar?’\n\n“O Rei responderá: ‘Digo-lhes a verdade: O que vocês fizeram a algum dos meus menores irmãos, a mim o fizeram’. (…)”\n\nMateus 25.34-40. Nova Versão Internacional.",
+  "hashtags": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Estarei sempre com vocês",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 28.20 (NVI), painel 10 de assets/images/jesus/Colagem Devocional da Vida de Jesus.png (Jesus diante do mar ao pôr do sol)"
+    }
+  ],
+  "caption": "Então, Jesus aproximou-se deles e disse: “Foi-me dada toda a autoridade nos céus e na terra. Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a obedecer a tudo o que eu lhes ordenei. E eu estarei sempre com vocês, até o fim dos tempos”.\n\nMateus 28.18-20. Nova Versão Internacional.",
+  "hashtags": []
+}

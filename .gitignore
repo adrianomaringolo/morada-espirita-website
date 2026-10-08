@@ -45,3 +45,6 @@ next-env.d.ts
 
 # typescript
 *.tsbuildinfo
+
+# instagram posts exportados
+/instagram-posts/output/

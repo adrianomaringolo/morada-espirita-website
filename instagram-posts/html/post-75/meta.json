@@ -1,0 +1,31 @@
+{
+  "title": "Quem tem fé",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "horizonte",
+  "tags": [
+    "frases Professor",
+    "terça"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Frase",
+      "description": "Frase 74 do documento do Professor Lairi Hans, com rosa azul-clara e mosquitinhos ao centro (Pexels 16871955, Xiao Bo)"
+    }
+  ],
+  "caption": "\"Porque quem tem fé, tem o Nosso Pai junto a cada um. Quem tem o amor é estender a mãozinha para todos aqueles que precisam, que se chama Caridade. Quem tem a Paz, tem o sorriso da alegria, o sorriso do amor, é encontrado.\"\n\nProfessor Lairi Hans, mentor espiritual da Morada.",
+  "hashtags": [],
+  "revisions": [
+    {
+      "note": "troque essa imagem",
+      "requestedAt": "2026-10-08T09:20",
+      "requestedBy": "admin",
+      "resolvedAt": "2026-10-08T09:41",
+      "resolvedTo": "pendente"
+    }
+  ],
+  "revisionCount": 1,
+  "revisedAt": "2026-10-08T09:41"
+}

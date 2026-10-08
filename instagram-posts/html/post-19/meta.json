@@ -1,0 +1,20 @@
+{
+  "title": "Pai nosso, que estás nos céus",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 6.9-10 (NVI), painel 8 de assets/images/jesus/jesus.png (Jesus olhando para o alto)"
+    }
+  ],
+  "caption": "Vocês, orem assim:\n\n“Pai nosso, que estás nos céus!\nSantificado seja o teu nome.\nVenha o teu Reino;\nseja feita a tua vontade,\nassim na terra como no céu.\nDá-nos hoje o nosso pão de cada dia.\nPerdoa as nossas dívidas,\nassim como perdoamos aos nossos devedores.\nE não nos deixes cair em tentação,\nmas livra-nos do mal,\nporque teu é o Reino, o poder e a glória para sempre. Amém.\n\nMateus 6.9-13. Nova Versão Internacional.",
+  "hashtags": []
+}
