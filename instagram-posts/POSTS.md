@@ -1,8 +1,8 @@
 # Posts do Instagram
 
-Última atualização: 2026-10-08
+Última atualização: 2026-10-27
 
-Painéis de `jesus/jesus.png` já usados: todos os 10 (posts 12 a 21). Painéis da `Colagem Devocional da Vida de Jesus.png`: todos os 10 (posts 22 a 31). Painéis de `Jesus em Dez Momentos Sagrados.png`: todos os 10 (posts 57 a 66). Daqui em diante, repetir painel com intervalo de pelo menos 4 domingos.
+Painéis de `jesus/jesus.png` já usados: todos os 10 (posts 12 a 21). Painéis da `Colagem Devocional da Vida de Jesus.png`: todos os 10 (posts 22 a 31). Painéis de `Jesus em Dez Momentos Sagrados.png`: todos os 10 (posts 57 a 66). Painéis da `Colagem Cinemática da Jornada de Jesus.png`: 5, barco na tempestade e homem amparado (posts 91 a 93). Daqui em diante, repetir painel com intervalo de pelo menos 4 domingos.
 
 Frases do Professor já usadas: 7, 8, 10, 13, 16, 25, 27, 29, 30, 32, 34, 40, 48, 50, 55, 61, 74, 76, 97, 101 (a 59 é quase igual à 29: evitar).
 
@@ -15,10 +15,10 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-03 | 2026-10-07 | `palavra` | Amizade · Uma palavra para iniciar a semana | 🔵 |
 | post-04 | 2026-10-07 | `horizonte` | A felicidade é o encontro de vocês mesmos | 🔵 |
 | post-05 | 2026-10-07 | `palavra` | Fé · Uma palavra para iniciar a semana | 🔵 |
-| post-06 | 2026-10-07 | `palavra` | Paciência · Uma palavra para iniciar a semana | 🔵 |
-| post-07 | 2026-10-07 | `horizonte` | Quando vocês estiverem tristes | 🔵 |
+| post-06 | 2026-10-07 | `palavra` | Paciência · Uma palavra para iniciar a semana | 🟢 |
+| post-07 | 2026-10-07 | `horizonte` | Quando vocês estiverem tristes | 🟢 |
 | post-08 | 2026-10-07 | `horizonte` | A paz traz vida longa | 🔵 |
-| post-09 | 2026-10-07 | `horizonte` | O amor é a construção de vocês | 🔵 |
+| post-09 | 2026-10-07 | `horizonte` | O amor é a construção de vocês | 🟢 |
 | post-10 | 2026-10-07 | `horizonte` | A humildade é fortaleza | 🔵 |
 | post-11 | 2026-10-07 | `horizonte` | Toda caminhada tem que ter suas paradas | 🔵 |
 | post-12 | 2026-10-08 | `dividido` | Eu sou o bom pastor | 🔵 |
@@ -28,7 +28,7 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-16 | 2026-10-08 | `dividido` | Deixem vir a mim as crianças | 🔵 |
 | post-17 | 2026-10-08 | `dividido` | A minha paz lhes dou | 🔵 |
 | post-18 | 2026-10-08 | `dividido` | Lavar os pés uns dos outros | 🔵 |
-| post-19 | 2026-10-08 | `dividido` | Pai nosso, que estás nos céus | 🔵 |
+| post-19 | 2026-10-08 | `dividido` | Pai nosso, que estás nos céus | 🟡 |
 | post-20 | 2026-10-08 | `dividido` | Eu sou o caminho, a verdade e a vida | 🔵 |
 | post-21 | 2026-10-08 | `dividido` | Eu sou a luz do mundo | 🔵 |
 | post-22 | 2026-10-08 | `dividido` | Sol sobre maus e bons | 🔵 |
@@ -41,7 +41,7 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-29 | 2026-10-08 | `dividido` | A água viva | 🔵 |
 | post-30 | 2026-10-08 | `dividido` | Tome a sua cruz | 🔵 |
 | post-31 | 2026-10-08 | `dividido` | Estarei sempre com vocês | 🔵 |
-| post-32 | 2026-10-08 | `vidro` | A esperança é a luz do cristão | 🔵 |
+| post-32 | 2026-10-08 | `vidro` | A esperança é a luz do cristão | 🟡 |
 | post-33 | 2026-10-08 | `vidro` | Sem paz, dentro de nós | 🔵 |
 | post-34 | 2026-10-08 | `vidro` | Não deixes para depois | 🔵 |
 | post-35 | 2026-10-08 | `vidro` | Semeando paz, colherás harmonia | 🔵 |
@@ -54,10 +54,10 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-42 | 2026-10-09 | `vidro` | Um coração tranquilo | 🔵 |
 | post-43 | 2026-10-09 | `vidro` | A prece é medicamento | 🔵 |
 | post-44 | 2026-10-09 | `vidro` | A amizade é um tesouro | 🔵 |
-| post-45 | 2026-10-09 | `vidro` | Deus vela por ti | 🔵 |
+| post-45 | 2026-10-09 | `vidro` | Deus vela por ti | 🟢 |
 | post-46 | 2026-10-09 | `vidro` | Se alguém te ofende | 🔵 |
 | post-47 | 2026-10-09 | `palavra` | Caridade · Uma palavra para iniciar a semana | 🔵 |
-| post-48 | 2026-10-09 | `palavra` | Prece · Uma palavra para iniciar a semana | 🔵 |
+| post-48 | 2026-10-09 | `palavra` | Prece · Uma palavra para iniciar a semana | 🟢 |
 | post-49 | 2026-10-09 | `palavra` | Indulgência · Uma palavra para iniciar a semana | 🔵 |
 | post-50 | 2026-10-09 | `palavra` | Humildade · Uma palavra para iniciar a semana | 🔵 |
 | post-51 | 2026-10-09 | `palavra` | Doçura · Uma palavra para iniciar a semana | 🔵 |
@@ -65,15 +65,15 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-53 | 2026-10-09 | `palavra` | Resignação · Uma palavra para iniciar a semana | 🔵 |
 | post-54 | 2026-10-09 | `palavra` | Virtude · Uma palavra para iniciar a semana | 🔵 |
 | post-55 | 2026-10-09 | `palavra` | Piedade · Uma palavra para iniciar a semana | 🔵 |
-| post-56 | 2026-10-09 | `palavra` | Trabalho · Uma palavra para iniciar a semana | 🔵 |
+| post-56 | 2026-10-09 | `palavra` | Trabalho · Uma palavra para iniciar a semana | 🟢 |
 | post-57 | 2026-10-08 | `dividido` | As aves do céu | 🔵 |
 | post-58 | 2026-10-08 | `dividido` | Como crianças | 🔵 |
 | post-59 | 2026-10-08 | `dividido` | Buscar e salvar o que estava perdido | 🔵 |
 | post-60 | 2026-10-08 | `dividido` | Ainda não têm fé? | 🔵 |
 | post-61 | 2026-10-08 | `dividido` | O Pai sabe do que vocês precisam | 🔵 |
-| post-62 | 2026-10-08 | `dividido` | Façam aos outros | 🔵 |
+| post-62 | 2026-10-08 | `dividido` | Façam aos outros | 🟡 |
 | post-63 | 2026-10-08 | `dividido` | A mim o fizeram | 🔵 |
-| post-64 | 2026-10-08 | `dividido` | Tenham ânimo! Eu venci o mundo | 🔵 |
+| post-64 | 2026-10-08 | `dividido` | Tenham ânimo! Eu venci o mundo | 🟢 |
 | post-65 | 2026-10-08 | `dividido` | Ele não está aqui! Ressuscitou! | 🔵 |
 | post-66 | 2026-10-08 | `dividido` | A ovelha perdida | 🔵 |
 | post-67 | 2026-10-08 | `horizonte` | A Paz é uma pomba branca | 🔵 |
@@ -91,15 +91,18 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-79 | 2026-10-08 | `palavra` | Família · Uma palavra para iniciar a semana | 🔵 |
 | post-80 | 2026-10-08 | `palavra` | Perdão · Uma palavra para iniciar a semana | 🔵 |
 | post-81 | 2026-10-08 | `palavra` | Felicidade · Uma palavra para iniciar a semana | 🔵 |
-| post-82 | 2026-10-08 | `vidro` | A doce caridade de compreender | 🔵 |
+| post-82 | 2026-10-08 | `vidro` | A doce caridade de compreender | 🟡 |
 | post-83 | 2026-10-08 | `vidro` | Um traço do Senhor | 🔵 |
 | post-84 | 2026-10-08 | `vidro` | O poder de renovar a própria vida | 🔵 |
 | post-85 | 2026-10-08 | `vidro` | A alegria cristã | 🔵 |
 | post-86 | 2026-10-08 | `vidro` | És o que vives interiormente | 🔵 |
 | post-87 | 2026-10-08 | `horizonte` | O respeito e o amor | 🔵 |
-| post-88 | 2026-10-08 | `horizonte` | A fraternidade é muito importante | 🔵 |
+| post-88 | 2026-10-08 | `horizonte` | A fraternidade é muito importante | 🟡 |
 | post-89 | 2026-10-08 | `horizonte` | O arrependimento | 🔵 |
 | post-90 | 2026-10-08 | `horizonte` | Vivam felizes no vosso lar | 🔵 |
+| post-91 | 2026-10-27 | `dividido` | Quando o amor esfria | 🔵 |
+| post-92 | 2026-10-27 | `dividido` | Tive fome, e vocês me deram de comer | 🔵 |
+| post-93 | 2026-10-27 | `dividido` | O que vocês deixaram de fazer | 🔵 |
 
 ## post-01 — Consolação · Uma palavra para iniciar a semana
 
@@ -555,3 +558,18 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 
 - **Fonte:** Professor Lairi Hans, **Frase 55** do documento de frases. Texto copiado na íntegra.
 - **Foto:** rosas cor-de-rosa claras ao centro, [Pexels 458886](https://www.pexels.com/photo/458886/), de Pixabay.
+
+## post-91 — Quando o amor esfria
+
+- **Fonte:** Mateus 24.10-13, Nova Versão Internacional. ✅ Conferido no PDF da NVI.
+- **Imagem:** painel do barco na tempestade, de `Colagem Cinemática da Jornada de Jesus.png`.
+
+## post-92 — Tive fome, e vocês me deram de comer
+
+- **Fonte:** Mateus 25.35-36, Nova Versão Internacional. ✅ Conferido no PDF da NVI.
+- **Imagem:** painel de Jesus amparando um homem caído, da `Colagem Cinemática`.
+
+## post-93 — O que vocês deixaram de fazer
+
+- **Fonte:** Mateus 25.42-45, Nova Versão Internacional. ✅ Conferido no PDF da NVI. Texto longo (~100 palavras): fonte de 32px e coluna da foto de 360px.
+- **Imagem:** painel de Jesus olhando para o alto, em raios de luz, da `Colagem Cinemática`.

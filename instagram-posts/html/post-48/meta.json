@@ -1,6 +1,9 @@
 {
   "title": "Prece · Uma palavra para iniciar a semana",
   "date": "2026-10-09",
+  "plannedAt": "2026-10-12",
+  "postedAt": "2026-10-12",
+  "status": "postado",
   "type": "single",
   "template": "palavra",
   "tags": [

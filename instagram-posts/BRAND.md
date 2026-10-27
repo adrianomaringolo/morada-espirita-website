@@ -148,7 +148,6 @@ ou indique o Facebook da casa e o site.
 
 <!-- definicao:datas -->
 - 29/10 — Aniversário da Morada (fundada em 1980)
-- 18/04 — Lançamento de O Livro dos Espíritos (1857)
 - maio - dia das mães (lembrar da Mãe Luzia)
 - agosto - dia dos pais (lembrar do Professor)
 - 25/12 — Natal (campanha de Natal da casa)

@@ -1,6 +1,8 @@
 {
   "title": "Pai nosso, que estás nos céus",
   "date": "2026-10-08",
+  "plannedAt": "2026-10-25",
+  "status": "aprovado",
   "type": "single",
   "template": "dividido",
   "tags": [
