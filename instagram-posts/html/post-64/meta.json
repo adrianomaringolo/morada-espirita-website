@@ -1,0 +1,22 @@
+{
+  "title": "Tenham ânimo! Eu venci o mundo",
+  "date": "2026-10-08",
+  "postedAt": "2026-11-01",
+  "status": "postado",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "João 16.33 (NVI), painel 8 de assets/images/jesus/Jesus em Dez Momentos Sagrados.png (Jesus contemplando o mar ao pôr do sol)"
+    }
+  ],
+  "caption": "Respondeu Jesus: “Agora vocês crêem? Aproxima-se a hora, e já chegou, quando vocês serão espalhados cada um para a sua casa. Vocês me deixarão sozinho. Mas eu não estou sozinho, pois meu Pai está comigo.\n\n“Eu lhes disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo”.\n\nJoão 16.31-33. Nova Versão Internacional.",
+  "hashtags": []
+}

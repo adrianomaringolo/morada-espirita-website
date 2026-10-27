@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <!-- Textura de papel suave: base branco-rosado + grão fino + fibras longas + leve manchado. -->
+  <defs>
+    <filter id="grao" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="7" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 .42  0 0 0 0 .34  0 0 0 0 .38  0 0 0 .55 0"/>
+    </filter>
+    <filter id="fibra" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".012 .22" numOctaves="2" seed="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .42  0 0 0 0 .46  0 0 0 .7 -.18"/>
+    </filter>
+    <filter id="mancha" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".004" numOctaves="2" seed="11"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 .93  0 0 0 0 .78  0 0 0 0 .84  0 0 0 .9 -.3"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#fcf8f7"/>
+  <rect width="100%" height="100%" filter="url(#mancha)" opacity="1"/>
+  <rect width="100%" height="100%" filter="url(#fibra)" opacity=".4"/>
+  <rect width="100%" height="100%" filter="url(#grao)" opacity=".38"/>
+</svg>

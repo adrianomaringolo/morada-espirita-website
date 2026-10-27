@@ -1,0 +1,32 @@
+{
+  "title": "Consolação · Uma palavra para iniciar a semana",
+  "date": "2026-10-07",
+  "type": "single",
+  "template": "palavra",
+  "tags": [
+    "Evangelho",
+    "segunda",
+    "palavras"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Palavra",
+      "description": "Série de segunda. Palavra CONSOLAÇÃO com campo de flores silvestres coloridas dentro das letras (Pexels 13165440, Aliaksei Semirski). Instrução do Espírito de Verdade (O Evangelho segundo o Espiritismo, cap. VI, item 8)"
+    }
+  ],
+  "caption": "\"Deus consola os humildes e dá força aos aflitos que lha pedem. Seu poder cobre a Terra e, por toda a parte, junto de cada lágrima colocou ele um bálsamo que consola.\"\n\nO Evangelho segundo o Espiritismo, cap. VI, item 8. O Espírito de Verdade (Havre, 1863).",
+  "hashtags": [],
+  "revisions": [
+    {
+      "note": "mude esse post para o template palavra, usando a palavra Consolação",
+      "requestedAt": "2026-10-08T09:22",
+      "requestedBy": "admin",
+      "resolvedAt": "2026-10-08T09:41",
+      "resolvedTo": "pendente"
+    }
+  ],
+  "revisionCount": 1,
+  "revisedAt": "2026-10-08T09:41"
+}

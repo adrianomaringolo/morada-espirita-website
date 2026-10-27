@@ -1,0 +1,20 @@
+{
+  "title": "Sol sobre maus e bons",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Mateus 5.45 (NVI), painel 1 de assets/images/jesus/Colagem Devocional da Vida de Jesus.png (Jesus caminhando sob a chuva)"
+    }
+  ],
+  "caption": "“Vocês ouviram o que foi dito: ‘Ame o seu próximo e odeie o seu inimigo’. Mas eu lhes digo: Amem os seus inimigos e orem por aqueles que os perseguem, para que vocês venham a ser filhos de seu Pai que está nos céus. Porque ele faz raiar o seu sol sobre maus e bons e derrama chuva sobre justos e injustos. Se vocês amarem aqueles que os amam, que recompensa vocês receberão? Até os publicanos fazem isso! E se saudarem apenas os seus irmãos, o que estarão fazendo de mais? Até os pagãos fazem isso! Portanto, sejam perfeitos como perfeito é o Pai celestial de vocês. (…)”\n\nMateus 5.43-48. Nova Versão Internacional.",
+  "hashtags": []
+}

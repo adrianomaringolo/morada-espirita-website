@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-07",
+  "type": "single",
+  "template": "palavra",
+  "tags": [
+    "Evangelho",
+    "segunda",
+    "palavras"
+  ],
+  "format": "1080x1350",
+  "title": "Amizade · Uma palavra para iniciar a semana",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Palavra",
+      "description": "Série de segunda. Palavra AMIZADE com galhos de cerejeira em flor contra o céu azul dentro das letras (Pexels 30811791, Salvador Chinchilla). Trecho de Paulo, apóstolo (O Evangelho segundo o Espiritismo, cap. X, item 15), em três orações"
+    }
+  ],
+  "caption": "\"Perdoar aos inimigos é pedir perdão para si próprio; perdoar aos amigos é dar-lhes uma prova de amizade; perdoar as ofensas é mostrar-se melhor do que era.\"\n\nO Evangelho segundo o Espiritismo, cap. X, item 15. Paulo, apóstolo (Lião, 1861).",
+  "hashtags": [],
+  "revisions": [
+    {
+      "note": "mude esse post para o template palavra, usando a palavra Amizade",
+      "requestedAt": "2026-10-08T09:23",
+      "requestedBy": "admin",
+      "resolvedAt": "2026-10-08T09:41",
+      "resolvedTo": "pendente"
+    }
+  ],
+  "revisionCount": 1,
+  "revisedAt": "2026-10-08T09:41"
+}

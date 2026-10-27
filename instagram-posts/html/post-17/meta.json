@@ -1,0 +1,20 @@
+{
+  "title": "A minha paz lhes dou",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "João 14.27 (NVI), painel 6 de assets/images/jesus/jesus.png (Jesus contemplando o pôr do sol)"
+    }
+  ],
+  "caption": "“Tudo isso lhes tenho dito enquanto ainda estou com vocês. Mas o Conselheiro, o Espírito Santo, que o Pai enviará em meu nome, lhes ensinará todas as coisas e lhes fará lembrar tudo o que eu lhes disse. Deixo-lhes a paz; a minha paz lhes dou. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo. (…)”\n\nJoão 14.25-27. Nova Versão Internacional.",
+  "hashtags": []
+}

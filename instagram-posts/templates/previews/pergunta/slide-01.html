@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="slide-size" content="1080x1350">
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'Halimun'; src: url('../../../assets/fonts/halimun.ttf') format('truetype'); font-display: block; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; background: #bee1fc; }
+  .slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #bee1fc; }
+
+  .foto { position: absolute; left: 96px; top: 110px; width: 200px; height: 200px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 0 10px #bee1fc, 0 0 0 12px #002e5a; }
+  .foto img { width: 100%; height: 100%; object-fit: cover; object-position: 54% 82%; filter: saturate(.75); }
+
+  /* A pergunta é o post: enorme, sem aspas. */
+  .pergunta { position: absolute; left: 96px; right: 96px; top: 380px; font-family: 'Aleo', serif; font-weight: 700; font-size: 132px; line-height: 1; letter-spacing: -0.035em; color: #002e5a; text-wrap: balance; }
+  .ref-p { position: absolute; left: 96px; top: 690px; font-family: 'Archivo', sans-serif; font-size: 23px; color: #002e5a; }
+
+  .resposta { position: absolute; left: 96px; right: 96px; top: 800px; padding-top: 44px; border-top: 2px solid #002e5a; }
+  .resposta span { font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: .18em; text-transform: uppercase; color: #002e5a; }
+  blockquote { margin-top: 18px; font-family: 'Aleo', serif; font-style: italic; font-weight: 400; font-size: 68px; line-height: 1.12; color: #271922; }
+  cite { display: block; margin-top: 20px; font-family: 'Archivo', sans-serif; font-style: normal; font-size: 23px; color: #002e5a; }
+
+  .assinatura { position: absolute; right: 96px; bottom: 84px; font-family: 'Archivo', sans-serif; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; font-size: 18px; color: #002e5a; }
+
+  /* Assinatura em Halimun (BRAND.md): duas linhas, entrelinha compacta, sem quebra dentro da linha. */
+  .assinatura { font-family: 'Halimun', cursive; font-weight: 400; font-size: 38px; line-height: 1.55; letter-spacing: 0; text-transform: none; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="foto"><img src="../../../../public/images/maos-dadas.jpg" alt=""></div>
+  <div class="pergunta">Quem é o meu próximo?</div>
+  <div class="ref-p">Lucas 10:29</div>
+  <div class="resposta">
+    <span>Jesus respondeu com uma parábola e terminou assim</span>
+    <blockquote>Vai, e faze tu o mesmo.</blockquote>
+    <cite>Lucas 10:37 · O Evangelho segundo o Espiritismo, cap. XV</cite>
+  </div>
+  <div class="assinatura">Morada Espírita<br>Professor Lairi Hans</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "title": "A ovelha perdida",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "Lucas 15.4 (NVI), painel 10 de assets/images/jesus/Jesus em Dez Momentos Sagrados.png (Jesus pastor, com as ovelhas, ao entardecer)"
+    }
+  ],
+  "caption": "Então Jesus lhes contou esta parábola: “Qual de vocês que, possuindo cem ovelhas, e perdendo uma, não deixa as noventa e nove no campo e vai atrás da ovelha perdida, até encontrá-la? E quando a encontra, coloca-a alegremente nos ombros e vai para casa. Ao chegar, reúne seus amigos e vizinhos e diz: ‘Alegrem-se comigo, pois encontrei minha ovelha perdida’. Eu lhes digo que, da mesma forma, haverá mais alegria no céu por um pecador que se arrepende do que por noventa e nove justos que não precisam arrepender-se. (…)”\n\nLucas 15.3-7. Nova Versão Internacional.",
+  "hashtags": []
+}

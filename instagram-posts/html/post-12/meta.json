@@ -1,0 +1,20 @@
+{
+  "title": "Eu sou o bom pastor",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "João 10.14 (NVI), com o painel de Jesus com o cordeiro (assets/images/jesus/jesus.png, painel 1)"
+    }
+  ],
+  "caption": "“Eu sou o bom pastor. O bom pastor dá a sua vida pelas ovelhas. O assalariado não é o pastor a quem as ovelhas pertencem. Assim, quando vê que o lobo vem, abandona as ovelhas e foge. Então o lobo ataca o rebanho e o dispersa. Ele foge porque é assalariado e não se importa com as ovelhas.\n\n“Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas. (…)”\n\nJoão 10.11-15. Nova Versão Internacional.",
+  "hashtags": []
+}

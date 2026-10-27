@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-07",
+  "type": "single",
+  "template": "palavra",
+  "tags": [
+    "Evangelho",
+    "segunda",
+    "palavras"
+  ],
+  "format": "1080x1350",
+  "title": "Amor · Uma palavra para iniciar a semana",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Palavra",
+      "description": "Série de segunda. Palavra AMOR com roseiras cor-de-rosa em flor dentro das letras (Pexels 8734731, Wolfgang Krzemien). Frase curta de Lázaro (O Evangelho segundo o Espiritismo, cap. XI, item 8)"
+    }
+  ],
+  "caption": "\"O amor resume a doutrina de Jesus toda inteira, visto que esse é o sentimento por excelência, e os sentimentos são os instintos elevados à altura do progresso feito.\"\n\nO Evangelho segundo o Espiritismo, cap. XI, item 8. Lázaro (Paris, 1862).",
+  "hashtags": [],
+  "revisions": [
+    {
+      "note": "mude esse post para o template palavra, usando a palavra Amor",
+      "requestedAt": "2026-10-08T09:22",
+      "requestedBy": "admin",
+      "resolvedAt": "2026-10-08T09:41",
+      "resolvedTo": "pendente"
+    }
+  ],
+  "revisionCount": 1,
+  "revisedAt": "2026-10-08T09:41"
+}

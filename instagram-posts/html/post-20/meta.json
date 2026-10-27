@@ -1,0 +1,20 @@
+{
+  "title": "Eu sou o caminho, a verdade e a vida",
+  "date": "2026-10-08",
+  "type": "single",
+  "template": "dividido",
+  "tags": [
+    "Jesus",
+    "domingo"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Perícope",
+      "description": "João 14.6 (NVI), painel 9 de assets/images/jesus/jesus.png (Jesus caminhando no campo florido)"
+    }
+  ],
+  "caption": "“Não se perturbe o coração de vocês. Creiam em Deus; creiam também em mim. Na casa de meu Pai há muitos aposentos; se não fosse assim, eu lhes teria dito. Vou preparar-lhes lugar. E se eu for e lhes preparar lugar, voltarei e os levarei para mim, para que vocês estejam onde eu estiver. Vocês conhecem o caminho para onde vou”.\n\nDisse-lhe Tomé: “Senhor, não sabemos para onde vais; como então podemos saber o caminho?” Respondeu Jesus: “Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim. (…)”\n\nJoão 14.1-6. Nova Versão Internacional.",
+  "hashtags": []
+}

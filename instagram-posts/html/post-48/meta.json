@@ -1,0 +1,24 @@
+{
+  "title": "Prece · Uma palavra para iniciar a semana",
+  "date": "2026-10-09",
+  "plannedAt": "2026-10-12",
+  "postedAt": "2026-10-12",
+  "status": "postado",
+  "type": "single",
+  "template": "palavra",
+  "tags": [
+    "Evangelho",
+    "segunda",
+    "palavras"
+  ],
+  "format": "1080x1350",
+  "slides": [
+    {
+      "file": "slide-01.html",
+      "title": "Palavra",
+      "description": "Série de segunda (02/11). Palavra PRECE com lavanda (Pexels 6750380, hasnan pustek) e trecho de Santo Agostinho, cap. XXVII, item 23"
+    }
+  ],
+  "caption": "“A prece! Ah! Como são tocantes as palavras que saem da boca daquele que ora! A prece é o orvalho divino que aplaca o calor excessivo das paixões. Filha primogênita da fé, ela nos encaminha para a senda que conduz a Deus. No recolhimento e na solidão, estais com Deus.”\n\nO Evangelho segundo o Espiritismo, cap. XXVII, item 23. Santo Agostinho (Paris, 1861).",
+  "hashtags": []
+}
