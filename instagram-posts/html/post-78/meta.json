@@ -1,6 +1,8 @@
 {
   "title": "Brandura · Uma palavra para iniciar a semana",
   "date": "2026-10-08",
+  "plannedAt": "2026-11-02",
+  "status": "aprovado",
   "type": "single",
   "template": "palavra",
   "tags": [

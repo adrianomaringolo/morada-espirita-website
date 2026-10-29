@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="slide-size" content="1080x1350">
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @font-face { font-family: 'Halimun'; src: url('../../assets/fonts/halimun.ttf') format('truetype'); font-display: block; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; background: #002e5a; }
+  .slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #002e5a; }
+  .foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%; }
+
+  /* Véu azul da casa no alto, onde mora o texto; some antes das rosas. */
+  .veu { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,46,90,.80) 0%, rgba(0,46,90,.66) 26%, rgba(0,46,90,.5) 38%, rgba(0,46,90,.15) 47%, rgba(0,46,90,0) 54%); }
+  /* Sopro claro no rodapé para a assinatura. */
+  .sopro { position: absolute; left: 0; right: 0; bottom: 0; height: 260px; background: linear-gradient(0deg, rgba(255,255,255,.82) 0%, rgba(255,255,255,.55) 55%, rgba(255,255,255,0) 100%); }
+
+  .texto { position: absolute; left: 96px; right: 96px; top: 104px; color: #fff; }
+  .eyebrow { font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 22px; letter-spacing: .18em; text-transform: uppercase; color: #f9a4cf; }
+  .fio { width: 64px; height: 3px; background: #f9a4cf; margin: 34px 0 30px; }
+  h1 { font-family: 'Aleo', serif; font-weight: 600; font-size: 168px; line-height: .95; letter-spacing: -0.03em; }
+  h1 small { display: block; margin-top: -6px; font-weight: 500; font-size: 72px; line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance; }
+  .apoio { margin-top: 34px; font-family: 'Archivo', sans-serif; font-weight: 400; font-size: 27px; letter-spacing: .03em; color: #fff; }
+
+  .assinatura { position: absolute; left: 96px; bottom: 76px; color: #6d5d67; font-family: 'Halimun', cursive; font-weight: 400; font-size: 38px; line-height: 1.55; letter-spacing: 0; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <img class="foto" src="bg.jpg" alt="">
+  <div class="veu"></div>
+  <div class="sopro"></div>
+  <div class="texto">
+    <div class="eyebrow">Aniversário da Morada</div>
+    <div class="fio"></div>
+    <h1>46 anos<small>de amor, cura e caridade.</small></h1>
+    <div class="apoio">Desde 29 de outubro de 1980</div>
+  </div>
+  <div class="assinatura">Morada Espírita<br>Professor Lairi Hans</div>
+</div>
+</body>
+</html>

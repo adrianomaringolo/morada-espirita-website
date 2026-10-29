@@ -1,6 +1,6 @@
 # Posts do Instagram
 
-Última atualização: 2026-10-27
+Última atualização: 2026-10-29
 
 Painéis de `jesus/jesus.png` já usados: todos os 10 (posts 12 a 21). Painéis da `Colagem Devocional da Vida de Jesus.png`: todos os 10 (posts 22 a 31). Painéis de `Jesus em Dez Momentos Sagrados.png`: todos os 10 (posts 57 a 66). Painéis da `Colagem Cinemática da Jornada de Jesus.png`: 5, barco na tempestade e homem amparado (posts 91 a 93). Daqui em diante, repetir painel com intervalo de pelo menos 4 domingos.
 
@@ -28,7 +28,7 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-16 | 2026-10-08 | `dividido` | Deixem vir a mim as crianças | 🔵 |
 | post-17 | 2026-10-08 | `dividido` | A minha paz lhes dou | 🔵 |
 | post-18 | 2026-10-08 | `dividido` | Lavar os pés uns dos outros | 🔵 |
-| post-19 | 2026-10-08 | `dividido` | Pai nosso, que estás nos céus | 🟡 |
+| post-19 | 2026-10-08 | `dividido` | Pai nosso, que estás nos céus | 🟢 |
 | post-20 | 2026-10-08 | `dividido` | Eu sou o caminho, a verdade e a vida | 🔵 |
 | post-21 | 2026-10-08 | `dividido` | Eu sou a luz do mundo | 🔵 |
 | post-22 | 2026-10-08 | `dividido` | Sol sobre maus e bons | 🔵 |
@@ -41,7 +41,7 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-29 | 2026-10-08 | `dividido` | A água viva | 🔵 |
 | post-30 | 2026-10-08 | `dividido` | Tome a sua cruz | 🔵 |
 | post-31 | 2026-10-08 | `dividido` | Estarei sempre com vocês | 🔵 |
-| post-32 | 2026-10-08 | `vidro` | A esperança é a luz do cristão | 🟡 |
+| post-32 | 2026-10-08 | `vidro` | A esperança é a luz do cristão | 🟢 |
 | post-33 | 2026-10-08 | `vidro` | Sem paz, dentro de nós | 🔵 |
 | post-34 | 2026-10-08 | `vidro` | Não deixes para depois | 🔵 |
 | post-35 | 2026-10-08 | `vidro` | Semeando paz, colherás harmonia | 🔵 |
@@ -50,7 +50,7 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-38 | 2026-10-09 | `vidro` | Uma frase de bondade | 🔵 |
 | post-39 | 2026-10-09 | `vidro` | O erro ensina o caminho do acerto | 🔵 |
 | post-40 | 2026-10-09 | `vidro` | A felicidade está chamando | 🔵 |
-| post-41 | 2026-10-09 | `vidro` | O auxílio ao próximo | 🔵 |
+| post-41 | 2026-10-09 | `vidro` | O auxílio ao próximo | 🟡 |
 | post-42 | 2026-10-09 | `vidro` | Um coração tranquilo | 🔵 |
 | post-43 | 2026-10-09 | `vidro` | A prece é medicamento | 🔵 |
 | post-44 | 2026-10-09 | `vidro` | A amizade é um tesouro | 🔵 |
@@ -71,9 +71,9 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-59 | 2026-10-08 | `dividido` | Buscar e salvar o que estava perdido | 🔵 |
 | post-60 | 2026-10-08 | `dividido` | Ainda não têm fé? | 🔵 |
 | post-61 | 2026-10-08 | `dividido` | O Pai sabe do que vocês precisam | 🔵 |
-| post-62 | 2026-10-08 | `dividido` | Façam aos outros | 🟡 |
+| post-62 | 2026-10-08 | `dividido` | Façam aos outros | 🟢 |
 | post-63 | 2026-10-08 | `dividido` | A mim o fizeram | 🔵 |
-| post-64 | 2026-10-08 | `dividido` | Tenham ânimo! Eu venci o mundo | 🟢 |
+| post-64 | 2026-10-08 | `dividido` | Tenham ânimo! Eu venci o mundo | 🟡 |
 | post-65 | 2026-10-08 | `dividido` | Ele não está aqui! Ressuscitou! | 🔵 |
 | post-66 | 2026-10-08 | `dividido` | A ovelha perdida | 🔵 |
 | post-67 | 2026-10-08 | `horizonte` | A Paz é uma pomba branca | 🔵 |
@@ -83,26 +83,27 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 | post-71 | 2026-10-08 | `horizonte` | O amor é invencível | 🔵 |
 | post-72 | 2026-10-08 | `horizonte` | Como vocês são felizes | 🔵 |
 | post-73 | 2026-10-08 | `horizonte` | O bom espírita | 🔵 |
-| post-74 | 2026-10-08 | `horizonte` | Amar ao próximo | 🔵 |
+| post-74 | 2026-10-08 | `horizonte` | Amar ao próximo | 🟡 |
 | post-75 | 2026-10-08 | `horizonte` | Quem tem fé | 🔵 |
 | post-76 | 2026-10-08 | `horizonte` | Lutando se vence | 🔵 |
 | post-77 | 2026-10-08 | `palavra` | Instrução · Uma palavra para iniciar a semana | 🔵 |
-| post-78 | 2026-10-08 | `palavra` | Brandura · Uma palavra para iniciar a semana | 🔵 |
+| post-78 | 2026-10-08 | `palavra` | Brandura · Uma palavra para iniciar a semana | 🟡 |
 | post-79 | 2026-10-08 | `palavra` | Família · Uma palavra para iniciar a semana | 🔵 |
 | post-80 | 2026-10-08 | `palavra` | Perdão · Uma palavra para iniciar a semana | 🔵 |
 | post-81 | 2026-10-08 | `palavra` | Felicidade · Uma palavra para iniciar a semana | 🔵 |
-| post-82 | 2026-10-08 | `vidro` | A doce caridade de compreender | 🟡 |
+| post-82 | 2026-10-08 | `vidro` | A doce caridade de compreender | 🟢 |
 | post-83 | 2026-10-08 | `vidro` | Um traço do Senhor | 🔵 |
 | post-84 | 2026-10-08 | `vidro` | O poder de renovar a própria vida | 🔵 |
 | post-85 | 2026-10-08 | `vidro` | A alegria cristã | 🔵 |
 | post-86 | 2026-10-08 | `vidro` | És o que vives interiormente | 🔵 |
 | post-87 | 2026-10-08 | `horizonte` | O respeito e o amor | 🔵 |
-| post-88 | 2026-10-08 | `horizonte` | A fraternidade é muito importante | 🟡 |
+| post-88 | 2026-10-08 | `horizonte` | A fraternidade é muito importante | 🟢 |
 | post-89 | 2026-10-08 | `horizonte` | O arrependimento | 🔵 |
 | post-90 | 2026-10-08 | `horizonte` | Vivam felizes no vosso lar | 🔵 |
-| post-91 | 2026-10-27 | `dividido` | Quando o amor esfria | 🔵 |
+| post-91 | 2026-10-27 | `dividido` | Quando o amor esfria | 🟡 |
 | post-92 | 2026-10-27 | `dividido` | Tive fome, e vocês me deram de comer | 🔵 |
 | post-93 | 2026-10-27 | `dividido` | O que vocês deixaram de fazer | 🔵 |
+| post-94 | 2026-10-29 | `foto-plena` | 46 anos da Morada | 🟢 |
 
 ## post-01 — Consolação · Uma palavra para iniciar a semana
 
@@ -573,3 +574,8 @@ Status: 🔵 pendente/revisar · 🟡 aprovado · 🟢 postado · 🔴 descartad
 
 - **Fonte:** Mateus 25.42-45, Nova Versão Internacional. ✅ Conferido no PDF da NVI. Texto longo (~100 palavras): fonte de 32px e coluna da foto de 360px.
 - **Imagem:** painel de Jesus olhando para o alto, em raios de luz, da `Colagem Cinemática`.
+
+## post-94 — 46 anos da Morada
+
+- **Aniversário:** fundação em 29/10/1980. Legenda mais calorosa que o padrão (com emojis), a pedido da casa, como a do ano passado.
+- **Imagem:** `Buquê Celestial de Três Rosas.png` (rosas branca, azul e rosa sobre céu), enviada pela casa. Véu azul no alto para o texto.
